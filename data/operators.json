@@ -1,0 +1,4867 @@
+{
+    "char_002_amiya": {
+        "name": "Amiya",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Cautus/Chimera",
+        "icon": "char_002_amiya.webp"
+    },
+    "char_003_kalts": {
+        "name": "Kal'tsit",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 20,
+        "rarity": 6,
+        "born": "Rhodes Island",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Feline",
+        "icon": "char_003_kalts.webp"
+    },
+    "char_009_12fce": {
+        "name": "12F",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 24,
+        "rarity": 2,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Savra",
+        "icon": "char_009_12fce.webp"
+    },
+    "char_010_chen": {
+        "name": "Ch'en",
+        "class": "WARRIOR",
+        "subClass": "sword",
+        "dp": 23,
+        "rarity": 6,
+        "born": "Lungmen",
+        "faction": [
+            "lungmen",
+            "lgd"
+        ],
+        "race": "Lung",
+        "icon": "char_010_chen.webp"
+    },
+    "char_017_huang": {
+        "name": "Blaze",
+        "class": "WARRIOR",
+        "subClass": "centurion",
+        "dp": 24,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "rhodes",
+            "elite"
+        ],
+        "race": "Feline",
+        "icon": "char_017_huang.webp"
+    },
+    "char_101_sora": {
+        "name": "Sora",
+        "class": "SUPPORT",
+        "subClass": "bard",
+        "dp": 7,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "lungmen",
+            "penguin"
+        ],
+        "race": "Unknown as requested by management agency",
+        "icon": "char_101_sora.webp"
+    },
+    "char_102_texas": {
+        "name": "Texas",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "lungmen",
+            "penguin"
+        ],
+        "race": "Lupo",
+        "icon": "char_102_texas.webp"
+    },
+    "char_103_angel": {
+        "name": "Exusiai",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 14,
+        "rarity": 6,
+        "born": "Laterano",
+        "faction": [
+            "lungmen",
+            "penguin"
+        ],
+        "race": "Sankta",
+        "icon": "char_103_angel.webp"
+    },
+    "char_106_franka": {
+        "name": "Franka",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 18,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "blacksteel"
+        ],
+        "race": "Vulpo",
+        "icon": "char_106_franka.webp"
+    },
+    "char_107_liskam": {
+        "name": "Liskarm",
+        "class": "TANK",
+        "subClass": "shotprotector",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Vouivre",
+        "faction": [
+            "columbia",
+            "blacksteel"
+        ],
+        "race": "Vouivre",
+        "icon": "char_107_liskam.webp"
+    },
+    "char_108_silent": {
+        "name": "Silence",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 19,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "rhine"
+        ],
+        "race": "Liberi",
+        "icon": "char_108_silent.webp"
+    },
+    "char_109_fmout": {
+        "name": "Gitano",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 32,
+        "rarity": 4,
+        "born": "Sami",
+        "faction": [
+            "sami"
+        ],
+        "race": "Elafia",
+        "icon": "char_109_fmout.webp"
+    },
+    "char_110_deepcl": {
+        "name": "Deepcolor",
+        "class": "SUPPORT",
+        "subClass": "summoner",
+        "dp": 10,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "egir"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_110_deepcl.webp"
+    },
+    "char_112_siege": {
+        "name": "Siege",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 14,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "victoria",
+            "glasgow"
+        ],
+        "race": "Aslan",
+        "icon": "char_112_siege.webp"
+    },
+    "char_113_cqbw": {
+        "name": "W",
+        "class": "SNIPER",
+        "subClass": "aoesniper",
+        "dp": 29,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "babel"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_113_cqbw.webp"
+    },
+    "char_115_headbr": {
+        "name": "Zima",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Ursus",
+        "faction": [
+            "ursus",
+            "student"
+        ],
+        "race": "Ursus",
+        "icon": "char_115_headbr.webp"
+    },
+    "char_117_myrrh": {
+        "name": "Myrrh",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 18,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Vulpo",
+        "icon": "char_117_myrrh.webp"
+    },
+    "char_118_yuki": {
+        "name": "Shirayuki",
+        "class": "SNIPER",
+        "subClass": "aoesniper",
+        "dp": 27,
+        "rarity": 4,
+        "born": "Higashi",
+        "faction": [
+            "higashi"
+        ],
+        "race": "Anaty",
+        "icon": "char_118_yuki.webp"
+    },
+    "char_120_hibisc": {
+        "name": "Hibiscus",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 17,
+        "rarity": 3,
+        "born": "Victoria",
+        "faction": [
+            "rhodes",
+            "reserve1"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_120_hibisc.webp"
+    },
+    "char_121_lava": {
+        "name": "Lava",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 30,
+        "rarity": 3,
+        "born": "Victoria",
+        "faction": [
+            "rhodes",
+            "reserve1"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_121_lava.webp"
+    },
+    "char_122_beagle": {
+        "name": "Beagle",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 18,
+        "rarity": 3,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "rhodes",
+            "reserve1"
+        ],
+        "race": "Perro",
+        "icon": "char_122_beagle.webp"
+    },
+    "char_123_fang": {
+        "name": "Fang",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 11,
+        "rarity": 3,
+        "born": "Kazimierz",
+        "faction": [
+            "rhodes",
+            "reserve1"
+        ],
+        "race": "Kuranta",
+        "icon": "char_123_fang.webp"
+    },
+    "char_124_kroos": {
+        "name": "Kroos",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 11,
+        "rarity": 3,
+        "born": "Rim Billiton",
+        "faction": [
+            "rhodes",
+            "reserve1"
+        ],
+        "race": "Cautus",
+        "icon": "char_124_kroos.webp"
+    },
+    "char_126_shotst": {
+        "name": "Meteor",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 12,
+        "rarity": 4,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz"
+        ],
+        "race": "Kuranta",
+        "icon": "char_126_shotst.webp"
+    },
+    "char_127_estell": {
+        "name": "Estelle",
+        "class": "WARRIOR",
+        "subClass": "centurion",
+        "dp": 22,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Archosauria",
+        "icon": "char_127_estell.webp"
+    },
+    "char_128_plosis": {
+        "name": "Ptilopsis",
+        "class": "MEDIC",
+        "subClass": "ringhealer",
+        "dp": 17,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "rhine"
+        ],
+        "race": "Liberi",
+        "icon": "char_128_plosis.webp"
+    },
+    "char_129_bluep": {
+        "name": "Blue Poison",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "iberia"
+        ],
+        "race": "Anura",
+        "icon": "char_129_bluep.webp"
+    },
+    "char_130_doberm": {
+        "name": "Dobermann",
+        "class": "WARRIOR",
+        "subClass": "instructor",
+        "dp": 15,
+        "rarity": 4,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Perro",
+        "icon": "char_130_doberm.webp"
+    },
+    "char_131_flameb": {
+        "name": "Flamebringer",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_131_flameb.webp"
+    },
+    "char_133_mm": {
+        "name": "May",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 12,
+        "rarity": 4,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Liberi",
+        "icon": "char_133_mm.webp"
+    },
+    "char_134_ifrit": {
+        "name": "Ifrit",
+        "class": "CASTER",
+        "subClass": "blastcaster",
+        "dp": 34,
+        "rarity": 6,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "columbia",
+            "rhine"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_134_ifrit.webp"
+    },
+    "char_135_halo": {
+        "name": "Astgenne",
+        "class": "CASTER",
+        "subClass": "chain",
+        "dp": 34,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "rhine"
+        ],
+        "race": "Liberi",
+        "icon": "char_135_halo.webp"
+    },
+    "char_136_hsguma": {
+        "name": "Hoshiguma",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 23,
+        "rarity": 6,
+        "born": "Higashi",
+        "faction": [
+            "lungmen",
+            "lgd"
+        ],
+        "race": "Oni",
+        "icon": "char_136_hsguma.webp"
+    },
+    "char_137_brownb": {
+        "name": "Beehunter",
+        "class": "WARRIOR",
+        "subClass": "fighter",
+        "dp": 9,
+        "rarity": 4,
+        "born": "Ursus",
+        "faction": [
+            "ursus"
+        ],
+        "race": "Ursus",
+        "icon": "char_137_brownb.webp"
+    },
+    "char_140_whitew": {
+        "name": "Lappland",
+        "class": "WARRIOR",
+        "subClass": "lord",
+        "dp": 19,
+        "rarity": 5,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Lupo",
+        "icon": "char_140_whitew.webp"
+    },
+    "char_141_nights": {
+        "name": "Haze",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 19,
+        "rarity": 4,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_141_nights.webp"
+    },
+    "char_143_ghost": {
+        "name": "Specter",
+        "class": "WARRIOR",
+        "subClass": "centurion",
+        "dp": 23,
+        "rarity": 5,
+        "born": "\u00c6gir",
+        "faction": [
+            "egir",
+            "abyssal"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_143_ghost.webp"
+    },
+    "char_144_red": {
+        "name": "Projekt Red",
+        "class": "SPECIAL",
+        "subClass": "executor",
+        "dp": 9,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes",
+            "sweep"
+        ],
+        "race": "Lupo",
+        "icon": "char_144_red.webp"
+    },
+    "char_145_prove": {
+        "name": "Provence",
+        "class": "SNIPER",
+        "subClass": "closerange",
+        "dp": 19,
+        "rarity": 5,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Lupo",
+        "icon": "char_145_prove.webp"
+    },
+    "char_147_shining": {
+        "name": "Shining",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 20,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "followers"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_147_shining.webp"
+    },
+    "char_148_nearl": {
+        "name": "Nearl",
+        "class": "TANK",
+        "subClass": "guardian",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Kazimierz",
+        "faction": [
+            "followers"
+        ],
+        "race": "Kuranta",
+        "icon": "char_148_nearl.webp"
+    },
+    "char_149_scave": {
+        "name": "Scavenger",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 12,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes",
+            "sweep"
+        ],
+        "race": "Zalak",
+        "icon": "char_149_scave.webp"
+    },
+    "char_150_snakek": {
+        "name": "Cuora",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 21,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Petram",
+        "icon": "char_150_snakek.webp"
+    },
+    "char_151_myrtle": {
+        "name": "Myrtle",
+        "class": "PIONEER",
+        "subClass": "bearer",
+        "dp": 10,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Durin",
+        "icon": "char_151_myrtle.webp"
+    },
+    "char_154_morgan": {
+        "name": "Morgan",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria",
+            "glasgow"
+        ],
+        "race": "Feline",
+        "icon": "char_154_morgan.webp"
+    },
+    "char_155_tiger": {
+        "name": "Indra",
+        "class": "WARRIOR",
+        "subClass": "fighter",
+        "dp": 10,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "victoria",
+            "glasgow"
+        ],
+        "race": "Feline",
+        "icon": "char_155_tiger.webp"
+    },
+    "char_157_dagda": {
+        "name": "Dagda",
+        "class": "WARRIOR",
+        "subClass": "fighter",
+        "dp": 12,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria",
+            "glasgow"
+        ],
+        "race": "Feline",
+        "icon": "char_157_dagda.webp"
+    },
+    "char_158_milu": {
+        "name": "Firewatch",
+        "class": "SNIPER",
+        "subClass": "longrange",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Elafia",
+        "icon": "char_158_milu.webp"
+    },
+    "char_159_peacok": {
+        "name": "Conviction",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 16,
+        "rarity": 4,
+        "born": "Minos",
+        "faction": [
+            "minos"
+        ],
+        "race": "Unknown (Suspected Liberi)",
+        "icon": "char_159_peacok.webp"
+    },
+    "char_163_hpsts": {
+        "name": "Vulcan",
+        "class": "TANK",
+        "subClass": "unyield",
+        "dp": 35,
+        "rarity": 5,
+        "born": "Minos",
+        "faction": [
+            "minos"
+        ],
+        "race": "Forte",
+        "icon": "char_163_hpsts.webp"
+    },
+    "char_164_nightm": {
+        "name": "Nightmare",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_164_nightm.webp"
+    },
+    "char_166_skfire": {
+        "name": "Skyfire",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 33,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_166_skfire.webp"
+    },
+    "char_171_bldsk": {
+        "name": "Warfarin",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 19,
+        "rarity": 5,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_171_bldsk.webp"
+    },
+    "char_172_svrash": {
+        "name": "SilverAsh",
+        "class": "WARRIOR",
+        "subClass": "lord",
+        "dp": 20,
+        "rarity": 6,
+        "born": "Kjerag",
+        "faction": [
+            "kjerag",
+            "karlan"
+        ],
+        "race": "Feline",
+        "icon": "char_172_svrash.webp"
+    },
+    "char_173_slchan": {
+        "name": "Cliffheart",
+        "class": "SPECIAL",
+        "subClass": "hookmaster",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Kjerag",
+        "faction": [
+            "kjerag",
+            "karlan"
+        ],
+        "race": "Feline",
+        "icon": "char_173_slchan.webp"
+    },
+    "char_174_slbell": {
+        "name": "Pramanix",
+        "class": "SUPPORT",
+        "subClass": "underminer",
+        "dp": 12,
+        "rarity": 5,
+        "born": "Kjerag",
+        "faction": [
+            "kjerag",
+            "karlan"
+        ],
+        "race": "Feline",
+        "icon": "char_174_slbell.webp"
+    },
+    "char_179_cgbird": {
+        "name": "Nightingale",
+        "class": "MEDIC",
+        "subClass": "ringhealer",
+        "dp": 18,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "followers"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_179_cgbird.webp"
+    },
+    "char_180_amgoat": {
+        "name": "Eyjafjalla",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Leithanien",
+        "faction": [
+            "leithanien"
+        ],
+        "race": "Caprinae",
+        "icon": "char_180_amgoat.webp"
+    },
+    "char_181_flower": {
+        "name": "Perfumer",
+        "class": "MEDIC",
+        "subClass": "ringhealer",
+        "dp": 16,
+        "rarity": 4,
+        "born": "Minos",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Vulpo",
+        "icon": "char_181_flower.webp"
+    },
+    "char_183_skgoat": {
+        "name": "Earthspirit",
+        "class": "SUPPORT",
+        "subClass": "slower",
+        "dp": 14,
+        "rarity": 4,
+        "born": "Leithanien",
+        "faction": [
+            "leithanien"
+        ],
+        "race": "Caprinae",
+        "icon": "char_183_skgoat.webp"
+    },
+    "char_185_frncat": {
+        "name": "Mousse",
+        "class": "WARRIOR",
+        "subClass": "artsfghter",
+        "dp": 20,
+        "rarity": 4,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_185_frncat.webp"
+    },
+    "char_187_ccheal": {
+        "name": "Gavial",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 18,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Archosauria",
+        "icon": "char_187_ccheal.webp"
+    },
+    "char_188_helage": {
+        "name": "Hellagur",
+        "class": "WARRIOR",
+        "subClass": "musha",
+        "dp": 26,
+        "rarity": 6,
+        "born": "Ursus",
+        "faction": [
+            "ursus"
+        ],
+        "race": "Liberi",
+        "icon": "char_188_helage.webp"
+    },
+    "char_190_clour": {
+        "name": "Vermeil",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 12,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Vulpo",
+        "icon": "char_190_clour.webp"
+    },
+    "char_192_falco": {
+        "name": "Plume",
+        "class": "PIONEER",
+        "subClass": "charger",
+        "dp": 10,
+        "rarity": 3,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Liberi",
+        "icon": "char_192_falco.webp"
+    },
+    "char_193_frostl": {
+        "name": "Frostleaf",
+        "class": "WARRIOR",
+        "subClass": "lord",
+        "dp": 18,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Vulpo",
+        "icon": "char_193_frostl.webp"
+    },
+    "char_194_leto": {
+        "name": "Leto",
+        "class": "WARRIOR",
+        "subClass": "lord",
+        "dp": 19,
+        "rarity": 5,
+        "born": "Ursus",
+        "faction": [
+            "ursus",
+            "student"
+        ],
+        "race": "Ursus",
+        "icon": "char_194_leto.webp"
+    },
+    "char_195_glassb": {
+        "name": "Istina",
+        "class": "SUPPORT",
+        "subClass": "slower",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Ursus",
+        "faction": [
+            "ursus",
+            "student"
+        ],
+        "race": "Ursus",
+        "icon": "char_195_glassb.webp"
+    },
+    "char_196_sunbr": {
+        "name": "Gummy",
+        "class": "TANK",
+        "subClass": "guardian",
+        "dp": 20,
+        "rarity": 4,
+        "born": "Ursus",
+        "faction": [
+            "ursus",
+            "student"
+        ],
+        "race": "Ursus",
+        "icon": "char_196_sunbr.webp"
+    },
+    "char_197_poca": {
+        "name": "Rosa",
+        "class": "SNIPER",
+        "subClass": "siegesniper",
+        "dp": 24,
+        "rarity": 6,
+        "born": "Ursus",
+        "faction": [
+            "ursus",
+            "student"
+        ],
+        "race": "Ursus",
+        "icon": "char_197_poca.webp"
+    },
+    "char_198_blackd": {
+        "name": "Courier",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 12,
+        "rarity": 4,
+        "born": "Kjerag",
+        "faction": [
+            "kjerag",
+            "karlan"
+        ],
+        "race": "Itra",
+        "icon": "char_198_blackd.webp"
+    },
+    "char_199_yak": {
+        "name": "Matterhorn",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 21,
+        "rarity": 4,
+        "born": "Kjerag",
+        "faction": [
+            "kjerag",
+            "karlan"
+        ],
+        "race": "Forte",
+        "icon": "char_199_yak.webp"
+    },
+    "char_201_moeshd": {
+        "name": "Croissant",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Minos",
+        "faction": [
+            "lungmen",
+            "penguin"
+        ],
+        "race": "Forte",
+        "icon": "char_201_moeshd.webp"
+    },
+    "char_202_demkni": {
+        "name": "Saria",
+        "class": "TANK",
+        "subClass": "guardian",
+        "dp": 22,
+        "rarity": 6,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "rhine"
+        ],
+        "race": "Vouivre",
+        "icon": "char_202_demkni.webp"
+    },
+    "char_204_platnm": {
+        "name": "Platinum",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz"
+        ],
+        "race": "Kuranta",
+        "icon": "char_204_platnm.webp"
+    },
+    "char_206_gnosis": {
+        "name": "Gnosis",
+        "class": "SUPPORT",
+        "subClass": "underminer",
+        "dp": 13,
+        "rarity": 6,
+        "born": "Kjerag",
+        "faction": [
+            "kjerag",
+            "karlan"
+        ],
+        "race": "Liberi",
+        "icon": "char_206_gnosis.webp"
+    },
+    "char_208_melan": {
+        "name": "Melantha",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 15,
+        "rarity": 3,
+        "born": "Victoria",
+        "faction": [
+            "rhodes",
+            "reserve4"
+        ],
+        "race": "Feline",
+        "icon": "char_208_melan.webp"
+    },
+    "char_209_ardign": {
+        "name": "Cardigan",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 18,
+        "rarity": 3,
+        "born": "Leithanien",
+        "faction": [
+            "rhodes",
+            "reserve4"
+        ],
+        "race": "Perro",
+        "icon": "char_209_ardign.webp"
+    },
+    "char_210_stward": {
+        "name": "Steward",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 18,
+        "rarity": 3,
+        "born": "Kjerag",
+        "faction": [
+            "rhodes",
+            "reserve4"
+        ],
+        "race": "Vulpo",
+        "icon": "char_210_stward.webp"
+    },
+    "char_211_adnach": {
+        "name": "Adnachiel",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 11,
+        "rarity": 3,
+        "born": "Laterano",
+        "faction": [
+            "rhodes",
+            "reserve4"
+        ],
+        "race": "Sankta",
+        "icon": "char_211_adnach.webp"
+    },
+    "char_212_ansel": {
+        "name": "Ansel",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 17,
+        "rarity": 3,
+        "born": "Rim Billiton",
+        "faction": [
+            "rhodes",
+            "reserve4"
+        ],
+        "race": "Cautus",
+        "icon": "char_212_ansel.webp"
+    },
+    "char_213_mostma": {
+        "name": "Mostima",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 34,
+        "rarity": 6,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_213_mostma.webp"
+    },
+    "char_214_kafka": {
+        "name": "Kafka",
+        "class": "SPECIAL",
+        "subClass": "executor",
+        "dp": 9,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Liberi",
+        "icon": "char_214_kafka.webp"
+    },
+    "char_215_mantic": {
+        "name": "Manticore",
+        "class": "SPECIAL",
+        "subClass": "stalker",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Manticore",
+        "icon": "char_215_mantic.webp"
+    },
+    "char_218_cuttle": {
+        "name": "Andreana",
+        "class": "SNIPER",
+        "subClass": "longrange",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Iberia",
+        "faction": [
+            "egir",
+            "abyssal"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_218_cuttle.webp"
+    },
+    "char_219_meteo": {
+        "name": "Meteorite",
+        "class": "SNIPER",
+        "subClass": "aoesniper",
+        "dp": 28,
+        "rarity": 5,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_219_meteo.webp"
+    },
+    "char_220_grani": {
+        "name": "Grani",
+        "class": "PIONEER",
+        "subClass": "charger",
+        "dp": 14,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Kuranta",
+        "icon": "char_220_grani.webp"
+    },
+    "char_222_bpipe": {
+        "name": "Bagpipe",
+        "class": "PIONEER",
+        "subClass": "charger",
+        "dp": 13,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Vouivre",
+        "icon": "char_222_bpipe.webp"
+    },
+    "char_225_haak": {
+        "name": "Aak",
+        "class": "SPECIAL",
+        "subClass": "geek",
+        "dp": 13,
+        "rarity": 6,
+        "born": "Lungmen",
+        "faction": [
+            "lungmen",
+            "lee"
+        ],
+        "race": "Feline",
+        "icon": "char_225_haak.webp"
+    },
+    "char_226_hmau": {
+        "name": "Hung",
+        "class": "TANK",
+        "subClass": "guardian",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Lungmen",
+        "faction": [
+            "lungmen",
+            "lee"
+        ],
+        "race": "Perro",
+        "icon": "char_226_hmau.webp"
+    },
+    "char_230_savage": {
+        "name": "Savage",
+        "class": "WARRIOR",
+        "subClass": "centurion",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Cautus",
+        "icon": "char_230_savage.webp"
+    },
+    "char_235_jesica": {
+        "name": "Jessica",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 12,
+        "rarity": 4,
+        "born": "Victoria",
+        "faction": [
+            "columbia",
+            "blacksteel"
+        ],
+        "race": "Feline",
+        "icon": "char_235_jesica.webp"
+    },
+    "char_236_rope": {
+        "name": "Rope",
+        "class": "SPECIAL",
+        "subClass": "hookmaster",
+        "dp": 12,
+        "rarity": 4,
+        "born": "Rim Billiton",
+        "faction": [
+            "lungmen"
+        ],
+        "race": "Cautus",
+        "icon": "char_236_rope.webp"
+    },
+    "char_237_gravel": {
+        "name": "Gravel",
+        "class": "SPECIAL",
+        "subClass": "executor",
+        "dp": 8,
+        "rarity": 4,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz"
+        ],
+        "race": "Zalak",
+        "icon": "char_237_gravel.webp"
+    },
+    "char_240_wyvern": {
+        "name": "Vanilla",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 11,
+        "rarity": 3,
+        "born": "Vouivre",
+        "faction": [
+            "columbia",
+            "blacksteel"
+        ],
+        "race": "Vouivre",
+        "icon": "char_240_wyvern.webp"
+    },
+    "char_241_panda": {
+        "name": "FEater",
+        "class": "SPECIAL",
+        "subClass": "pusher",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "lungmen"
+        ],
+        "race": "Ursus",
+        "icon": "char_241_panda.webp"
+    },
+    "char_242_otter": {
+        "name": "Mayer",
+        "class": "SUPPORT",
+        "subClass": "summoner",
+        "dp": 11,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "rhine"
+        ],
+        "race": "Anaty",
+        "icon": "char_242_otter.webp"
+    },
+    "char_243_waaifu": {
+        "name": "Waai Fu",
+        "class": "SPECIAL",
+        "subClass": "executor",
+        "dp": 9,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "lungmen",
+            "lee"
+        ],
+        "race": "Feline",
+        "icon": "char_243_waaifu.webp"
+    },
+    "char_245_cello": {
+        "name": "Virtuosa",
+        "class": "SUPPORT",
+        "subClass": "ritualist",
+        "dp": 16,
+        "rarity": 6,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Sankta",
+        "icon": "char_245_cello.webp"
+    },
+    "char_248_mgllan": {
+        "name": "Magallan",
+        "class": "SUPPORT",
+        "subClass": "summoner",
+        "dp": 12,
+        "rarity": 6,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "rhine"
+        ],
+        "race": "Liberi",
+        "icon": "char_248_mgllan.webp"
+    },
+    "char_249_mlyss": {
+        "name": "Muelsyse",
+        "class": "PIONEER",
+        "subClass": "tactician",
+        "dp": 15,
+        "rarity": 6,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "columbia",
+            "rhine"
+        ],
+        "race": "Elf",
+        "icon": "char_249_mlyss.webp"
+    },
+    "char_250_phatom": {
+        "name": "Phantom",
+        "class": "SPECIAL",
+        "subClass": "executor",
+        "dp": 10,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_250_phatom.webp"
+    },
+    "char_252_bibeak": {
+        "name": "Bibeak",
+        "class": "WARRIOR",
+        "subClass": "sword",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Sami",
+        "faction": [
+            "sami"
+        ],
+        "race": "Liberi",
+        "icon": "char_252_bibeak.webp"
+    },
+    "char_253_greyy": {
+        "name": "Greyy",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 32,
+        "rarity": 4,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "bolivar"
+        ],
+        "race": "Perro",
+        "icon": "char_253_greyy.webp"
+    },
+    "char_254_vodfox": {
+        "name": "Shamare",
+        "class": "SUPPORT",
+        "subClass": "underminer",
+        "dp": 12,
+        "rarity": 5,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Vulpo",
+        "icon": "char_254_vodfox.webp"
+    },
+    "char_258_podego": {
+        "name": "Podenco",
+        "class": "SUPPORT",
+        "subClass": "slower",
+        "dp": 14,
+        "rarity": 4,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Perro",
+        "icon": "char_258_podego.webp"
+    },
+    "char_260_durnar": {
+        "name": "Dur-nar",
+        "class": "TANK",
+        "subClass": "artsprotector",
+        "dp": 24,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Vulpo",
+        "icon": "char_260_durnar.webp"
+    },
+    "char_261_sddrag": {
+        "name": "Reed",
+        "class": "PIONEER",
+        "subClass": "charger",
+        "dp": 12,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Draco",
+        "icon": "char_261_sddrag.webp"
+    },
+    "char_263_skadi": {
+        "name": "Skadi",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 19,
+        "rarity": 6,
+        "born": "\u00c6gir",
+        "faction": [
+            "egir",
+            "abyssal"
+        ],
+        "race": "Unknown",
+        "icon": "char_263_skadi.webp"
+    },
+    "char_264_f12yin": {
+        "name": "Mountain",
+        "class": "WARRIOR",
+        "subClass": "fighter",
+        "dp": 11,
+        "rarity": 6,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Feline",
+        "icon": "char_264_f12yin.webp"
+    },
+    "char_265_sophia": {
+        "name": "Whislash",
+        "class": "WARRIOR",
+        "subClass": "instructor",
+        "dp": 18,
+        "rarity": 5,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz"
+        ],
+        "race": "Kuranta",
+        "icon": "char_265_sophia.webp"
+    },
+    "char_271_spikes": {
+        "name": "Arene",
+        "class": "WARRIOR",
+        "subClass": "lord",
+        "dp": 18,
+        "rarity": 4,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Sankta",
+        "icon": "char_271_spikes.webp"
+    },
+    "char_272_strong": {
+        "name": "Jaye",
+        "class": "SPECIAL",
+        "subClass": "merchant",
+        "dp": 7,
+        "rarity": 4,
+        "born": "Lungmen",
+        "faction": [
+            "lungmen"
+        ],
+        "race": "Ursus",
+        "icon": "char_272_strong.webp"
+    },
+    "char_274_astesi": {
+        "name": "Astesia",
+        "class": "WARRIOR",
+        "subClass": "artsfghter",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Liberi",
+        "icon": "char_274_astesi.webp"
+    },
+    "char_275_breeze": {
+        "name": "Breeze",
+        "class": "MEDIC",
+        "subClass": "ringhealer",
+        "dp": 17,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Vulpo",
+        "icon": "char_275_breeze.webp"
+    },
+    "char_277_sqrrel": {
+        "name": "Shaw",
+        "class": "SPECIAL",
+        "subClass": "pusher",
+        "dp": 19,
+        "rarity": 4,
+        "born": "Lungmen",
+        "faction": [
+            "lungmen"
+        ],
+        "race": "Zalak",
+        "icon": "char_277_sqrrel.webp"
+    },
+    "char_278_orchid": {
+        "name": "Orchid",
+        "class": "SUPPORT",
+        "subClass": "slower",
+        "dp": 12,
+        "rarity": 3,
+        "born": "Columbia",
+        "faction": [
+            "rhodes",
+            "reserve6"
+        ],
+        "race": "Liberi",
+        "icon": "char_278_orchid.webp"
+    },
+    "char_279_excu": {
+        "name": "Executor",
+        "class": "SNIPER",
+        "subClass": "reaperrange",
+        "dp": 31,
+        "rarity": 5,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Sankta",
+        "icon": "char_279_excu.webp"
+    },
+    "char_281_popka": {
+        "name": "Popukar",
+        "class": "WARRIOR",
+        "subClass": "centurion",
+        "dp": 19,
+        "rarity": 3,
+        "born": "Rim Billiton",
+        "faction": [
+            "rhodes",
+            "reserve6"
+        ],
+        "race": "Cautus",
+        "icon": "char_281_popka.webp"
+    },
+    "char_282_catap": {
+        "name": "Catapult",
+        "class": "SNIPER",
+        "subClass": "aoesniper",
+        "dp": 23,
+        "rarity": 3,
+        "born": "Kazimierz",
+        "faction": [
+            "rhodes",
+            "reserve6"
+        ],
+        "race": "Kuranta",
+        "icon": "char_282_catap.webp"
+    },
+    "char_283_midn": {
+        "name": "Midnight",
+        "class": "WARRIOR",
+        "subClass": "lord",
+        "dp": 16,
+        "rarity": 3,
+        "born": "Higashi",
+        "faction": [
+            "rhodes",
+            "reserve6"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_283_midn.webp"
+    },
+    "char_284_spot": {
+        "name": "Spot",
+        "class": "TANK",
+        "subClass": "guardian",
+        "dp": 17,
+        "rarity": 3,
+        "born": "Sargon",
+        "faction": [
+            "rhodes",
+            "reserve6"
+        ],
+        "race": "Reproba",
+        "icon": "char_284_spot.webp"
+    },
+    "char_285_medic2": {
+        "name": "Lancet-2",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 3,
+        "rarity": 1,
+        "born": "Columbia",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Robot",
+        "icon": "char_285_medic2.webp"
+    },
+    "char_286_cast3": {
+        "name": "Castle-3",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 3,
+        "rarity": 1,
+        "born": "Columbia",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Robot",
+        "icon": "char_286_cast3.webp"
+    },
+    "char_289_gyuki": {
+        "name": "Matoimaru",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 17,
+        "rarity": 4,
+        "born": "Higashi",
+        "faction": [
+            "higashi"
+        ],
+        "race": "Oni",
+        "icon": "char_289_gyuki.webp"
+    },
+    "char_290_vigna": {
+        "name": "Vigna",
+        "class": "PIONEER",
+        "subClass": "charger",
+        "dp": 11,
+        "rarity": 4,
+        "born": "Kazdel",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_290_vigna.webp"
+    },
+    "char_291_aglina": {
+        "name": "Angelina",
+        "class": "SUPPORT",
+        "subClass": "slower",
+        "dp": 16,
+        "rarity": 6,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Vulpo",
+        "icon": "char_291_aglina.webp"
+    },
+    "char_293_thorns": {
+        "name": "Thorns",
+        "class": "WARRIOR",
+        "subClass": "lord",
+        "dp": 20,
+        "rarity": 6,
+        "born": "Iberia",
+        "faction": [
+            "iberia"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_293_thorns.webp"
+    },
+    "char_294_ayer": {
+        "name": "Ayerscarpe",
+        "class": "WARRIOR",
+        "subClass": "lord",
+        "dp": 19,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Cautus",
+        "icon": "char_294_ayer.webp"
+    },
+    "char_297_hamoni": {
+        "name": "Harmonie",
+        "class": "CASTER",
+        "subClass": "mystic",
+        "dp": 24,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria",
+            "tara"
+        ],
+        "race": "Feline",
+        "icon": "char_297_hamoni.webp"
+    },
+    "char_298_susuro": {
+        "name": "Sussurro",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 18,
+        "rarity": 4,
+        "born": "Siracusa",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Vulpo",
+        "icon": "char_298_susuro.webp"
+    },
+    "char_300_phenxi": {
+        "name": "Fiammetta",
+        "class": "SNIPER",
+        "subClass": "aoesniper",
+        "dp": 29,
+        "rarity": 6,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Liberi",
+        "icon": "char_300_phenxi.webp"
+    },
+    "char_301_cutter": {
+        "name": "Cutter",
+        "class": "WARRIOR",
+        "subClass": "sword",
+        "dp": 21,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Vulpo",
+        "icon": "char_301_cutter.webp"
+    },
+    "char_302_glaze": {
+        "name": "Ambriel",
+        "class": "SNIPER",
+        "subClass": "longrange",
+        "dp": 20,
+        "rarity": 4,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Sankta",
+        "icon": "char_302_glaze.webp"
+    },
+    "char_304_zebra": {
+        "name": "Heavyrain",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 24,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Kuranta",
+        "icon": "char_304_zebra.webp"
+    },
+    "char_306_leizi": {
+        "name": "Leizi",
+        "class": "CASTER",
+        "subClass": "chain",
+        "dp": 32,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Kylin",
+        "icon": "char_306_leizi.webp"
+    },
+    "char_308_swire": {
+        "name": "Swire",
+        "class": "WARRIOR",
+        "subClass": "instructor",
+        "dp": 16,
+        "rarity": 5,
+        "born": "Lungmen",
+        "faction": [
+            "lungmen",
+            "lgd"
+        ],
+        "race": "Feline",
+        "icon": "char_308_swire.webp"
+    },
+    "char_311_mudrok": {
+        "name": "Mudrock",
+        "class": "TANK",
+        "subClass": "unyield",
+        "dp": 36,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_311_mudrok.webp"
+    },
+    "char_322_lmlee": {
+        "name": "Lee",
+        "class": "SPECIAL",
+        "subClass": "merchant",
+        "dp": 9,
+        "rarity": 6,
+        "born": "Yan",
+        "faction": [
+            "lungmen",
+            "lee"
+        ],
+        "race": "Lung",
+        "icon": "char_322_lmlee.webp"
+    },
+    "char_325_bison": {
+        "name": "Bison",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 24,
+        "rarity": 5,
+        "born": "Lungmen",
+        "faction": [
+            "lungmen"
+        ],
+        "race": "Forte",
+        "icon": "char_325_bison.webp"
+    },
+    "char_326_glacus": {
+        "name": "Glaucus",
+        "class": "SUPPORT",
+        "subClass": "slower",
+        "dp": 15,
+        "rarity": 5,
+        "born": "\u00c6gir",
+        "faction": [
+            "iberia"
+        ],
+        "race": "Unknown",
+        "icon": "char_326_glacus.webp"
+    },
+    "char_328_cammou": {
+        "name": "Click",
+        "class": "CASTER",
+        "subClass": "funnel",
+        "dp": 20,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Zalak",
+        "icon": "char_328_cammou.webp"
+    },
+    "char_332_archet": {
+        "name": "Archetto",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 14,
+        "rarity": 6,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Liberi",
+        "icon": "char_332_archet.webp"
+    },
+    "char_333_sidero": {
+        "name": "Sideroca",
+        "class": "WARRIOR",
+        "subClass": "artsfghter",
+        "dp": 23,
+        "rarity": 5,
+        "born": "Minos",
+        "faction": [
+            "minos"
+        ],
+        "race": "Forte",
+        "icon": "char_333_sidero.webp"
+    },
+    "char_336_folivo": {
+        "name": "Scene",
+        "class": "SUPPORT",
+        "subClass": "summoner",
+        "dp": 11,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Pilosa",
+        "icon": "char_336_folivo.webp"
+    },
+    "char_337_utage": {
+        "name": "Utage",
+        "class": "WARRIOR",
+        "subClass": "musha",
+        "dp": 24,
+        "rarity": 4,
+        "born": "Higashi",
+        "faction": [
+            "higashi"
+        ],
+        "race": "Unknown",
+        "icon": "char_337_utage.webp"
+    },
+    "char_338_iris": {
+        "name": "Iris",
+        "class": "CASTER",
+        "subClass": "mystic",
+        "dp": 24,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_338_iris.webp"
+    },
+    "char_340_shwaz": {
+        "name": "Schwarz",
+        "class": "SNIPER",
+        "subClass": "closerange",
+        "dp": 20,
+        "rarity": 6,
+        "born": "Rim Billiton",
+        "faction": [
+            "columbia",
+            "siesta"
+        ],
+        "race": "Feline",
+        "icon": "char_340_shwaz.webp"
+    },
+    "char_341_sntlla": {
+        "name": "Santalla",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 33,
+        "rarity": 5,
+        "born": "Sami",
+        "faction": [
+            "sami"
+        ],
+        "race": "Feline",
+        "icon": "char_341_sntlla.webp"
+    },
+    "char_343_tknogi": {
+        "name": "Tsukinogi",
+        "class": "SUPPORT",
+        "subClass": "blessing",
+        "dp": 12,
+        "rarity": 5,
+        "born": "Higashi",
+        "faction": [
+            "higashi"
+        ],
+        "race": "Elafia",
+        "icon": "char_343_tknogi.webp"
+    },
+    "char_344_beewax": {
+        "name": "Beeswax",
+        "class": "CASTER",
+        "subClass": "phalanx",
+        "dp": 23,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Caprinae",
+        "icon": "char_344_beewax.webp"
+    },
+    "char_345_folnic": {
+        "name": "Folinic",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Ursus",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Feline",
+        "icon": "char_345_folnic.webp"
+    },
+    "char_346_aosta": {
+        "name": "Aosta",
+        "class": "SNIPER",
+        "subClass": "reaperrange",
+        "dp": 31,
+        "rarity": 5,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa",
+            "chiave"
+        ],
+        "race": "Lupo",
+        "icon": "char_346_aosta.webp"
+    },
+    "char_347_jaksel": {
+        "name": "Jackie",
+        "class": "WARRIOR",
+        "subClass": "fighter",
+        "dp": 9,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Perro",
+        "icon": "char_347_jaksel.webp"
+    },
+    "char_348_ceylon": {
+        "name": "Ceylon",
+        "class": "MEDIC",
+        "subClass": "healer",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Siesta",
+        "faction": [
+            "columbia",
+            "siesta"
+        ],
+        "race": "Liberi",
+        "icon": "char_348_ceylon.webp"
+    },
+    "char_349_chiave": {
+        "name": "Chiave",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa",
+            "chiave"
+        ],
+        "race": "Vulpo",
+        "icon": "char_349_chiave.webp"
+    },
+    "char_350_surtr": {
+        "name": "Surtr",
+        "class": "WARRIOR",
+        "subClass": "artsfghter",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_350_surtr.webp"
+    },
+    "char_355_ethan": {
+        "name": "Ethan",
+        "class": "SPECIAL",
+        "subClass": "stalker",
+        "dp": 19,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Savra",
+        "icon": "char_355_ethan.webp"
+    },
+    "char_356_broca": {
+        "name": "Broca",
+        "class": "WARRIOR",
+        "subClass": "centurion",
+        "dp": 23,
+        "rarity": 5,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa",
+            "chiave"
+        ],
+        "race": "Feline",
+        "icon": "char_356_broca.webp"
+    },
+    "char_358_lisa": {
+        "name": "Suzuran",
+        "class": "SUPPORT",
+        "subClass": "slower",
+        "dp": 16,
+        "rarity": 6,
+        "born": "Higashi",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Vulpo",
+        "icon": "char_358_lisa.webp"
+    },
+    "char_362_saga": {
+        "name": "Saga",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 14,
+        "rarity": 6,
+        "born": "Higashi",
+        "faction": [
+            "higashi"
+        ],
+        "race": "Perro",
+        "icon": "char_362_saga.webp"
+    },
+    "char_363_toddi": {
+        "name": "Toddifons",
+        "class": "SNIPER",
+        "subClass": "siegesniper",
+        "dp": 23,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Vouivre",
+        "icon": "char_363_toddi.webp"
+    },
+    "char_365_aprl": {
+        "name": "April",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Cautus",
+        "icon": "char_365_aprl.webp"
+    },
+    "char_366_acdrop": {
+        "name": "Aciddrop",
+        "class": "SNIPER",
+        "subClass": "closerange",
+        "dp": 18,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Liberi",
+        "icon": "char_366_acdrop.webp"
+    },
+    "char_367_swllow": {
+        "name": "GreyThroat",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Liberi",
+        "icon": "char_367_swllow.webp"
+    },
+    "char_369_bena": {
+        "name": "Bena",
+        "class": "SPECIAL",
+        "subClass": "dollkeeper",
+        "dp": 17,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Caprinae",
+        "icon": "char_369_bena.webp"
+    },
+    "char_373_lionhd": {
+        "name": "Leonhardt",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 33,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Cautus",
+        "icon": "char_373_lionhd.webp"
+    },
+    "char_376_therex": {
+        "name": "THRM-EX",
+        "class": "SPECIAL",
+        "subClass": "executor",
+        "dp": 3,
+        "rarity": 1,
+        "born": "Columbia",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Robot",
+        "icon": "char_376_therex.webp"
+    },
+    "char_377_gdglow": {
+        "name": "Goldenglow",
+        "class": "CASTER",
+        "subClass": "funnel",
+        "dp": 22,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_377_gdglow.webp"
+    },
+    "char_378_asbest": {
+        "name": "Asbestos",
+        "class": "TANK",
+        "subClass": "artsprotector",
+        "dp": 25,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Savra",
+        "icon": "char_378_asbest.webp"
+    },
+    "char_379_sesa": {
+        "name": "Sesa",
+        "class": "SNIPER",
+        "subClass": "aoesniper",
+        "dp": 28,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Vouivre",
+        "icon": "char_379_sesa.webp"
+    },
+    "char_381_bubble": {
+        "name": "Bubble",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 21,
+        "rarity": 4,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Cerato",
+        "icon": "char_381_bubble.webp"
+    },
+    "char_383_snsant": {
+        "name": "Snowsant",
+        "class": "SPECIAL",
+        "subClass": "hookmaster",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Lungmen",
+        "faction": [
+            "lungmen"
+        ],
+        "race": "Liberi",
+        "icon": "char_383_snsant.webp"
+    },
+    "char_385_finlpp": {
+        "name": "Purestream",
+        "class": "MEDIC",
+        "subClass": "healer",
+        "dp": 19,
+        "rarity": 4,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_385_finlpp.webp"
+    },
+    "char_388_mint": {
+        "name": "Mint",
+        "class": "CASTER",
+        "subClass": "phalanx",
+        "dp": 25,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_388_mint.webp"
+    },
+    "char_391_rosmon": {
+        "name": "Rosmontis",
+        "class": "SNIPER",
+        "subClass": "bombarder",
+        "dp": 25,
+        "rarity": 6,
+        "born": "Columbia",
+        "faction": [
+            "rhodes",
+            "elite"
+        ],
+        "race": "Feline",
+        "icon": "char_391_rosmon.webp"
+    },
+    "char_400_weedy": {
+        "name": "Weedy",
+        "class": "SPECIAL",
+        "subClass": "pusher",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Iberia",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_400_weedy.webp"
+    },
+    "char_401_elysm": {
+        "name": "Elysium",
+        "class": "PIONEER",
+        "subClass": "bearer",
+        "dp": 11,
+        "rarity": 5,
+        "born": "Iberia",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Liberi",
+        "icon": "char_401_elysm.webp"
+    },
+    "char_402_tuye": {
+        "name": "Tuye",
+        "class": "MEDIC",
+        "subClass": "physician",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Forte",
+        "icon": "char_402_tuye.webp"
+    },
+    "char_405_absin": {
+        "name": "Absinthe",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Ursus",
+        "faction": [
+            "ursus"
+        ],
+        "race": "Ursus",
+        "icon": "char_405_absin.webp"
+    },
+    "char_411_tomimi": {
+        "name": "Tomimi",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Archosauria",
+        "icon": "char_411_tomimi.webp"
+    },
+    "char_415_flint": {
+        "name": "Flint",
+        "class": "WARRIOR",
+        "subClass": "fighter",
+        "dp": 10,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Liberi",
+        "icon": "char_415_flint.webp"
+    },
+    "char_416_zumama": {
+        "name": "Eunectes",
+        "class": "TANK",
+        "subClass": "duelist",
+        "dp": 33,
+        "rarity": 6,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Phidia",
+        "icon": "char_416_zumama.webp"
+    },
+    "char_420_flamtl": {
+        "name": "Flametail",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 14,
+        "rarity": 6,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz",
+            "pinus"
+        ],
+        "race": "Zalak",
+        "icon": "char_420_flamtl.webp"
+    },
+    "char_421_crow": {
+        "name": "La Pluma",
+        "class": "WARRIOR",
+        "subClass": "reaper",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "bolivar"
+        ],
+        "race": "Liberi",
+        "icon": "char_421_crow.webp"
+    },
+    "char_422_aurora": {
+        "name": "Aurora",
+        "class": "TANK",
+        "subClass": "duelist",
+        "dp": 32,
+        "rarity": 5,
+        "born": "Kjerag",
+        "faction": [
+            "kjerag",
+            "karlan"
+        ],
+        "race": "Ursus",
+        "icon": "char_422_aurora.webp"
+    },
+    "char_423_blemsh": {
+        "name": "Blemishine",
+        "class": "TANK",
+        "subClass": "guardian",
+        "dp": 22,
+        "rarity": 6,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz"
+        ],
+        "race": "Kuranta",
+        "icon": "char_423_blemsh.webp"
+    },
+    "char_426_billro": {
+        "name": "Carnelian",
+        "class": "CASTER",
+        "subClass": "phalanx",
+        "dp": 24,
+        "rarity": 6,
+        "born": "Sargon",
+        "faction": [
+            "leithanien"
+        ],
+        "race": "Caprinae",
+        "icon": "char_426_billro.webp"
+    },
+    "char_427_vigil": {
+        "name": "Vigil",
+        "class": "PIONEER",
+        "subClass": "tactician",
+        "dp": 17,
+        "rarity": 6,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Lupo",
+        "icon": "char_427_vigil.webp"
+    },
+    "char_430_fartth": {
+        "name": "Fartooth",
+        "class": "SNIPER",
+        "subClass": "longrange",
+        "dp": 22,
+        "rarity": 6,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz",
+            "pinus"
+        ],
+        "race": "Liberi",
+        "icon": "char_430_fartth.webp"
+    },
+    "char_431_ashlok": {
+        "name": "Ashlock",
+        "class": "TANK",
+        "subClass": "fortress",
+        "dp": 27,
+        "rarity": 5,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz",
+            "pinus"
+        ],
+        "race": "Zalak",
+        "icon": "char_431_ashlok.webp"
+    },
+    "char_433_windft": {
+        "name": "Windflit",
+        "class": "SUPPORT",
+        "subClass": "craftsman",
+        "dp": 18,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Perro",
+        "icon": "char_433_windft.webp"
+    },
+    "char_436_whispr": {
+        "name": "Whisperain",
+        "class": "MEDIC",
+        "subClass": "healer",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Iberia",
+        "faction": [
+            "iberia"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_436_whispr.webp"
+    },
+    "char_437_mizuki": {
+        "name": "Mizuki",
+        "class": "SPECIAL",
+        "subClass": "stalker",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Higashi",
+        "faction": [
+            "higashi"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_437_mizuki.webp"
+    },
+    "char_440_pinecn": {
+        "name": "Pinecone",
+        "class": "SNIPER",
+        "subClass": "reaperrange",
+        "dp": 30,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Liberi",
+        "icon": "char_440_pinecn.webp"
+    },
+    "char_445_wscoot": {
+        "name": "Windscoot",
+        "class": "WARRIOR",
+        "subClass": "librator",
+        "dp": 10,
+        "rarity": 4,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Feline",
+        "icon": "char_445_wscoot.png"
+    },
+    "char_446_aroma": {
+        "name": "Aroma",
+        "class": "CASTER",
+        "subClass": "blastcaster",
+        "dp": 33,
+        "rarity": 5,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Lupo",
+        "icon": "char_446_aroma.webp"
+    },
+    "char_449_glider": {
+        "name": "Honeyberry",
+        "class": "MEDIC",
+        "subClass": "wandermedic",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Zalak",
+        "icon": "char_449_glider.webp"
+    },
+    "char_450_necras": {
+        "name": "Necrass",
+        "class": "CASTER",
+        "subClass": "soulcaster",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "victoria",
+            "tara"
+        ],
+        "race": "Draco",
+        "icon": "char_450_necras.webp"
+    },
+    "char_451_robin": {
+        "name": "Robin",
+        "class": "SPECIAL",
+        "subClass": "traper",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Anaty",
+        "icon": "char_451_robin.webp"
+    },
+    "char_452_bstalk": {
+        "name": "Beanstalk",
+        "class": "PIONEER",
+        "subClass": "tactician",
+        "dp": 13,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Reproba",
+        "icon": "char_452_bstalk.webp"
+    },
+    "char_455_nothin": {
+        "name": "Mr. Nothing",
+        "class": "SPECIAL",
+        "subClass": "merchant",
+        "dp": 8,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Liberi",
+        "icon": "char_455_nothin.webp"
+    },
+    "char_456_ash": {
+        "name": "Ash",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 14,
+        "rarity": 6,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rainbow"
+        ],
+        "race": "Unknown",
+        "icon": "char_456_ash.webp"
+    },
+    "char_457_blitz": {
+        "name": "Blitz",
+        "class": "TANK",
+        "subClass": "shotprotector",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rainbow"
+        ],
+        "race": "Unknown",
+        "icon": "char_457_blitz.webp"
+    },
+    "char_458_rfrost": {
+        "name": "Frost",
+        "class": "SPECIAL",
+        "subClass": "traper",
+        "dp": 11,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rainbow"
+        ],
+        "race": "Unknown",
+        "icon": "char_458_rfrost.webp"
+    },
+    "char_459_tachak": {
+        "name": "Tachanka",
+        "class": "WARRIOR",
+        "subClass": "sword",
+        "dp": 24,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rainbow"
+        ],
+        "race": "Unknown",
+        "icon": "char_459_tachak.webp"
+    },
+    "char_464_cement": {
+        "name": "Cement",
+        "class": "TANK",
+        "subClass": "duelist",
+        "dp": 32,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Zalak",
+        "icon": "char_464_cement.webp"
+    },
+    "char_466_qanik": {
+        "name": "Qanipalaat",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Sami",
+        "faction": [
+            "sami"
+        ],
+        "race": "Vulpo",
+        "icon": "char_466_qanik.webp"
+    },
+    "char_469_indigo": {
+        "name": "Indigo",
+        "class": "CASTER",
+        "subClass": "mystic",
+        "dp": 23,
+        "rarity": 4,
+        "born": "Iberia",
+        "faction": [
+            "iberia"
+        ],
+        "race": "Phidia",
+        "icon": "char_469_indigo.webp"
+    },
+    "char_472_pasngr": {
+        "name": "Passenger",
+        "class": "CASTER",
+        "subClass": "chain",
+        "dp": 33,
+        "rarity": 6,
+        "born": "Columbia",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Liberi",
+        "icon": "char_472_pasngr.webp"
+    },
+    "char_473_mberry": {
+        "name": "Mulberry",
+        "class": "MEDIC",
+        "subClass": "wandermedic",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Liberi",
+        "icon": "char_473_mberry.webp"
+    },
+    "char_474_glady": {
+        "name": "Gladiia",
+        "class": "SPECIAL",
+        "subClass": "hookmaster",
+        "dp": 16,
+        "rarity": 6,
+        "born": "\u00c6gir",
+        "faction": [
+            "egir",
+            "abyssal"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_474_glady.webp"
+    },
+    "char_475_akafyu": {
+        "name": "Akafuyu",
+        "class": "WARRIOR",
+        "subClass": "musha",
+        "dp": 25,
+        "rarity": 5,
+        "born": "Higashi",
+        "faction": [
+            "higashi"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_475_akafyu.webp"
+    },
+    "char_476_blkngt": {
+        "name": "Blacknight",
+        "class": "PIONEER",
+        "subClass": "tactician",
+        "dp": 14,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Savra",
+        "icon": "char_476_blkngt.webp"
+    },
+    "char_478_kirara": {
+        "name": "Kirara",
+        "class": "SPECIAL",
+        "subClass": "stalker",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Higashi",
+        "faction": [
+            "higashi"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_478_kirara.webp"
+    },
+    "char_479_sleach": {
+        "name": "Saileach",
+        "class": "PIONEER",
+        "subClass": "bearer",
+        "dp": 12,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Vouivre",
+        "icon": "char_479_sleach.webp"
+    },
+    "char_484_robrta": {
+        "name": "Roberta",
+        "class": "SUPPORT",
+        "subClass": "craftsman",
+        "dp": 17,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Anaty",
+        "icon": "char_484_robrta.webp"
+    },
+    "char_485_pallas": {
+        "name": "Pallas",
+        "class": "WARRIOR",
+        "subClass": "instructor",
+        "dp": 17,
+        "rarity": 6,
+        "born": "Minos",
+        "faction": [
+            "minos"
+        ],
+        "race": "Forte",
+        "icon": "char_485_pallas.webp"
+    },
+    "char_486_takila": {
+        "name": "Tequila",
+        "class": "WARRIOR",
+        "subClass": "librator",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "bolivar"
+        ],
+        "race": "Perro",
+        "icon": "char_486_takila.webp"
+    },
+    "char_487_bobb": {
+        "name": "Bobbing",
+        "class": "SUPPORT",
+        "subClass": "ritualist",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Perro",
+        "icon": "char_487_bobb.webp"
+    },
+    "char_488_buildr": {
+        "name": "Poncirus",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Siesta",
+        "faction": [
+            "columbia",
+            "siesta"
+        ],
+        "race": "Liberi",
+        "icon": "char_488_buildr.webp"
+    },
+    "char_489_serum": {
+        "name": "Corroserum",
+        "class": "CASTER",
+        "subClass": "blastcaster",
+        "dp": 33,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Phidia",
+        "icon": "char_489_serum.webp"
+    },
+    "char_491_humus": {
+        "name": "Humus",
+        "class": "WARRIOR",
+        "subClass": "reaper",
+        "dp": 21,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Forte",
+        "icon": "char_491_humus.webp"
+    },
+    "char_492_quercu": {
+        "name": "Quercus",
+        "class": "SUPPORT",
+        "subClass": "blessing",
+        "dp": 12,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Feline",
+        "icon": "char_492_quercu.webp"
+    },
+    "char_493_firwhl": {
+        "name": "Firewhistle",
+        "class": "TANK",
+        "subClass": "fortress",
+        "dp": 27,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Liberi",
+        "icon": "char_493_firwhl.webp"
+    },
+    "char_494_vendla": {
+        "name": "Vendela",
+        "class": "MEDIC",
+        "subClass": "incantationmedic",
+        "dp": 17,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_494_vendla.webp"
+    },
+    "char_496_wildmn": {
+        "name": "Wild Mane",
+        "class": "PIONEER",
+        "subClass": "charger",
+        "dp": 14,
+        "rarity": 5,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz",
+            "pinus"
+        ],
+        "race": "Kuranta",
+        "icon": "char_496_wildmn.webp"
+    },
+    "char_497_ctable": {
+        "name": "Cantabile",
+        "class": "PIONEER",
+        "subClass": "agent",
+        "dp": 10,
+        "rarity": 5,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Liberi",
+        "icon": "char_497_ctable.webp"
+    },
+    "char_498_inside": {
+        "name": "Insider",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Sankta",
+        "icon": "char_498_inside.webp"
+    },
+    "char_499_kaitou": {
+        "name": "Diamante",
+        "class": "CASTER",
+        "subClass": "primcaster",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Leithanien",
+        "faction": [
+            "leithanien"
+        ],
+        "race": "Caprinae",
+        "icon": "char_499_kaitou.webp"
+    },
+    "char_500_noirc": {
+        "name": "Noir Corne",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 14,
+        "rarity": 2,
+        "born": "Higashi",
+        "faction": [
+            "rhodes",
+            "action4"
+        ],
+        "race": "Oni",
+        "icon": "char_500_noirc.webp"
+    },
+    "char_501_durin": {
+        "name": "Durin",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 12,
+        "rarity": 2,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes",
+            "action4"
+        ],
+        "race": "Durin",
+        "icon": "char_501_durin.webp"
+    },
+    "char_502_nblade": {
+        "name": "Yato",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 7,
+        "rarity": 2,
+        "born": "Higashi",
+        "faction": [
+            "rhodes",
+            "action4"
+        ],
+        "race": "Oni",
+        "icon": "char_502_nblade.webp"
+    },
+    "char_503_rang": {
+        "name": "Rangers",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 7,
+        "rarity": 2,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes",
+            "action4"
+        ],
+        "race": "Savra",
+        "icon": "char_503_rang.webp"
+    },
+    "char_1011_lava2": {
+        "name": "Lava the Purgatory",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 35,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_1011_lava2.webp"
+    },
+    "char_1012_skadi2": {
+        "name": "Skadi the Corrupting Heart",
+        "class": "SUPPORT",
+        "subClass": "bard",
+        "dp": 8,
+        "rarity": 6,
+        "born": "\u00c6gir",
+        "faction": [
+            "egir"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_1012_skadi2.webp"
+    },
+    "char_1013_chen2": {
+        "name": "Ch'en the Holungday",
+        "class": "SNIPER",
+        "subClass": "reaperrange",
+        "dp": 32,
+        "rarity": 6,
+        "born": "Lungmen",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Lung",
+        "icon": "char_1013_chen2.webp"
+    },
+    "char_1014_nearl2": {
+        "name": "Nearl the Radiant Knight",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 19,
+        "rarity": 6,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz"
+        ],
+        "race": "Kuranta",
+        "icon": "char_1014_nearl2.webp"
+    },
+    "char_1016_agoat2": {
+        "name": "Eyjafjalla the Hv\u00edt Aska",
+        "class": "MEDIC",
+        "subClass": "wandermedic",
+        "dp": 16,
+        "rarity": 6,
+        "born": "Leithanien",
+        "faction": [
+            "leithanien"
+        ],
+        "race": "Caprinae",
+        "icon": "char_1016_agoat2.webp"
+    },
+    "char_1019_siege2": {
+        "name": "Vina Victoria",
+        "class": "WARRIOR",
+        "subClass": "artsfghter",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Aslan",
+        "icon": "char_1019_siege2.webp"
+    },
+    "char_1020_reed2": {
+        "name": "Reed the Flame Shadow",
+        "class": "MEDIC",
+        "subClass": "incantationmedic",
+        "dp": 17,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "victoria",
+            "tara"
+        ],
+        "race": "Draco",
+        "icon": "char_1020_reed2.webp"
+    },
+    "char_1021_kroos2": {
+        "name": "Kroos the Keen Glint",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Cautus",
+        "icon": "char_1021_kroos2.webp"
+    },
+    "char_1023_ghost2": {
+        "name": "Specter the Unchained",
+        "class": "SPECIAL",
+        "subClass": "dollkeeper",
+        "dp": 16,
+        "rarity": 6,
+        "born": "\u00c6gir",
+        "faction": [
+            "egir",
+            "abyssal"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_1023_ghost2.webp"
+    },
+    "char_1024_hbisc2": {
+        "name": "Hibiscus the Purifier",
+        "class": "MEDIC",
+        "subClass": "incantationmedic",
+        "dp": 17,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_1024_hbisc2.webp"
+    },
+    "char_1026_gvial2": {
+        "name": "Gavial the Invincible",
+        "class": "WARRIOR",
+        "subClass": "centurion",
+        "dp": 24,
+        "rarity": 6,
+        "born": "Sargon",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Archosauria",
+        "icon": "char_1026_gvial2.webp"
+    },
+    "char_1027_greyy2": {
+        "name": "Greyy the Lightningbearer",
+        "class": "SNIPER",
+        "subClass": "bombarder",
+        "dp": 24,
+        "rarity": 5,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Perro",
+        "icon": "char_1027_greyy2.webp"
+    },
+    "char_1028_texas2": {
+        "name": "Texas the Omertosa",
+        "class": "SPECIAL",
+        "subClass": "executor",
+        "dp": 10,
+        "rarity": 6,
+        "born": "Columbia",
+        "faction": [
+            "lungmen",
+            "penguin"
+        ],
+        "race": "Lupo",
+        "icon": "char_1028_texas2.webp"
+    },
+    "char_1029_yato2": {
+        "name": "Kirin R Yato",
+        "class": "SPECIAL",
+        "subClass": "executor",
+        "dp": 10,
+        "rarity": 6,
+        "born": "Higashi",
+        "faction": [
+            "rhodes",
+            "action4"
+        ],
+        "race": "Oni",
+        "icon": "char_1029_yato2.webp"
+    },
+    "char_1030_noirc2": {
+        "name": "Rathalos S Noir Corne",
+        "class": "WARRIOR",
+        "subClass": "musha",
+        "dp": 25,
+        "rarity": 5,
+        "born": "Higashi",
+        "faction": [
+            "rhodes",
+            "action4"
+        ],
+        "race": "Oni",
+        "icon": "char_1030_noirc2.webp"
+    },
+    "char_1031_slent2": {
+        "name": "Silence the Paradigmatic",
+        "class": "SUPPORT",
+        "subClass": "blessing",
+        "dp": 15,
+        "rarity": 6,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "rhine"
+        ],
+        "race": "Liberi",
+        "icon": "char_1031_slent2.webp"
+    },
+    "char_1032_excu2": {
+        "name": "Executor the Ex Foedere",
+        "class": "WARRIOR",
+        "subClass": "reaper",
+        "dp": 23,
+        "rarity": 6,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Sankta",
+        "icon": "char_1032_excu2.webp"
+    },
+    "char_1033_swire2": {
+        "name": "Swire the Elegant Wit",
+        "class": "SPECIAL",
+        "subClass": "merchant",
+        "dp": 9,
+        "rarity": 6,
+        "born": "Lungmen",
+        "faction": [
+            "lungmen"
+        ],
+        "race": "Feline",
+        "icon": "char_1033_swire2.webp"
+    },
+    "char_1034_jesca2": {
+        "name": "Jessica the Liberated",
+        "class": "TANK",
+        "subClass": "shotprotector",
+        "dp": 23,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "columbia",
+            "blacksteel"
+        ],
+        "race": "Feline",
+        "icon": "char_1034_jesca2.webp"
+    },
+    "char_1035_wisdel": {
+        "name": "Wi\u0161'adel",
+        "class": "SNIPER",
+        "subClass": "bombarder",
+        "dp": 25,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "babel"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_1035_wisdel.webp"
+    },
+    "char_1036_fang2": {
+        "name": "Fang the Fire-Sharpened",
+        "class": "PIONEER",
+        "subClass": "charger",
+        "dp": 12,
+        "rarity": 5,
+        "born": "Kazimierz",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Kuranta",
+        "icon": "char_1036_fang2.webp"
+    },
+    "char_1038_whitw2": {
+        "name": "Lappland the Decadenza",
+        "class": "CASTER",
+        "subClass": "funnel",
+        "dp": 22,
+        "rarity": 6,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Lupo",
+        "icon": "char_1038_whitw2.webp"
+    },
+    "char_1039_thorn2": {
+        "name": "Thorns the Lodestar",
+        "class": "SPECIAL",
+        "subClass": "alchemist",
+        "dp": 18,
+        "rarity": 6,
+        "born": "Iberia",
+        "faction": [
+            "iberia"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_1039_thorn2.webp"
+    },
+    "char_1040_blaze2": {
+        "name": "Blaze the Igniting Spark",
+        "class": "CASTER",
+        "subClass": "primcaster",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Yan",
+        "faction": [
+            "rhodes",
+            "elite"
+        ],
+        "race": "Feline",
+        "icon": "char_1040_blaze2.webp"
+    },
+    "char_1502_crosly": {
+        "name": "Crownslayer",
+        "class": "SPECIAL",
+        "subClass": "executor",
+        "dp": 12,
+        "rarity": 6,
+        "born": "Ursus",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Reproba",
+        "icon": "char_1502_crosly.webp"
+    },
+    "char_2012_typhon": {
+        "name": "Typhon",
+        "class": "SNIPER",
+        "subClass": "siegesniper",
+        "dp": 24,
+        "rarity": 6,
+        "born": "Sami",
+        "faction": [
+            "sami"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_2012_typhon.webp"
+    },
+    "char_2013_cerber": {
+        "name": "Ceobe",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Perro",
+        "icon": "char_2013_cerber.webp"
+    },
+    "char_2014_nian": {
+        "name": "Nian",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 23,
+        "rarity": 6,
+        "born": "Yan",
+        "faction": [
+            "yan",
+            "sui"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_2014_nian.webp"
+    },
+    "char_2015_dusk": {
+        "name": "Dusk",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 34,
+        "rarity": 6,
+        "born": "Yan",
+        "faction": [
+            "yan",
+            "sui"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_2015_dusk.webp"
+    },
+    "char_2023_ling": {
+        "name": "Ling",
+        "class": "SUPPORT",
+        "subClass": "summoner",
+        "dp": 12,
+        "rarity": 6,
+        "born": "Yan",
+        "faction": [
+            "yan",
+            "sui"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_2023_ling.webp"
+    },
+    "char_2024_chyue": {
+        "name": "Chongyue",
+        "class": "WARRIOR",
+        "subClass": "fighter",
+        "dp": 11,
+        "rarity": 6,
+        "born": "Yan",
+        "faction": [
+            "yan",
+            "sui"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_2024_chyue.webp"
+    },
+    "char_2025_shu": {
+        "name": "Shu",
+        "class": "TANK",
+        "subClass": "guardian",
+        "dp": 22,
+        "rarity": 6,
+        "born": "Yan",
+        "faction": [
+            "yan",
+            "sui"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_2025_shu.webp"
+    },
+    "char_2026_yu": {
+        "name": "Yu",
+        "class": "TANK",
+        "subClass": "primprotector",
+        "dp": 26,
+        "rarity": 6,
+        "born": "Yan",
+        "faction": [
+            "yan",
+            "sui"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_2026_yu.webp"
+    },
+    "char_4000_jnight": {
+        "name": "'Justice Knight'",
+        "class": "SNIPER",
+        "subClass": "fastshot",
+        "dp": 3,
+        "rarity": 1,
+        "born": "Columbia",
+        "faction": [
+            "kazimierz",
+            "pinus"
+        ],
+        "race": "Robot",
+        "icon": "char_4000_jnight.webp"
+    },
+    "char_4004_pudd": {
+        "name": "Pudding",
+        "class": "CASTER",
+        "subClass": "chain",
+        "dp": 31,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_4004_pudd.webp"
+    },
+    "char_4006_melnte": {
+        "name": "Melanite",
+        "class": "SNIPER",
+        "subClass": "closerange",
+        "dp": 19,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Phidia",
+        "icon": "char_4006_melnte.webp"
+    },
+    "char_4009_irene": {
+        "name": "Irene",
+        "class": "WARRIOR",
+        "subClass": "sword",
+        "dp": 23,
+        "rarity": 6,
+        "born": "Iberia",
+        "faction": [
+            "iberia"
+        ],
+        "race": "Liberi",
+        "icon": "char_4009_irene.webp"
+    },
+    "char_4010_etlchi": {
+        "name": "Entelechia",
+        "class": "WARRIOR",
+        "subClass": "reaper",
+        "dp": 23,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_4010_etlchi.webp"
+    },
+    "char_4011_lessng": {
+        "name": "Lessing",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Leithanien",
+        "faction": [
+            "leithanien"
+        ],
+        "race": "Caprinae",
+        "icon": "char_4011_lessng.webp"
+    },
+    "char_4013_kjera": {
+        "name": "Kjera",
+        "class": "CASTER",
+        "subClass": "funnel",
+        "dp": 23,
+        "rarity": 5,
+        "born": "Kjerag",
+        "faction": [
+            "kjerag",
+            "karlan"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_4013_kjera.webp"
+    },
+    "char_4014_lunacu": {
+        "name": "Lunacub",
+        "class": "SNIPER",
+        "subClass": "longrange",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Lupo",
+        "icon": "char_4014_lunacu.webp"
+    },
+    "char_4015_spuria": {
+        "name": "Spuria",
+        "class": "SPECIAL",
+        "subClass": "geek",
+        "dp": 12,
+        "rarity": 5,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Sankta",
+        "icon": "char_4015_spuria.webp"
+    },
+    "char_4016_kazema": {
+        "name": "Kazemaru",
+        "class": "SPECIAL",
+        "subClass": "dollkeeper",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Higashi",
+        "faction": [
+            "higashi"
+        ],
+        "race": "Feline",
+        "icon": "char_4016_kazema.webp"
+    },
+    "char_4017_puzzle": {
+        "name": "Puzzle",
+        "class": "PIONEER",
+        "subClass": "agent",
+        "dp": 12,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Vouivre",
+        "icon": "char_4017_puzzle.webp"
+    },
+    "char_4019_ncdeer": {
+        "name": "Nine-Colored Deer",
+        "class": "SUPPORT",
+        "subClass": "blessing",
+        "dp": 11,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Elafia",
+        "icon": "char_4019_ncdeer.webp"
+    },
+    "char_4023_rfalcn": {
+        "name": "Kestrel",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Liberi",
+        "icon": "char_4023_rfalcn.webp"
+    },
+    "char_4025_aprot2": {
+        "name": "Shalem",
+        "class": "TANK",
+        "subClass": "artsprotector",
+        "dp": 25,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Phidia",
+        "icon": "char_4025_aprot2.webp"
+    },
+    "char_4026_vulpis": {
+        "name": "Vulpisfoglia",
+        "class": "PIONEER",
+        "subClass": "pioneer",
+        "dp": 14,
+        "rarity": 6,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Vulpo",
+        "icon": "char_4026_vulpis.webp"
+    },
+    "char_4027_heyak": {
+        "name": "Ho'olheyak",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_4027_heyak.webp"
+    },
+    "char_4032_provs": {
+        "name": "Proviso",
+        "class": "SUPPORT",
+        "subClass": "slower",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz"
+        ],
+        "race": "Kuranta",
+        "icon": "char_4032_provs.webp"
+    },
+    "char_4036_forcer": {
+        "name": "Enforcer",
+        "class": "SPECIAL",
+        "subClass": "pusher",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Laterano",
+        "faction": [
+            "laterano"
+        ],
+        "race": "Sankta",
+        "icon": "char_4036_forcer.webp"
+    },
+    "char_4039_horn": {
+        "name": "Horn",
+        "class": "TANK",
+        "subClass": "fortress",
+        "dp": 28,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Lupo",
+        "icon": "char_4039_horn.webp"
+    },
+    "char_4040_rockr": {
+        "name": "Rockrock",
+        "class": "CASTER",
+        "subClass": "funnel",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_4040_rockr.webp"
+    },
+    "char_4041_chnut": {
+        "name": "Chestnut",
+        "class": "MEDIC",
+        "subClass": "wandermedic",
+        "dp": 14,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Durin",
+        "icon": "char_4041_chnut.webp"
+    },
+    "char_4042_lumen": {
+        "name": "Lumen",
+        "class": "MEDIC",
+        "subClass": "healer",
+        "dp": 23,
+        "rarity": 6,
+        "born": "Iberia",
+        "faction": [
+            "iberia"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_4042_lumen.webp"
+    },
+    "char_4043_erato": {
+        "name": "Erato",
+        "class": "SNIPER",
+        "subClass": "siegesniper",
+        "dp": 23,
+        "rarity": 5,
+        "born": "Minos",
+        "faction": [
+            "minos"
+        ],
+        "race": "Liberi",
+        "icon": "char_4043_erato.webp"
+    },
+    "char_4045_heidi": {
+        "name": "Heidi",
+        "class": "SUPPORT",
+        "subClass": "bard",
+        "dp": 9,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_4045_heidi.webp"
+    },
+    "char_4046_ebnhlz": {
+        "name": "Ebenholz",
+        "class": "CASTER",
+        "subClass": "mystic",
+        "dp": 25,
+        "rarity": 6,
+        "born": "Leithanien",
+        "faction": [
+            "leithanien"
+        ],
+        "race": "Caprinae",
+        "icon": "char_4046_ebnhlz.webp"
+    },
+    "char_4047_pianst": {
+        "name": "Czerny",
+        "class": "TANK",
+        "subClass": "artsprotector",
+        "dp": 27,
+        "rarity": 5,
+        "born": "Leithanien",
+        "faction": [
+            "leithanien"
+        ],
+        "race": "Elafia",
+        "icon": "char_4047_pianst.webp"
+    },
+    "char_4048_doroth": {
+        "name": "Dorothy",
+        "class": "SPECIAL",
+        "subClass": "traper",
+        "dp": 12,
+        "rarity": 6,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "rhine"
+        ],
+        "race": "Zalak",
+        "icon": "char_4048_doroth.webp"
+    },
+    "char_4052_surfer": {
+        "name": "Surfer",
+        "class": "PIONEER",
+        "subClass": "agent",
+        "dp": 10,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "blacksteel"
+        ],
+        "race": "Zalak",
+        "icon": "char_4052_surfer.webp"
+    },
+    "char_4054_malist": {
+        "name": "Minimalist",
+        "class": "CASTER",
+        "subClass": "funnel",
+        "dp": 23,
+        "rarity": 5,
+        "born": "Durin",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Durin",
+        "icon": "char_4054_malist.webp"
+    },
+    "char_4055_bgsnow": {
+        "name": "Poz\u00ebmka",
+        "class": "SNIPER",
+        "subClass": "closerange",
+        "dp": 20,
+        "rarity": 6,
+        "born": "Ursus",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Lupo",
+        "icon": "char_4055_bgsnow.webp"
+    },
+    "char_4058_pepe": {
+        "name": "Pepe",
+        "class": "WARRIOR",
+        "subClass": "hammer",
+        "dp": 20,
+        "rarity": 6,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Feline",
+        "icon": "char_4058_pepe.webp"
+    },
+    "char_4062_totter": {
+        "name": "Totter",
+        "class": "SNIPER",
+        "subClass": "siegesniper",
+        "dp": 22,
+        "rarity": 4,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Liberi",
+        "icon": "char_4062_totter.webp"
+    },
+    "char_4063_quartz": {
+        "name": "Quartz",
+        "class": "WARRIOR",
+        "subClass": "crusher",
+        "dp": 22,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Lupo",
+        "icon": "char_4063_quartz.webp"
+    },
+    "char_4064_mlynar": {
+        "name": "M\u0142ynar",
+        "class": "WARRIOR",
+        "subClass": "librator",
+        "dp": 12,
+        "rarity": 6,
+        "born": "Kazimierz",
+        "faction": [
+            "kazimierz"
+        ],
+        "race": "Kuranta",
+        "icon": "char_4064_mlynar.webp"
+    },
+    "char_4065_judge": {
+        "name": "Penance",
+        "class": "TANK",
+        "subClass": "unyield",
+        "dp": 36,
+        "rarity": 6,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Lupo",
+        "icon": "char_4065_judge.webp"
+    },
+    "char_4066_highmo": {
+        "name": "Highmore",
+        "class": "WARRIOR",
+        "subClass": "reaper",
+        "dp": 22,
+        "rarity": 5,
+        "born": "Iberia",
+        "faction": [
+            "iberia"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_4066_highmo.webp"
+    },
+    "char_4067_lolxh": {
+        "name": "Luo Xiaohei",
+        "class": "WARRIOR",
+        "subClass": "lord",
+        "dp": 17,
+        "rarity": 4,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "yan"
+        ],
+        "race": "Feline",
+        "icon": "char_4067_lolxh.webp"
+    },
+    "char_4071_peper": {
+        "name": "Paprika",
+        "class": "MEDIC",
+        "subClass": "chainhealer",
+        "dp": 18,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_4071_peper.webp"
+    },
+    "char_4072_ironmn": {
+        "name": "Stainless",
+        "class": "SUPPORT",
+        "subClass": "craftsman",
+        "dp": 19,
+        "rarity": 6,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_4072_ironmn.webp"
+    },
+    "char_4077_palico": {
+        "name": "Terra Research Commission",
+        "class": "SNIPER",
+        "subClass": "bombarder",
+        "dp": 3,
+        "rarity": 1,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_4077_palico.webp"
+    },
+    "char_4078_bdhkgt": {
+        "name": "Jieyun",
+        "class": "SNIPER",
+        "subClass": "aoesniper",
+        "dp": 30,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Anasa",
+        "icon": "char_4078_bdhkgt.webp"
+    },
+    "char_4079_haini": {
+        "name": "Lucilla",
+        "class": "SUPPORT",
+        "subClass": "underminer",
+        "dp": 12,
+        "rarity": 5,
+        "born": "\u00c6gir",
+        "faction": [
+            "egir"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_4079_haini.webp"
+    },
+    "char_4080_lin": {
+        "name": "Lin",
+        "class": "CASTER",
+        "subClass": "phalanx",
+        "dp": 24,
+        "rarity": 6,
+        "born": "Lungmen",
+        "faction": [
+            "lungmen"
+        ],
+        "race": "Zalak",
+        "icon": "char_4080_lin.webp"
+    },
+    "char_4081_warmy": {
+        "name": "Warmy",
+        "class": "CASTER",
+        "subClass": "primcaster",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Cautus",
+        "icon": "char_4081_warmy.webp"
+    },
+    "char_4082_qiubai": {
+        "name": "Qiubai",
+        "class": "WARRIOR",
+        "subClass": "lord",
+        "dp": 20,
+        "rarity": 6,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Elafia",
+        "icon": "char_4082_qiubai.webp"
+    },
+    "char_4083_chimes": {
+        "name": "Wind Chimes",
+        "class": "WARRIOR",
+        "subClass": "crusher",
+        "dp": 23,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Forte",
+        "icon": "char_4083_chimes.webp"
+    },
+    "char_4087_ines": {
+        "name": "Ines",
+        "class": "PIONEER",
+        "subClass": "agent",
+        "dp": 11,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "babel"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_4087_ines.webp"
+    },
+    "char_4088_hodrer": {
+        "name": "Hoederer",
+        "class": "WARRIOR",
+        "subClass": "crusher",
+        "dp": 24,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "babel"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_4088_hodrer.webp"
+    },
+    "char_4091_ulika": {
+        "name": "U-Official",
+        "class": "SUPPORT",
+        "subClass": "bard",
+        "dp": 3,
+        "rarity": 1,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Zalak",
+        "icon": "char_4091_ulika.webp"
+    },
+    "char_4093_frston": {
+        "name": "Friston-3",
+        "class": "TANK",
+        "subClass": "protector",
+        "dp": 3,
+        "rarity": 1,
+        "born": "Rhodes Island",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Robot",
+        "icon": "char_4093_frston.webp"
+    },
+    "char_4098_vvana": {
+        "name": "Viviana",
+        "class": "WARRIOR",
+        "subClass": "artsfghter",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Leithanien",
+        "faction": [
+            "leithanien"
+        ],
+        "race": "Elafia",
+        "icon": "char_4098_vvana.webp"
+    },
+    "char_4100_caper": {
+        "name": "Caper",
+        "class": "SNIPER",
+        "subClass": "loopshooter",
+        "dp": 14,
+        "rarity": 4,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "bolivar"
+        ],
+        "race": "Cautus",
+        "icon": "char_4100_caper.webp"
+    },
+    "char_4102_threye": {
+        "name": "Valarqvin",
+        "class": "SUPPORT",
+        "subClass": "ritualist",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Sami",
+        "faction": [
+            "sami"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_4102_threye.webp"
+    },
+    "char_4104_coldst": {
+        "name": "Coldshot",
+        "class": "SNIPER",
+        "subClass": "hunter",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Elafia",
+        "icon": "char_4104_coldst.webp"
+    },
+    "char_4105_almond": {
+        "name": "Almond",
+        "class": "SPECIAL",
+        "subClass": "hookmaster",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Columbia",
+        "faction": [
+            "columbia",
+            "blacksteel"
+        ],
+        "race": "Perro",
+        "icon": "char_4105_almond.webp"
+    },
+    "char_4106_bryota": {
+        "name": "Bryophyta",
+        "class": "WARRIOR",
+        "subClass": "instructor",
+        "dp": 18,
+        "rarity": 5,
+        "born": "Siesta",
+        "faction": [
+            "columbia",
+            "siesta"
+        ],
+        "race": "Liberi",
+        "icon": "char_4106_bryota.webp"
+    },
+    "char_4107_vrdant": {
+        "name": "Verdant",
+        "class": "SPECIAL",
+        "subClass": "dollkeeper",
+        "dp": 14,
+        "rarity": 4,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Phidia",
+        "icon": "char_4107_vrdant.webp"
+    },
+    "char_4109_baslin": {
+        "name": "Bassline",
+        "class": "TANK",
+        "subClass": "guardian",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Leithanien",
+        "faction": [
+            "leithanien"
+        ],
+        "race": "Lupo",
+        "icon": "char_4109_baslin.webp"
+    },
+    "char_4110_delphn": {
+        "name": "Delphine",
+        "class": "CASTER",
+        "subClass": "mystic",
+        "dp": 26,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_4110_delphn.webp"
+    },
+    "char_4114_harold": {
+        "name": "Harold",
+        "class": "MEDIC",
+        "subClass": "wandermedic",
+        "dp": 17,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_4114_harold.webp"
+    },
+    "char_4116_blkkgt": {
+        "name": "Degenbrecher",
+        "class": "WARRIOR",
+        "subClass": "sword",
+        "dp": 23,
+        "rarity": 6,
+        "born": "Leithanien",
+        "faction": [
+            "kjerag",
+            "karlan"
+        ],
+        "race": "Caprinae",
+        "icon": "char_4116_blkkgt.webp"
+    },
+    "char_4117_ray": {
+        "name": "Ray",
+        "class": "SNIPER",
+        "subClass": "hunter",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Cautus",
+        "icon": "char_4117_ray.webp"
+    },
+    "char_4119_wanqin": {
+        "name": "Wanqing",
+        "class": "PIONEER",
+        "subClass": "bearer",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Forte",
+        "icon": "char_4119_wanqin.webp"
+    },
+    "char_4121_zuole": {
+        "name": "Zuo Le",
+        "class": "WARRIOR",
+        "subClass": "musha",
+        "dp": 26,
+        "rarity": 6,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Phidia",
+        "icon": "char_4121_zuole.webp"
+    },
+    "char_4122_grabds": {
+        "name": "Grain Buds",
+        "class": "SUPPORT",
+        "subClass": "slower",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Liberi",
+        "icon": "char_4122_grabds.webp"
+    },
+    "char_4123_ela": {
+        "name": "Ela",
+        "class": "SPECIAL",
+        "subClass": "traper",
+        "dp": 12,
+        "rarity": 6,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rainbow"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_4123_ela.webp"
+    },
+    "char_4124_iana": {
+        "name": "Iana",
+        "class": "SPECIAL",
+        "subClass": "dollkeeper",
+        "dp": 15,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rainbow"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_4124_iana.webp"
+    },
+    "char_4125_rdoc": {
+        "name": "Doc",
+        "class": "WARRIOR",
+        "subClass": "instructor",
+        "dp": 16,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rainbow"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_4125_rdoc.webp"
+    },
+    "char_4126_fuze": {
+        "name": "Fuze",
+        "class": "WARRIOR",
+        "subClass": "centurion",
+        "dp": 25,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "rainbow"
+        ],
+        "race": "Unknown",
+        "icon": "char_4126_fuze.webp"
+    },
+    "char_4130_luton": {
+        "name": "Lutonada",
+        "class": "TANK",
+        "subClass": "unyield",
+        "dp": 34,
+        "rarity": 4,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "bolivar"
+        ],
+        "race": "Zalak",
+        "icon": "char_4130_luton.webp"
+    },
+    "char_4131_odda": {
+        "name": "Odda",
+        "class": "WARRIOR",
+        "subClass": "hammer",
+        "dp": 21,
+        "rarity": 5,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_4131_odda.webp"
+    },
+    "char_4132_ascln": {
+        "name": "Ascalon",
+        "class": "SPECIAL",
+        "subClass": "stalker",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes",
+            "sweep"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_4132_ascln.webp"
+    },
+    "char_4133_logos": {
+        "name": "Logos",
+        "class": "CASTER",
+        "subClass": "corecaster",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes",
+            "elite"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_4133_logos.webp"
+    },
+    "char_4134_cetsyr": {
+        "name": "Civilight Eterna",
+        "class": "SUPPORT",
+        "subClass": "bard",
+        "dp": 10,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_4134_cetsyr.webp"
+    },
+    "char_4136_phonor": {
+        "name": "PhonoR-0",
+        "class": "SUPPORT",
+        "subClass": "ritualist",
+        "dp": 3,
+        "rarity": 1,
+        "born": "Rhodes Island",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Robot",
+        "icon": "char_4136_phonor.webp"
+    },
+    "char_4137_udflow": {
+        "name": "Underflow",
+        "class": "TANK",
+        "subClass": "shotprotector",
+        "dp": 24,
+        "rarity": 5,
+        "born": "\u00c6gir",
+        "faction": [
+            "egir"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_4137_udflow.webp"
+    },
+    "char_4138_narant": {
+        "name": "Narantuya",
+        "class": "SNIPER",
+        "subClass": "loopshooter",
+        "dp": 16,
+        "rarity": 6,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Kuranta",
+        "icon": "char_4138_narant.webp"
+    },
+    "char_4139_papyrs": {
+        "name": "Papyrus",
+        "class": "MEDIC",
+        "subClass": "chainhealer",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Feline",
+        "icon": "char_4139_papyrs.webp"
+    },
+    "char_4140_lasher": {
+        "name": "Sand Reckoner",
+        "class": "SUPPORT",
+        "subClass": "summoner",
+        "dp": 11,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Liberi",
+        "icon": "char_4140_lasher.webp"
+    },
+    "char_4141_marcil": {
+        "name": "Marcille",
+        "class": "CASTER",
+        "subClass": "splashcaster",
+        "dp": 34,
+        "rarity": 6,
+        "born": "Northern Continent (Self-declared)",
+        "faction": [
+            "rhodes",
+            "laios"
+        ],
+        "race": "Elf",
+        "icon": "char_4141_marcil.webp"
+    },
+    "char_4142_laios": {
+        "name": "Laios",
+        "class": "WARRIOR",
+        "subClass": "fearless",
+        "dp": 18,
+        "rarity": 5,
+        "born": "Northern Continent (Self-declared)",
+        "faction": [
+            "rhodes",
+            "laios"
+        ],
+        "race": "Tall-man (Self-declared)",
+        "icon": "char_4142_laios.webp"
+    },
+    "char_4143_sensi": {
+        "name": "Senshi",
+        "class": "TANK",
+        "subClass": "guardian",
+        "dp": 23,
+        "rarity": 5,
+        "born": "Izganda (Self-declared)",
+        "faction": [
+            "rhodes",
+            "laios"
+        ],
+        "race": "Dwarf (Self-declared)",
+        "icon": "char_4143_sensi.webp"
+    },
+    "char_4144_chilc": {
+        "name": "Chilchuck",
+        "class": "PIONEER",
+        "subClass": "agent",
+        "dp": 10,
+        "rarity": 5,
+        "born": "Eastern Continent (Self-declared)",
+        "faction": [
+            "rhodes",
+            "laios"
+        ],
+        "race": "Half-foot (Self-declared)",
+        "icon": "char_4144_chilc.webp"
+    },
+    "char_4145_ulpia": {
+        "name": "Ulpianus",
+        "class": "WARRIOR",
+        "subClass": "crusher",
+        "dp": 24,
+        "rarity": 6,
+        "born": "\u00c6gir",
+        "faction": [
+            "egir",
+            "abyssal"
+        ],
+        "race": "\u00c6gir",
+        "icon": "char_4145_ulpia.webp"
+    },
+    "char_4146_nymph": {
+        "name": "Nymph",
+        "class": "CASTER",
+        "subClass": "primcaster",
+        "dp": 21,
+        "rarity": 6,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_4146_nymph.webp"
+    },
+    "char_4147_mitm": {
+        "name": "Mitm",
+        "class": "PIONEER",
+        "subClass": "tactician",
+        "dp": 14,
+        "rarity": 5,
+        "born": "Kazdel",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_4147_mitm.webp"
+    },
+    "char_4148_philae": {
+        "name": "Philae",
+        "class": "TANK",
+        "subClass": "primprotector",
+        "dp": 25,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Sarkaz",
+        "icon": "char_4148_philae.webp"
+    },
+    "char_4151_tinman": {
+        "name": "Tin Man",
+        "class": "SPECIAL",
+        "subClass": "alchemist",
+        "dp": 17,
+        "rarity": 5,
+        "born": "Unknown/Undisclosed",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_4151_tinman.webp"
+    },
+    "char_4155_talr": {
+        "name": "Figurino",
+        "class": "SPECIAL",
+        "subClass": "merchant",
+        "dp": 8,
+        "rarity": 5,
+        "born": "Siracusa",
+        "faction": [
+            "siracusa"
+        ],
+        "race": "Lupo",
+        "icon": "char_4155_talr.webp"
+    },
+    "char_4162_cathy": {
+        "name": "Catherine",
+        "class": "SUPPORT",
+        "subClass": "craftsman",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Feline",
+        "icon": "char_4162_cathy.webp"
+    },
+    "char_4163_rosesa": {
+        "name": "Rose Salt",
+        "class": "MEDIC",
+        "subClass": "ringhealer",
+        "dp": 19,
+        "rarity": 5,
+        "born": "Iberia",
+        "faction": [
+            "iberia"
+        ],
+        "race": "Phidia",
+        "icon": "char_4163_rosesa.webp"
+    },
+    "char_4164_tecno": {
+        "name": "Tecno",
+        "class": "CASTER",
+        "subClass": "soulcaster",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Bol\u00edvar",
+        "faction": [
+            "bolivar"
+        ],
+        "race": "Durin",
+        "icon": "char_4164_tecno.webp"
+    },
+    "char_4165_ctrail": {
+        "name": "Contrail",
+        "class": "SPECIAL",
+        "subClass": "skywalker",
+        "dp": 16,
+        "rarity": 4,
+        "born": "Columbia",
+        "faction": [
+            "columbia"
+        ],
+        "race": "Zalak",
+        "icon": "char_4165_ctrail.webp"
+    },
+    "char_4171_wulfen": {
+        "name": "Wulfenite",
+        "class": "SPECIAL",
+        "subClass": "traper",
+        "dp": 11,
+        "rarity": 5,
+        "born": "Sargon",
+        "faction": [
+            "sargon"
+        ],
+        "race": "Phidia",
+        "icon": "char_4171_wulfen.webp"
+    },
+    "char_4172_xingzh": {
+        "name": "Xingzhu",
+        "class": "SUPPORT",
+        "subClass": "blessing",
+        "dp": 13,
+        "rarity": 5,
+        "born": "Yan",
+        "faction": [
+            "yan"
+        ],
+        "race": "Feline",
+        "icon": "char_4172_xingzh.webp"
+    },
+    "char_4173_nowell": {
+        "name": "Nowell",
+        "class": "MEDIC",
+        "subClass": "healer",
+        "dp": 20,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria"
+        ],
+        "race": "Vulpo",
+        "icon": "char_4173_nowell.webp"
+    },
+    "char_4177_brigid": {
+        "name": "Brigid",
+        "class": "SNIPER",
+        "subClass": "loopshooter",
+        "dp": 17,
+        "rarity": 5,
+        "born": "Victoria",
+        "faction": [
+            "victoria",
+            "tara"
+        ],
+        "race": "Perro",
+        "icon": "char_4177_brigid.webp"
+    },
+    "char_4178_alanna": {
+        "name": "Alanna",
+        "class": "SUPPORT",
+        "subClass": "craftsman",
+        "dp": 18,
+        "rarity": 5,
+        "born": "Rim Billiton",
+        "faction": [
+            "rim"
+        ],
+        "race": "Savra",
+        "icon": "char_4178_alanna.png"
+    },
+    "char_4179_monstr": {
+        "name": "Mon3tr",
+        "class": "MEDIC",
+        "subClass": "chainhealer",
+        "dp": 18,
+        "rarity": 6,
+        "born": "Rhodes Island",
+        "faction": [
+            "rhodes"
+        ],
+        "race": "Undisclosed",
+        "icon": "char_4179_monstr.png"
+    }
+}

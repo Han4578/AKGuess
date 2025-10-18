@@ -1,0 +1,34 @@
+{
+    "CASTER": {
+        "icon": "icon_profession_caster.png",
+        "name": "Caster"
+    },
+    "MEDIC": {
+        "icon": "icon_profession_medic.png",
+        "name": "Medic"
+    },
+    "PIONEER": {
+        "icon": "icon_profession_pioneer.png",
+        "name": "Vanguard"
+    },
+    "SNIPER": {
+        "icon": "icon_profession_sniper.png",
+        "name": "Sniper"
+    },
+    "SPECIAL": {
+        "icon": "icon_profession_special.png",
+        "name": "Specialist"
+    },
+    "SUPPORT": {
+        "icon": "icon_profession_support.png",
+        "name": "Supporter"
+    },
+    "TANK": {
+        "icon": "icon_profession_tank.png",
+        "name": "Defender"
+    },
+    "WARRIOR": {
+        "icon": "icon_profession_warrior.png",
+        "name": "Guard"
+    }
+}

@@ -1,0 +1,266 @@
+{
+    "agent": {
+        "icon": "sub_agent_icon.png",
+        "name": "Agent"
+    },
+    "alchemist": {
+        "icon": "sub_alchemist_icon.png",
+        "name": "Alchemist"
+    },
+    "aoesniper": {
+        "icon": "sub_aoesniper_icon.png",
+        "name": "Artilleryman"
+    },
+    "artsfghter": {
+        "icon": "sub_artsfghter_icon.png",
+        "name": "Arts Fghter"
+    },
+    "artsprotector": {
+        "icon": "sub_artsprotector_icon.png",
+        "name": "Arts Protector"
+    },
+    "bard": {
+        "icon": "sub_bard_icon.png",
+        "name": "Bard"
+    },
+    "bearer": {
+        "icon": "sub_bearer_icon.png",
+        "name": "Standard Bearer"
+    },
+    "blastcaster": {
+        "icon": "sub_blastcaster_icon.png",
+        "name": "Blast Caster"
+    },
+    "blessing": {
+        "icon": "sub_blessing_icon.png",
+        "name": "Abjurer"
+    },
+    "bombarder": {
+        "icon": "sub_bombarder_icon.png",
+        "name": "Flinger"
+    },
+    "centurion": {
+        "icon": "sub_centurion_icon.png",
+        "name": "Centurion"
+    },
+    "chain": {
+        "icon": "sub_chain_icon.png",
+        "name": "Chain Caster"
+    },
+    "chainhealer": {
+        "icon": "sub_chainhealer_icon.png",
+        "name": "Chain Medic"
+    },
+    "charger": {
+        "icon": "sub_charger_icon.png",
+        "name": "Charger"
+    },
+    "closerange": {
+        "icon": "sub_closerange_icon.png",
+        "name": "Heavyshooter"
+    },
+    "corecaster": {
+        "icon": "sub_corecaster_icon.png",
+        "name": "Core Caster"
+    },
+    "craftsman": {
+        "icon": "sub_craftsman_icon.png",
+        "name": "Artificer"
+    },
+    "crusher": {
+        "icon": "sub_crusher_icon.png",
+        "name": "Crusher"
+    },
+    "dollkeeper": {
+        "icon": "sub_dollkeeper_icon.png",
+        "name": "Dollkeeper"
+    },
+    "duelist": {
+        "icon": "sub_duelist_icon.png",
+        "name": "Duelist"
+    },
+    "executor": {
+        "icon": "sub_executor_icon.png",
+        "name": "Executor"
+    },
+    "fastshot": {
+        "icon": "sub_fastshot_icon.png",
+        "name": "Marksman"
+    },
+    "fearless": {
+        "icon": "sub_fearless_icon.png",
+        "name": "Dreadnought"
+    },
+    "fighter": {
+        "icon": "sub_fighter_icon.png",
+        "name": "Fighter"
+    },
+    "fortress": {
+        "icon": "sub_fortress_icon.png",
+        "name": "Fortress"
+    },
+    "funnel": {
+        "icon": "sub_funnel_icon.png",
+        "name": "Mech-accord Caster"
+    },
+    "geek": {
+        "icon": "sub_geek_icon.png",
+        "name": "Geek"
+    },
+    "guardian": {
+        "icon": "sub_guardian_icon.png",
+        "name": "Guardian"
+    },
+    "hammer": {
+        "icon": "sub_hammer_icon.png",
+        "name": "Earthshaker"
+    },
+    "healer": {
+        "icon": "sub_healer_icon.png",
+        "name": "Therapist"
+    },
+    "hookmaster": {
+        "icon": "sub_hookmaster_icon.png",
+        "name": "Hookmaster"
+    },
+    "hunter": {
+        "icon": "sub_hunter_icon.png",
+        "name": "Hunter"
+    },
+    "incantationmedic": {
+        "icon": "sub_incantationmedic_icon.png",
+        "name": "Incantation Medic"
+    },
+    "instructor": {
+        "icon": "sub_instructor_icon.png",
+        "name": "Instructor"
+    },
+    "librator": {
+        "icon": "sub_librator_icon.png",
+        "name": "Librator"
+    },
+    "longrange": {
+        "icon": "sub_longrange_icon.png",
+        "name": "Deadeye"
+    },
+    "loopshooter": {
+        "icon": "sub_loopshooter_icon.png",
+        "name": "Loopshooter"
+    },
+    "lord": {
+        "icon": "sub_lord_icon.png",
+        "name": "Lord"
+    },
+    "merchant": {
+        "icon": "sub_merchant_icon.png",
+        "name": "Merchant"
+    },
+    "musha": {
+        "icon": "sub_musha_icon.png",
+        "name": "Soloblade"
+    },
+    "mystic": {
+        "icon": "sub_mystic_icon.png",
+        "name": "Mystic Caster"
+    },
+    "phalanx": {
+        "icon": "sub_phalanx_icon.png",
+        "name": "Phalanx Caster"
+    },
+    "physician": {
+        "icon": "sub_physician_icon.png",
+        "name": "Medic"
+    },
+    "pioneer": {
+        "icon": "sub_pioneer_icon.png",
+        "name": "Pioneer"
+    },
+    "primcaster": {
+        "icon": "sub_primcaster_icon.png",
+        "name": "Primal Caster"
+    },
+    "primprotector": {
+        "icon": "sub_primprotector_icon.png",
+        "name": "Primal Protector"
+    },
+    "protector": {
+        "icon": "sub_protector_icon.png",
+        "name": "Protector"
+    },
+    "pusher": {
+        "icon": "sub_pusher_icon.png",
+        "name": "Push Stroker"
+    },
+    "reaper": {
+        "icon": "sub_reaper_icon.png",
+        "name": "Reaper"
+    },
+    "reaperrange": {
+        "icon": "sub_reaperrange_icon.png",
+        "name": "Spreadshooter"
+    },
+    "ringhealer": {
+        "icon": "sub_ringhealer_icon.png",
+        "name": "Multi-target Medic"
+    },
+    "ritualist": {
+        "icon": "sub_ritualist_icon.png",
+        "name": "Ritualist"
+    },
+    "shotprotector": {
+        "icon": "sub_shotprotector_icon.png",
+        "name": "Sentry Protector"
+    },
+    "siegesniper": {
+        "icon": "sub_siegesniper_icon.png",
+        "name": "Beseiger"
+    },
+    "skywalker": {
+        "icon": "sub_skywalker_icon.png",
+        "name": "Skyranger"
+    },
+    "slower": {
+        "icon": "sub_slower_icon.png",
+        "name": "Decel Binder"
+    },
+    "soulcaster": {
+        "icon": "sub_soulcaster_icon.png",
+        "name": "Shaper Caster"
+    },
+    "splashcaster": {
+        "icon": "sub_splashcaster_icon.png",
+        "name": "Splash Caster"
+    },
+    "stalker": {
+        "icon": "sub_stalker_icon.png",
+        "name": "Ambusher"
+    },
+    "summoner": {
+        "icon": "sub_summoner_icon.png",
+        "name": "Summoner"
+    },
+    "sword": {
+        "icon": "sub_sword_icon.png",
+        "name": "Swordmaster"
+    },
+    "tactician": {
+        "icon": "sub_tactician_icon.png",
+        "name": "Tactician"
+    },
+    "traper": {
+        "icon": "sub_traper_icon.png",
+        "name": "Trapmaster"
+    },
+    "underminer": {
+        "icon": "sub_underminer_icon.png",
+        "name": "Hexer"
+    },
+    "unyield": {
+        "icon": "sub_unyield_icon.png",
+        "name": "Juggernaut"
+    },
+    "wandermedic": {
+        "icon": "sub_wandermedic_icon.png",
+        "name": "Wanderer Medic"
+    }
+}
