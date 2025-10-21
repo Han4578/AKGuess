@@ -1,0 +1,217 @@
+:root {
+    --white: rgba(240, 248, 255, 0.8)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-image: url("./images/wallpaper/EXDR9RAi.jpeg");
+    background-color: grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    aspect-ratio: 2;
+}
+
+.frame {
+    height: 100%;
+    width: 130vw;
+    display: flex;
+    transition: all 1s;
+}
+
+.frame.show-menu {
+    width: 100vw;
+}
+
+.shade {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5vh 5vw;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    gap: 4vh;
+}
+
+.guess-table {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 3fr 2fr 2fr 1fr 1fr 2fr 2fr 2fr;
+    gap: 2px;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+.guess-slot {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    word-break: normal;
+    pointer-events: auto;
+}
+
+.guess-slot.correct {
+    background-color: green;
+}
+
+.guess-slot.wrong {
+    background-color: red;
+}
+
+.guess-slot.kinda {
+    background-color: orange;
+}
+
+.tooltip {
+    opacity: 0;
+    position: absolute;
+    padding: 5px 10px;
+    background-color: var(--white);
+    color: black;
+    bottom: 50%;
+    border-radius: 5px;
+    z-index: 1;
+    transition: 0.2s;
+    word-break: normal;
+    pointer-events: none;
+}
+
+.guess-slot:hover .tooltip, .menu-item:hover .tooltip {
+    opacity: 1;
+    bottom: 100%;
+    pointer-events: all;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+#guess {
+    flex-shrink: 0;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.2em;
+    height: 2.4em;
+    text-align: start;
+    padding: 0 1%;
+}
+
+.suggestion-list.show {
+    visibility: visible;
+}
+
+div:has(.suggestion-list) {
+    position: relative;
+}
+
+.suggestion-list {
+    visibility: hidden;
+    background-color: var(--white);
+    position: absolute;
+    top: 105%;
+    max-height: 50vh;
+    overflow: auto;
+    justify-content: start;
+    z-index: 2;
+}
+
+.suggestion {
+    color: black;
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    height: 80px;
+    padding: 5px;
+}
+
+.suggestion:hover, .suggestion.selected {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.suggestion img {
+    aspect-ratio: 1;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.44); */
+    /* padding: 5px; */
+}
+
+.suggestion div {
+    margin: auto 5%;
+    font-size: 1.2em;
+}
+
+.operator-menu {
+    width: 30vw;
+    height: 100%;
+    flex-shrink: 0;
+    background-color: rgb(233, 233, 233);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2%;
+    padding: 1%;
+    overflow-y: auto;
+}
+
+.menu-item {
+    position: relative;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.menu-item img {
+    width: 100%;
+}
+
+#win {
+    display: none;
+    background-color: lime;
+    color: black;
+    width: 100%;
+    padding: 0.5em;
+}
+
+#win.show {
+    display: block;
+}

@@ -2,7 +2,7 @@ from re import search
 from tools import *
 
 ops = load_from("data/operators.json")
-profiles = load_from("data/handbook_info_table.json")["handbookDict"]
+profiles = load_from("data/python/handbook_info_table.json")["handbookDict"]
 born_map = load_from("data/map/born.json")
 
 for id, prof in profiles.items():
@@ -12,16 +12,18 @@ for id, prof in profiles.items():
         txt = prof["storyTextAudio"][0]["stories"][0]["storyText"]
         result = search(r"\[Place of Birth\](.*)\n\[Date of Birth\].*\n\[Race\](.*)\n", txt)
 
-        try:
-            if result:
-                o["born"] = born_map[result.group(1).strip()]
-                o["race"] = result.group(2).strip()
+        if result:
+            race = result.group(2)
+            o["born"] = born_map[result.group(1).strip()]
+            
+            if "Chimera" in race:
+                o["race"] = "Cautus"    
+            elif "Unknown" in race or "Undisclosed" in race:
+                o["race"] = "Unknown/​Undisclosed"
             else:
-                o["born"] = born_map[search(r"\[Place of Production\] (.*)\n", txt).group(1).strip()]
-                o["race"] = "Robot"   
-        except:
-            print(txt)                                                      
+                o["race"] = race.strip()
+        else:
+            o["born"] = born_map[search(r"\[Place of Production\] (.*)\n", txt).group(1).strip()]
+            o["race"] = "Robot"                                                  
 
-
-with open("data/operators.json", "w", encoding="utf-8") as f:
-    json.dump(ops, f, indent=4)
+dump_to(ops, "data/operators.json")

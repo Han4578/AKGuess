@@ -2,20 +2,20 @@
     "char_002_amiya": {
         "name": "Amiya",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 20,
         "rarity": 5,
         "born": "Rim Billiton",
         "faction": [
             "rhodes"
         ],
-        "race": "Cautus/Chimera",
+        "race": "Cautus",
         "icon": "char_002_amiya.webp"
     },
     "char_003_kalts": {
         "name": "Kal'tsit",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 20,
         "rarity": 6,
         "born": "Rhodes Island",
@@ -28,10 +28,10 @@
     "char_009_12fce": {
         "name": "12F",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 24,
         "rarity": 2,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -41,7 +41,7 @@
     "char_010_chen": {
         "name": "Ch'en",
         "class": "WARRIOR",
-        "subClass": "sword",
+        "subclass": "sword",
         "dp": 23,
         "rarity": 6,
         "born": "Lungmen",
@@ -55,7 +55,7 @@
     "char_017_huang": {
         "name": "Blaze",
         "class": "WARRIOR",
-        "subClass": "centurion",
+        "subclass": "centurion",
         "dp": 24,
         "rarity": 6,
         "born": "Victoria",
@@ -69,21 +69,21 @@
     "char_101_sora": {
         "name": "Sora",
         "class": "SUPPORT",
-        "subClass": "bard",
+        "subclass": "bard",
         "dp": 7,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "lungmen",
             "penguin"
         ],
-        "race": "Unknown as requested by management agency",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_101_sora.webp"
     },
     "char_102_texas": {
         "name": "Texas",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 13,
         "rarity": 5,
         "born": "Columbia",
@@ -97,7 +97,7 @@
     "char_103_angel": {
         "name": "Exusiai",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 14,
         "rarity": 6,
         "born": "Laterano",
@@ -111,7 +111,7 @@
     "char_106_franka": {
         "name": "Franka",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 18,
         "rarity": 5,
         "born": "Columbia",
@@ -125,7 +125,7 @@
     "char_107_liskam": {
         "name": "Liskarm",
         "class": "TANK",
-        "subClass": "shotprotector",
+        "subclass": "shotprotector",
         "dp": 22,
         "rarity": 5,
         "born": "Vouivre",
@@ -139,7 +139,7 @@
     "char_108_silent": {
         "name": "Silence",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 19,
         "rarity": 5,
         "born": "Columbia",
@@ -153,7 +153,7 @@
     "char_109_fmout": {
         "name": "Gitano",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 32,
         "rarity": 4,
         "born": "Sami",
@@ -166,20 +166,20 @@
     "char_110_deepcl": {
         "name": "Deepcolor",
         "class": "SUPPORT",
-        "subClass": "summoner",
+        "subclass": "summoner",
         "dp": 10,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "egir"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_110_deepcl.webp"
     },
     "char_112_siege": {
         "name": "Siege",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 14,
         "rarity": 6,
         "born": "Victoria",
@@ -193,7 +193,7 @@
     "char_113_cqbw": {
         "name": "W",
         "class": "SNIPER",
-        "subClass": "aoesniper",
+        "subclass": "aoesniper",
         "dp": 29,
         "rarity": 6,
         "born": "Kazdel",
@@ -206,7 +206,7 @@
     "char_115_headbr": {
         "name": "Zima",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 13,
         "rarity": 5,
         "born": "Ursus",
@@ -220,10 +220,10 @@
     "char_117_myrrh": {
         "name": "Myrrh",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 18,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -233,7 +233,7 @@
     "char_118_yuki": {
         "name": "Shirayuki",
         "class": "SNIPER",
-        "subClass": "aoesniper",
+        "subclass": "aoesniper",
         "dp": 27,
         "rarity": 4,
         "born": "Higashi",
@@ -246,7 +246,7 @@
     "char_120_hibisc": {
         "name": "Hibiscus",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 17,
         "rarity": 3,
         "born": "Victoria",
@@ -260,7 +260,7 @@
     "char_121_lava": {
         "name": "Lava",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 30,
         "rarity": 3,
         "born": "Victoria",
@@ -274,7 +274,7 @@
     "char_122_beagle": {
         "name": "Beagle",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 18,
         "rarity": 3,
         "born": "Bol\u00edvar",
@@ -288,7 +288,7 @@
     "char_123_fang": {
         "name": "Fang",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 11,
         "rarity": 3,
         "born": "Kazimierz",
@@ -302,7 +302,7 @@
     "char_124_kroos": {
         "name": "Kroos",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 11,
         "rarity": 3,
         "born": "Rim Billiton",
@@ -316,7 +316,7 @@
     "char_126_shotst": {
         "name": "Meteor",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 12,
         "rarity": 4,
         "born": "Kazimierz",
@@ -329,10 +329,10 @@
     "char_127_estell": {
         "name": "Estelle",
         "class": "WARRIOR",
-        "subClass": "centurion",
+        "subclass": "centurion",
         "dp": 22,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "sargon"
         ],
@@ -342,7 +342,7 @@
     "char_128_plosis": {
         "name": "Ptilopsis",
         "class": "MEDIC",
-        "subClass": "ringhealer",
+        "subclass": "ringhealer",
         "dp": 17,
         "rarity": 5,
         "born": "Columbia",
@@ -356,10 +356,10 @@
     "char_129_bluep": {
         "name": "Blue Poison",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 13,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "iberia"
         ],
@@ -369,7 +369,7 @@
     "char_130_doberm": {
         "name": "Dobermann",
         "class": "WARRIOR",
-        "subClass": "instructor",
+        "subclass": "instructor",
         "dp": 15,
         "rarity": 4,
         "born": "Bol\u00edvar",
@@ -382,7 +382,7 @@
     "char_131_flameb": {
         "name": "Flamebringer",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 20,
         "rarity": 5,
         "born": "Kazdel",
@@ -395,7 +395,7 @@
     "char_133_mm": {
         "name": "May",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 12,
         "rarity": 4,
         "born": "Victoria",
@@ -408,10 +408,10 @@
     "char_134_ifrit": {
         "name": "Ifrit",
         "class": "CASTER",
-        "subClass": "blastcaster",
+        "subclass": "blastcaster",
         "dp": 34,
         "rarity": 6,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "columbia",
             "rhine"
@@ -422,7 +422,7 @@
     "char_135_halo": {
         "name": "Astgenne",
         "class": "CASTER",
-        "subClass": "chain",
+        "subclass": "chain",
         "dp": 34,
         "rarity": 5,
         "born": "Columbia",
@@ -436,7 +436,7 @@
     "char_136_hsguma": {
         "name": "Hoshiguma",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 23,
         "rarity": 6,
         "born": "Higashi",
@@ -450,7 +450,7 @@
     "char_137_brownb": {
         "name": "Beehunter",
         "class": "WARRIOR",
-        "subClass": "fighter",
+        "subclass": "fighter",
         "dp": 9,
         "rarity": 4,
         "born": "Ursus",
@@ -463,7 +463,7 @@
     "char_140_whitew": {
         "name": "Lappland",
         "class": "WARRIOR",
-        "subClass": "lord",
+        "subclass": "lord",
         "dp": 19,
         "rarity": 5,
         "born": "Siracusa",
@@ -476,7 +476,7 @@
     "char_141_nights": {
         "name": "Haze",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 19,
         "rarity": 4,
         "born": "Victoria",
@@ -489,7 +489,7 @@
     "char_143_ghost": {
         "name": "Specter",
         "class": "WARRIOR",
-        "subClass": "centurion",
+        "subclass": "centurion",
         "dp": 23,
         "rarity": 5,
         "born": "\u00c6gir",
@@ -497,16 +497,16 @@
             "egir",
             "abyssal"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_143_ghost.webp"
     },
     "char_144_red": {
         "name": "Projekt Red",
         "class": "SPECIAL",
-        "subClass": "executor",
+        "subclass": "executor",
         "dp": 9,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes",
             "sweep"
@@ -517,7 +517,7 @@
     "char_145_prove": {
         "name": "Provence",
         "class": "SNIPER",
-        "subClass": "closerange",
+        "subclass": "closerange",
         "dp": 19,
         "rarity": 5,
         "born": "Siracusa",
@@ -530,7 +530,7 @@
     "char_147_shining": {
         "name": "Shining",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 20,
         "rarity": 6,
         "born": "Kazdel",
@@ -543,7 +543,7 @@
     "char_148_nearl": {
         "name": "Nearl",
         "class": "TANK",
-        "subClass": "guardian",
+        "subclass": "guardian",
         "dp": 21,
         "rarity": 5,
         "born": "Kazimierz",
@@ -556,10 +556,10 @@
     "char_149_scave": {
         "name": "Scavenger",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 12,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes",
             "sweep"
@@ -570,10 +570,10 @@
     "char_150_snakek": {
         "name": "Cuora",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 21,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "columbia"
         ],
@@ -583,10 +583,10 @@
     "char_151_myrtle": {
         "name": "Myrtle",
         "class": "PIONEER",
-        "subClass": "bearer",
+        "subclass": "bearer",
         "dp": 10,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -596,7 +596,7 @@
     "char_154_morgan": {
         "name": "Morgan",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 20,
         "rarity": 5,
         "born": "Victoria",
@@ -610,10 +610,10 @@
     "char_155_tiger": {
         "name": "Indra",
         "class": "WARRIOR",
-        "subClass": "fighter",
+        "subclass": "fighter",
         "dp": 10,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "victoria",
             "glasgow"
@@ -624,7 +624,7 @@
     "char_157_dagda": {
         "name": "Dagda",
         "class": "WARRIOR",
-        "subClass": "fighter",
+        "subclass": "fighter",
         "dp": 12,
         "rarity": 5,
         "born": "Victoria",
@@ -638,10 +638,10 @@
     "char_158_milu": {
         "name": "Firewatch",
         "class": "SNIPER",
-        "subClass": "longrange",
+        "subclass": "longrange",
         "dp": 21,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -651,20 +651,20 @@
     "char_159_peacok": {
         "name": "Conviction",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 16,
         "rarity": 4,
         "born": "Minos",
         "faction": [
             "minos"
         ],
-        "race": "Unknown (Suspected Liberi)",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_159_peacok.webp"
     },
     "char_163_hpsts": {
         "name": "Vulcan",
         "class": "TANK",
-        "subClass": "unyield",
+        "subclass": "unyield",
         "dp": 35,
         "rarity": 5,
         "born": "Minos",
@@ -677,7 +677,7 @@
     "char_164_nightm": {
         "name": "Nightmare",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 20,
         "rarity": 5,
         "born": "Victoria",
@@ -690,7 +690,7 @@
     "char_166_skfire": {
         "name": "Skyfire",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 33,
         "rarity": 5,
         "born": "Victoria",
@@ -703,7 +703,7 @@
     "char_171_bldsk": {
         "name": "Warfarin",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 19,
         "rarity": 5,
         "born": "Kazdel",
@@ -716,7 +716,7 @@
     "char_172_svrash": {
         "name": "SilverAsh",
         "class": "WARRIOR",
-        "subClass": "lord",
+        "subclass": "lord",
         "dp": 20,
         "rarity": 6,
         "born": "Kjerag",
@@ -730,7 +730,7 @@
     "char_173_slchan": {
         "name": "Cliffheart",
         "class": "SPECIAL",
-        "subClass": "hookmaster",
+        "subclass": "hookmaster",
         "dp": 13,
         "rarity": 5,
         "born": "Kjerag",
@@ -744,7 +744,7 @@
     "char_174_slbell": {
         "name": "Pramanix",
         "class": "SUPPORT",
-        "subClass": "underminer",
+        "subclass": "underminer",
         "dp": 12,
         "rarity": 5,
         "born": "Kjerag",
@@ -758,7 +758,7 @@
     "char_179_cgbird": {
         "name": "Nightingale",
         "class": "MEDIC",
-        "subClass": "ringhealer",
+        "subclass": "ringhealer",
         "dp": 18,
         "rarity": 6,
         "born": "Kazdel",
@@ -771,7 +771,7 @@
     "char_180_amgoat": {
         "name": "Eyjafjalla",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 21,
         "rarity": 6,
         "born": "Leithanien",
@@ -784,7 +784,7 @@
     "char_181_flower": {
         "name": "Perfumer",
         "class": "MEDIC",
-        "subClass": "ringhealer",
+        "subclass": "ringhealer",
         "dp": 16,
         "rarity": 4,
         "born": "Minos",
@@ -797,7 +797,7 @@
     "char_183_skgoat": {
         "name": "Earthspirit",
         "class": "SUPPORT",
-        "subClass": "slower",
+        "subclass": "slower",
         "dp": 14,
         "rarity": 4,
         "born": "Leithanien",
@@ -810,7 +810,7 @@
     "char_185_frncat": {
         "name": "Mousse",
         "class": "WARRIOR",
-        "subClass": "artsfghter",
+        "subclass": "artsfghter",
         "dp": 20,
         "rarity": 4,
         "born": "Victoria",
@@ -823,10 +823,10 @@
     "char_187_ccheal": {
         "name": "Gavial",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 18,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -836,7 +836,7 @@
     "char_188_helage": {
         "name": "Hellagur",
         "class": "WARRIOR",
-        "subClass": "musha",
+        "subclass": "musha",
         "dp": 26,
         "rarity": 6,
         "born": "Ursus",
@@ -849,10 +849,10 @@
     "char_190_clour": {
         "name": "Vermeil",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 12,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "siracusa"
         ],
@@ -862,7 +862,7 @@
     "char_192_falco": {
         "name": "Plume",
         "class": "PIONEER",
-        "subClass": "charger",
+        "subclass": "charger",
         "dp": 10,
         "rarity": 3,
         "born": "Laterano",
@@ -875,7 +875,7 @@
     "char_193_frostl": {
         "name": "Frostleaf",
         "class": "WARRIOR",
-        "subClass": "lord",
+        "subclass": "lord",
         "dp": 18,
         "rarity": 4,
         "born": "Columbia",
@@ -888,7 +888,7 @@
     "char_194_leto": {
         "name": "Leto",
         "class": "WARRIOR",
-        "subClass": "lord",
+        "subclass": "lord",
         "dp": 19,
         "rarity": 5,
         "born": "Ursus",
@@ -902,7 +902,7 @@
     "char_195_glassb": {
         "name": "Istina",
         "class": "SUPPORT",
-        "subClass": "slower",
+        "subclass": "slower",
         "dp": 15,
         "rarity": 5,
         "born": "Ursus",
@@ -916,7 +916,7 @@
     "char_196_sunbr": {
         "name": "Gummy",
         "class": "TANK",
-        "subClass": "guardian",
+        "subclass": "guardian",
         "dp": 20,
         "rarity": 4,
         "born": "Ursus",
@@ -930,7 +930,7 @@
     "char_197_poca": {
         "name": "Rosa",
         "class": "SNIPER",
-        "subClass": "siegesniper",
+        "subclass": "siegesniper",
         "dp": 24,
         "rarity": 6,
         "born": "Ursus",
@@ -944,7 +944,7 @@
     "char_198_blackd": {
         "name": "Courier",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 12,
         "rarity": 4,
         "born": "Kjerag",
@@ -958,7 +958,7 @@
     "char_199_yak": {
         "name": "Matterhorn",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 21,
         "rarity": 4,
         "born": "Kjerag",
@@ -972,7 +972,7 @@
     "char_201_moeshd": {
         "name": "Croissant",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 22,
         "rarity": 5,
         "born": "Minos",
@@ -986,7 +986,7 @@
     "char_202_demkni": {
         "name": "Saria",
         "class": "TANK",
-        "subClass": "guardian",
+        "subclass": "guardian",
         "dp": 22,
         "rarity": 6,
         "born": "Columbia",
@@ -1000,7 +1000,7 @@
     "char_204_platnm": {
         "name": "Platinum",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 13,
         "rarity": 5,
         "born": "Kazimierz",
@@ -1013,7 +1013,7 @@
     "char_206_gnosis": {
         "name": "Gnosis",
         "class": "SUPPORT",
-        "subClass": "underminer",
+        "subclass": "underminer",
         "dp": 13,
         "rarity": 6,
         "born": "Kjerag",
@@ -1027,7 +1027,7 @@
     "char_208_melan": {
         "name": "Melantha",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 15,
         "rarity": 3,
         "born": "Victoria",
@@ -1041,7 +1041,7 @@
     "char_209_ardign": {
         "name": "Cardigan",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 18,
         "rarity": 3,
         "born": "Leithanien",
@@ -1055,7 +1055,7 @@
     "char_210_stward": {
         "name": "Steward",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 18,
         "rarity": 3,
         "born": "Kjerag",
@@ -1069,7 +1069,7 @@
     "char_211_adnach": {
         "name": "Adnachiel",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 11,
         "rarity": 3,
         "born": "Laterano",
@@ -1083,7 +1083,7 @@
     "char_212_ansel": {
         "name": "Ansel",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 17,
         "rarity": 3,
         "born": "Rim Billiton",
@@ -1097,20 +1097,20 @@
     "char_213_mostma": {
         "name": "Mostima",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 34,
         "rarity": 6,
         "born": "Laterano",
         "faction": [
             "laterano"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_213_mostma.webp"
     },
     "char_214_kafka": {
         "name": "Kafka",
         "class": "SPECIAL",
-        "subClass": "executor",
+        "subclass": "executor",
         "dp": 9,
         "rarity": 5,
         "born": "Columbia",
@@ -1123,7 +1123,7 @@
     "char_215_mantic": {
         "name": "Manticore",
         "class": "SPECIAL",
-        "subClass": "stalker",
+        "subclass": "stalker",
         "dp": 20,
         "rarity": 5,
         "born": "Sargon",
@@ -1136,7 +1136,7 @@
     "char_218_cuttle": {
         "name": "Andreana",
         "class": "SNIPER",
-        "subClass": "longrange",
+        "subclass": "longrange",
         "dp": 21,
         "rarity": 5,
         "born": "Iberia",
@@ -1150,7 +1150,7 @@
     "char_219_meteo": {
         "name": "Meteorite",
         "class": "SNIPER",
-        "subClass": "aoesniper",
+        "subclass": "aoesniper",
         "dp": 28,
         "rarity": 5,
         "born": "Kazdel",
@@ -1163,7 +1163,7 @@
     "char_220_grani": {
         "name": "Grani",
         "class": "PIONEER",
-        "subClass": "charger",
+        "subclass": "charger",
         "dp": 14,
         "rarity": 5,
         "born": "Victoria",
@@ -1176,7 +1176,7 @@
     "char_222_bpipe": {
         "name": "Bagpipe",
         "class": "PIONEER",
-        "subClass": "charger",
+        "subclass": "charger",
         "dp": 13,
         "rarity": 6,
         "born": "Victoria",
@@ -1189,7 +1189,7 @@
     "char_225_haak": {
         "name": "Aak",
         "class": "SPECIAL",
-        "subClass": "geek",
+        "subclass": "geek",
         "dp": 13,
         "rarity": 6,
         "born": "Lungmen",
@@ -1203,7 +1203,7 @@
     "char_226_hmau": {
         "name": "Hung",
         "class": "TANK",
-        "subClass": "guardian",
+        "subclass": "guardian",
         "dp": 21,
         "rarity": 5,
         "born": "Lungmen",
@@ -1217,7 +1217,7 @@
     "char_230_savage": {
         "name": "Savage",
         "class": "WARRIOR",
-        "subClass": "centurion",
+        "subclass": "centurion",
         "dp": 22,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -1230,7 +1230,7 @@
     "char_235_jesica": {
         "name": "Jessica",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 12,
         "rarity": 4,
         "born": "Victoria",
@@ -1244,7 +1244,7 @@
     "char_236_rope": {
         "name": "Rope",
         "class": "SPECIAL",
-        "subClass": "hookmaster",
+        "subclass": "hookmaster",
         "dp": 12,
         "rarity": 4,
         "born": "Rim Billiton",
@@ -1257,7 +1257,7 @@
     "char_237_gravel": {
         "name": "Gravel",
         "class": "SPECIAL",
-        "subClass": "executor",
+        "subclass": "executor",
         "dp": 8,
         "rarity": 4,
         "born": "Kazimierz",
@@ -1270,7 +1270,7 @@
     "char_240_wyvern": {
         "name": "Vanilla",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 11,
         "rarity": 3,
         "born": "Vouivre",
@@ -1284,7 +1284,7 @@
     "char_241_panda": {
         "name": "FEater",
         "class": "SPECIAL",
-        "subClass": "pusher",
+        "subclass": "pusher",
         "dp": 20,
         "rarity": 5,
         "born": "Yan",
@@ -1297,7 +1297,7 @@
     "char_242_otter": {
         "name": "Mayer",
         "class": "SUPPORT",
-        "subClass": "summoner",
+        "subclass": "summoner",
         "dp": 11,
         "rarity": 5,
         "born": "Columbia",
@@ -1311,7 +1311,7 @@
     "char_243_waaifu": {
         "name": "Waai Fu",
         "class": "SPECIAL",
-        "subClass": "executor",
+        "subclass": "executor",
         "dp": 9,
         "rarity": 5,
         "born": "Yan",
@@ -1325,7 +1325,7 @@
     "char_245_cello": {
         "name": "Virtuosa",
         "class": "SUPPORT",
-        "subClass": "ritualist",
+        "subclass": "ritualist",
         "dp": 16,
         "rarity": 6,
         "born": "Laterano",
@@ -1338,7 +1338,7 @@
     "char_248_mgllan": {
         "name": "Magallan",
         "class": "SUPPORT",
-        "subClass": "summoner",
+        "subclass": "summoner",
         "dp": 12,
         "rarity": 6,
         "born": "Columbia",
@@ -1352,10 +1352,10 @@
     "char_249_mlyss": {
         "name": "Muelsyse",
         "class": "PIONEER",
-        "subClass": "tactician",
+        "subclass": "tactician",
         "dp": 15,
         "rarity": 6,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "columbia",
             "rhine"
@@ -1366,7 +1366,7 @@
     "char_250_phatom": {
         "name": "Phantom",
         "class": "SPECIAL",
-        "subClass": "executor",
+        "subclass": "executor",
         "dp": 10,
         "rarity": 6,
         "born": "Victoria",
@@ -1379,7 +1379,7 @@
     "char_252_bibeak": {
         "name": "Bibeak",
         "class": "WARRIOR",
-        "subClass": "sword",
+        "subclass": "sword",
         "dp": 22,
         "rarity": 5,
         "born": "Sami",
@@ -1392,7 +1392,7 @@
     "char_253_greyy": {
         "name": "Greyy",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 32,
         "rarity": 4,
         "born": "Bol\u00edvar",
@@ -1405,7 +1405,7 @@
     "char_254_vodfox": {
         "name": "Shamare",
         "class": "SUPPORT",
-        "subClass": "underminer",
+        "subclass": "underminer",
         "dp": 12,
         "rarity": 5,
         "born": "Siracusa",
@@ -1418,7 +1418,7 @@
     "char_258_podego": {
         "name": "Podenco",
         "class": "SUPPORT",
-        "subClass": "slower",
+        "subclass": "slower",
         "dp": 14,
         "rarity": 4,
         "born": "Bol\u00edvar",
@@ -1431,7 +1431,7 @@
     "char_260_durnar": {
         "name": "Dur-nar",
         "class": "TANK",
-        "subClass": "artsprotector",
+        "subclass": "artsprotector",
         "dp": 24,
         "rarity": 4,
         "born": "Columbia",
@@ -1444,7 +1444,7 @@
     "char_261_sddrag": {
         "name": "Reed",
         "class": "PIONEER",
-        "subClass": "charger",
+        "subclass": "charger",
         "dp": 12,
         "rarity": 5,
         "born": "Victoria",
@@ -1457,7 +1457,7 @@
     "char_263_skadi": {
         "name": "Skadi",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 19,
         "rarity": 6,
         "born": "\u00c6gir",
@@ -1465,13 +1465,13 @@
             "egir",
             "abyssal"
         ],
-        "race": "Unknown",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_263_skadi.webp"
     },
     "char_264_f12yin": {
         "name": "Mountain",
         "class": "WARRIOR",
-        "subClass": "fighter",
+        "subclass": "fighter",
         "dp": 11,
         "rarity": 6,
         "born": "Columbia",
@@ -1484,7 +1484,7 @@
     "char_265_sophia": {
         "name": "Whislash",
         "class": "WARRIOR",
-        "subClass": "instructor",
+        "subclass": "instructor",
         "dp": 18,
         "rarity": 5,
         "born": "Kazimierz",
@@ -1497,7 +1497,7 @@
     "char_271_spikes": {
         "name": "Arene",
         "class": "WARRIOR",
-        "subClass": "lord",
+        "subclass": "lord",
         "dp": 18,
         "rarity": 4,
         "born": "Laterano",
@@ -1510,7 +1510,7 @@
     "char_272_strong": {
         "name": "Jaye",
         "class": "SPECIAL",
-        "subClass": "merchant",
+        "subclass": "merchant",
         "dp": 7,
         "rarity": 4,
         "born": "Lungmen",
@@ -1523,7 +1523,7 @@
     "char_274_astesi": {
         "name": "Astesia",
         "class": "WARRIOR",
-        "subClass": "artsfghter",
+        "subclass": "artsfghter",
         "dp": 21,
         "rarity": 5,
         "born": "Columbia",
@@ -1536,7 +1536,7 @@
     "char_275_breeze": {
         "name": "Breeze",
         "class": "MEDIC",
-        "subClass": "ringhealer",
+        "subclass": "ringhealer",
         "dp": 17,
         "rarity": 5,
         "born": "Victoria",
@@ -1549,7 +1549,7 @@
     "char_277_sqrrel": {
         "name": "Shaw",
         "class": "SPECIAL",
-        "subClass": "pusher",
+        "subclass": "pusher",
         "dp": 19,
         "rarity": 4,
         "born": "Lungmen",
@@ -1562,7 +1562,7 @@
     "char_278_orchid": {
         "name": "Orchid",
         "class": "SUPPORT",
-        "subClass": "slower",
+        "subclass": "slower",
         "dp": 12,
         "rarity": 3,
         "born": "Columbia",
@@ -1576,7 +1576,7 @@
     "char_279_excu": {
         "name": "Executor",
         "class": "SNIPER",
-        "subClass": "reaperrange",
+        "subclass": "reaperrange",
         "dp": 31,
         "rarity": 5,
         "born": "Laterano",
@@ -1589,7 +1589,7 @@
     "char_281_popka": {
         "name": "Popukar",
         "class": "WARRIOR",
-        "subClass": "centurion",
+        "subclass": "centurion",
         "dp": 19,
         "rarity": 3,
         "born": "Rim Billiton",
@@ -1603,7 +1603,7 @@
     "char_282_catap": {
         "name": "Catapult",
         "class": "SNIPER",
-        "subClass": "aoesniper",
+        "subclass": "aoesniper",
         "dp": 23,
         "rarity": 3,
         "born": "Kazimierz",
@@ -1617,7 +1617,7 @@
     "char_283_midn": {
         "name": "Midnight",
         "class": "WARRIOR",
-        "subClass": "lord",
+        "subclass": "lord",
         "dp": 16,
         "rarity": 3,
         "born": "Higashi",
@@ -1631,7 +1631,7 @@
     "char_284_spot": {
         "name": "Spot",
         "class": "TANK",
-        "subClass": "guardian",
+        "subclass": "guardian",
         "dp": 17,
         "rarity": 3,
         "born": "Sargon",
@@ -1645,7 +1645,7 @@
     "char_285_medic2": {
         "name": "Lancet-2",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 3,
         "rarity": 1,
         "born": "Columbia",
@@ -1658,7 +1658,7 @@
     "char_286_cast3": {
         "name": "Castle-3",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 3,
         "rarity": 1,
         "born": "Columbia",
@@ -1671,7 +1671,7 @@
     "char_289_gyuki": {
         "name": "Matoimaru",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 17,
         "rarity": 4,
         "born": "Higashi",
@@ -1684,7 +1684,7 @@
     "char_290_vigna": {
         "name": "Vigna",
         "class": "PIONEER",
-        "subClass": "charger",
+        "subclass": "charger",
         "dp": 11,
         "rarity": 4,
         "born": "Kazdel",
@@ -1697,7 +1697,7 @@
     "char_291_aglina": {
         "name": "Angelina",
         "class": "SUPPORT",
-        "subClass": "slower",
+        "subclass": "slower",
         "dp": 16,
         "rarity": 6,
         "born": "Siracusa",
@@ -1710,7 +1710,7 @@
     "char_293_thorns": {
         "name": "Thorns",
         "class": "WARRIOR",
-        "subClass": "lord",
+        "subclass": "lord",
         "dp": 20,
         "rarity": 6,
         "born": "Iberia",
@@ -1723,7 +1723,7 @@
     "char_294_ayer": {
         "name": "Ayerscarpe",
         "class": "WARRIOR",
-        "subClass": "lord",
+        "subclass": "lord",
         "dp": 19,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -1736,7 +1736,7 @@
     "char_297_hamoni": {
         "name": "Harmonie",
         "class": "CASTER",
-        "subClass": "mystic",
+        "subclass": "mystic",
         "dp": 24,
         "rarity": 5,
         "born": "Victoria",
@@ -1750,7 +1750,7 @@
     "char_298_susuro": {
         "name": "Sussurro",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 18,
         "rarity": 4,
         "born": "Siracusa",
@@ -1763,7 +1763,7 @@
     "char_300_phenxi": {
         "name": "Fiammetta",
         "class": "SNIPER",
-        "subClass": "aoesniper",
+        "subclass": "aoesniper",
         "dp": 29,
         "rarity": 6,
         "born": "Laterano",
@@ -1776,7 +1776,7 @@
     "char_301_cutter": {
         "name": "Cutter",
         "class": "WARRIOR",
-        "subClass": "sword",
+        "subclass": "sword",
         "dp": 21,
         "rarity": 4,
         "born": "Columbia",
@@ -1789,7 +1789,7 @@
     "char_302_glaze": {
         "name": "Ambriel",
         "class": "SNIPER",
-        "subClass": "longrange",
+        "subclass": "longrange",
         "dp": 20,
         "rarity": 4,
         "born": "Laterano",
@@ -1802,7 +1802,7 @@
     "char_304_zebra": {
         "name": "Heavyrain",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 24,
         "rarity": 5,
         "born": "Sargon",
@@ -1815,7 +1815,7 @@
     "char_306_leizi": {
         "name": "Leizi",
         "class": "CASTER",
-        "subClass": "chain",
+        "subclass": "chain",
         "dp": 32,
         "rarity": 5,
         "born": "Yan",
@@ -1828,7 +1828,7 @@
     "char_308_swire": {
         "name": "Swire",
         "class": "WARRIOR",
-        "subClass": "instructor",
+        "subclass": "instructor",
         "dp": 16,
         "rarity": 5,
         "born": "Lungmen",
@@ -1842,7 +1842,7 @@
     "char_311_mudrok": {
         "name": "Mudrock",
         "class": "TANK",
-        "subClass": "unyield",
+        "subclass": "unyield",
         "dp": 36,
         "rarity": 6,
         "born": "Kazdel",
@@ -1855,7 +1855,7 @@
     "char_322_lmlee": {
         "name": "Lee",
         "class": "SPECIAL",
-        "subClass": "merchant",
+        "subclass": "merchant",
         "dp": 9,
         "rarity": 6,
         "born": "Yan",
@@ -1869,7 +1869,7 @@
     "char_325_bison": {
         "name": "Bison",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 24,
         "rarity": 5,
         "born": "Lungmen",
@@ -1882,23 +1882,23 @@
     "char_326_glacus": {
         "name": "Glaucus",
         "class": "SUPPORT",
-        "subClass": "slower",
+        "subclass": "slower",
         "dp": 15,
         "rarity": 5,
         "born": "\u00c6gir",
         "faction": [
             "iberia"
         ],
-        "race": "Unknown",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_326_glacus.webp"
     },
     "char_328_cammou": {
         "name": "Click",
         "class": "CASTER",
-        "subClass": "funnel",
+        "subclass": "funnel",
         "dp": 20,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -1908,7 +1908,7 @@
     "char_332_archet": {
         "name": "Archetto",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 14,
         "rarity": 6,
         "born": "Laterano",
@@ -1921,7 +1921,7 @@
     "char_333_sidero": {
         "name": "Sideroca",
         "class": "WARRIOR",
-        "subClass": "artsfghter",
+        "subclass": "artsfghter",
         "dp": 23,
         "rarity": 5,
         "born": "Minos",
@@ -1934,7 +1934,7 @@
     "char_336_folivo": {
         "name": "Scene",
         "class": "SUPPORT",
-        "subClass": "summoner",
+        "subclass": "summoner",
         "dp": 11,
         "rarity": 5,
         "born": "Sargon",
@@ -1947,20 +1947,20 @@
     "char_337_utage": {
         "name": "Utage",
         "class": "WARRIOR",
-        "subClass": "musha",
+        "subclass": "musha",
         "dp": 24,
         "rarity": 4,
         "born": "Higashi",
         "faction": [
             "higashi"
         ],
-        "race": "Unknown",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_337_utage.webp"
     },
     "char_338_iris": {
         "name": "Iris",
         "class": "CASTER",
-        "subClass": "mystic",
+        "subclass": "mystic",
         "dp": 24,
         "rarity": 5,
         "born": "Victoria",
@@ -1973,7 +1973,7 @@
     "char_340_shwaz": {
         "name": "Schwarz",
         "class": "SNIPER",
-        "subClass": "closerange",
+        "subclass": "closerange",
         "dp": 20,
         "rarity": 6,
         "born": "Rim Billiton",
@@ -1987,7 +1987,7 @@
     "char_341_sntlla": {
         "name": "Santalla",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 33,
         "rarity": 5,
         "born": "Sami",
@@ -2000,7 +2000,7 @@
     "char_343_tknogi": {
         "name": "Tsukinogi",
         "class": "SUPPORT",
-        "subClass": "blessing",
+        "subclass": "blessing",
         "dp": 12,
         "rarity": 5,
         "born": "Higashi",
@@ -2013,7 +2013,7 @@
     "char_344_beewax": {
         "name": "Beeswax",
         "class": "CASTER",
-        "subClass": "phalanx",
+        "subclass": "phalanx",
         "dp": 23,
         "rarity": 5,
         "born": "Sargon",
@@ -2026,7 +2026,7 @@
     "char_345_folnic": {
         "name": "Folinic",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 21,
         "rarity": 5,
         "born": "Ursus",
@@ -2039,7 +2039,7 @@
     "char_346_aosta": {
         "name": "Aosta",
         "class": "SNIPER",
-        "subClass": "reaperrange",
+        "subclass": "reaperrange",
         "dp": 31,
         "rarity": 5,
         "born": "Siracusa",
@@ -2053,7 +2053,7 @@
     "char_347_jaksel": {
         "name": "Jackie",
         "class": "WARRIOR",
-        "subClass": "fighter",
+        "subclass": "fighter",
         "dp": 9,
         "rarity": 4,
         "born": "Columbia",
@@ -2066,7 +2066,7 @@
     "char_348_ceylon": {
         "name": "Ceylon",
         "class": "MEDIC",
-        "subClass": "healer",
+        "subclass": "healer",
         "dp": 22,
         "rarity": 5,
         "born": "Siesta",
@@ -2080,7 +2080,7 @@
     "char_349_chiave": {
         "name": "Chiave",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 13,
         "rarity": 5,
         "born": "Siracusa",
@@ -2094,10 +2094,10 @@
     "char_350_surtr": {
         "name": "Surtr",
         "class": "WARRIOR",
-        "subClass": "artsfghter",
+        "subclass": "artsfghter",
         "dp": 21,
         "rarity": 6,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -2107,10 +2107,10 @@
     "char_355_ethan": {
         "name": "Ethan",
         "class": "SPECIAL",
-        "subClass": "stalker",
+        "subclass": "stalker",
         "dp": 19,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -2120,7 +2120,7 @@
     "char_356_broca": {
         "name": "Broca",
         "class": "WARRIOR",
-        "subClass": "centurion",
+        "subclass": "centurion",
         "dp": 23,
         "rarity": 5,
         "born": "Siracusa",
@@ -2134,7 +2134,7 @@
     "char_358_lisa": {
         "name": "Suzuran",
         "class": "SUPPORT",
-        "subClass": "slower",
+        "subclass": "slower",
         "dp": 16,
         "rarity": 6,
         "born": "Higashi",
@@ -2147,7 +2147,7 @@
     "char_362_saga": {
         "name": "Saga",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 14,
         "rarity": 6,
         "born": "Higashi",
@@ -2160,7 +2160,7 @@
     "char_363_toddi": {
         "name": "Toddifons",
         "class": "SNIPER",
-        "subClass": "siegesniper",
+        "subclass": "siegesniper",
         "dp": 23,
         "rarity": 5,
         "born": "Victoria",
@@ -2173,7 +2173,7 @@
     "char_365_aprl": {
         "name": "April",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 13,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -2186,7 +2186,7 @@
     "char_366_acdrop": {
         "name": "Aciddrop",
         "class": "SNIPER",
-        "subClass": "closerange",
+        "subclass": "closerange",
         "dp": 18,
         "rarity": 4,
         "born": "Columbia",
@@ -2199,10 +2199,10 @@
     "char_367_swllow": {
         "name": "GreyThroat",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 13,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -2212,7 +2212,7 @@
     "char_369_bena": {
         "name": "Bena",
         "class": "SPECIAL",
-        "subClass": "dollkeeper",
+        "subclass": "dollkeeper",
         "dp": 17,
         "rarity": 5,
         "born": "Victoria",
@@ -2225,7 +2225,7 @@
     "char_373_lionhd": {
         "name": "Leonhardt",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 33,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -2238,7 +2238,7 @@
     "char_376_therex": {
         "name": "THRM-EX",
         "class": "SPECIAL",
-        "subClass": "executor",
+        "subclass": "executor",
         "dp": 3,
         "rarity": 1,
         "born": "Columbia",
@@ -2251,7 +2251,7 @@
     "char_377_gdglow": {
         "name": "Goldenglow",
         "class": "CASTER",
-        "subClass": "funnel",
+        "subclass": "funnel",
         "dp": 22,
         "rarity": 6,
         "born": "Victoria",
@@ -2264,7 +2264,7 @@
     "char_378_asbest": {
         "name": "Asbestos",
         "class": "TANK",
-        "subClass": "artsprotector",
+        "subclass": "artsprotector",
         "dp": 25,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -2277,7 +2277,7 @@
     "char_379_sesa": {
         "name": "Sesa",
         "class": "SNIPER",
-        "subClass": "aoesniper",
+        "subclass": "aoesniper",
         "dp": 28,
         "rarity": 5,
         "born": "Sargon",
@@ -2290,7 +2290,7 @@
     "char_381_bubble": {
         "name": "Bubble",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 21,
         "rarity": 4,
         "born": "Sargon",
@@ -2303,7 +2303,7 @@
     "char_383_snsant": {
         "name": "Snowsant",
         "class": "SPECIAL",
-        "subClass": "hookmaster",
+        "subclass": "hookmaster",
         "dp": 15,
         "rarity": 5,
         "born": "Lungmen",
@@ -2316,7 +2316,7 @@
     "char_385_finlpp": {
         "name": "Purestream",
         "class": "MEDIC",
-        "subClass": "healer",
+        "subclass": "healer",
         "dp": 19,
         "rarity": 4,
         "born": "Yan",
@@ -2329,7 +2329,7 @@
     "char_388_mint": {
         "name": "Mint",
         "class": "CASTER",
-        "subClass": "phalanx",
+        "subclass": "phalanx",
         "dp": 25,
         "rarity": 5,
         "born": "Victoria",
@@ -2342,7 +2342,7 @@
     "char_391_rosmon": {
         "name": "Rosmontis",
         "class": "SNIPER",
-        "subClass": "bombarder",
+        "subclass": "bombarder",
         "dp": 25,
         "rarity": 6,
         "born": "Columbia",
@@ -2356,7 +2356,7 @@
     "char_400_weedy": {
         "name": "Weedy",
         "class": "SPECIAL",
-        "subClass": "pusher",
+        "subclass": "pusher",
         "dp": 21,
         "rarity": 6,
         "born": "Iberia",
@@ -2369,7 +2369,7 @@
     "char_401_elysm": {
         "name": "Elysium",
         "class": "PIONEER",
-        "subClass": "bearer",
+        "subclass": "bearer",
         "dp": 11,
         "rarity": 5,
         "born": "Iberia",
@@ -2382,7 +2382,7 @@
     "char_402_tuye": {
         "name": "Tuye",
         "class": "MEDIC",
-        "subClass": "physician",
+        "subclass": "physician",
         "dp": 21,
         "rarity": 5,
         "born": "Sargon",
@@ -2395,7 +2395,7 @@
     "char_405_absin": {
         "name": "Absinthe",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 22,
         "rarity": 5,
         "born": "Ursus",
@@ -2408,7 +2408,7 @@
     "char_411_tomimi": {
         "name": "Tomimi",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 22,
         "rarity": 5,
         "born": "Sargon",
@@ -2421,7 +2421,7 @@
     "char_415_flint": {
         "name": "Flint",
         "class": "WARRIOR",
-        "subClass": "fighter",
+        "subclass": "fighter",
         "dp": 10,
         "rarity": 5,
         "born": "Sargon",
@@ -2434,7 +2434,7 @@
     "char_416_zumama": {
         "name": "Eunectes",
         "class": "TANK",
-        "subClass": "duelist",
+        "subclass": "duelist",
         "dp": 33,
         "rarity": 6,
         "born": "Sargon",
@@ -2447,7 +2447,7 @@
     "char_420_flamtl": {
         "name": "Flametail",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 14,
         "rarity": 6,
         "born": "Kazimierz",
@@ -2461,7 +2461,7 @@
     "char_421_crow": {
         "name": "La Pluma",
         "class": "WARRIOR",
-        "subClass": "reaper",
+        "subclass": "reaper",
         "dp": 22,
         "rarity": 5,
         "born": "Bol\u00edvar",
@@ -2474,7 +2474,7 @@
     "char_422_aurora": {
         "name": "Aurora",
         "class": "TANK",
-        "subClass": "duelist",
+        "subclass": "duelist",
         "dp": 32,
         "rarity": 5,
         "born": "Kjerag",
@@ -2488,7 +2488,7 @@
     "char_423_blemsh": {
         "name": "Blemishine",
         "class": "TANK",
-        "subClass": "guardian",
+        "subclass": "guardian",
         "dp": 22,
         "rarity": 6,
         "born": "Kazimierz",
@@ -2501,7 +2501,7 @@
     "char_426_billro": {
         "name": "Carnelian",
         "class": "CASTER",
-        "subClass": "phalanx",
+        "subclass": "phalanx",
         "dp": 24,
         "rarity": 6,
         "born": "Sargon",
@@ -2514,7 +2514,7 @@
     "char_427_vigil": {
         "name": "Vigil",
         "class": "PIONEER",
-        "subClass": "tactician",
+        "subclass": "tactician",
         "dp": 17,
         "rarity": 6,
         "born": "Siracusa",
@@ -2527,7 +2527,7 @@
     "char_430_fartth": {
         "name": "Fartooth",
         "class": "SNIPER",
-        "subClass": "longrange",
+        "subclass": "longrange",
         "dp": 22,
         "rarity": 6,
         "born": "Kazimierz",
@@ -2541,7 +2541,7 @@
     "char_431_ashlok": {
         "name": "Ashlock",
         "class": "TANK",
-        "subClass": "fortress",
+        "subclass": "fortress",
         "dp": 27,
         "rarity": 5,
         "born": "Kazimierz",
@@ -2555,7 +2555,7 @@
     "char_433_windft": {
         "name": "Windflit",
         "class": "SUPPORT",
-        "subClass": "craftsman",
+        "subclass": "craftsman",
         "dp": 18,
         "rarity": 5,
         "born": "Columbia",
@@ -2568,7 +2568,7 @@
     "char_436_whispr": {
         "name": "Whisperain",
         "class": "MEDIC",
-        "subClass": "healer",
+        "subclass": "healer",
         "dp": 20,
         "rarity": 5,
         "born": "Iberia",
@@ -2581,7 +2581,7 @@
     "char_437_mizuki": {
         "name": "Mizuki",
         "class": "SPECIAL",
-        "subClass": "stalker",
+        "subclass": "stalker",
         "dp": 21,
         "rarity": 6,
         "born": "Higashi",
@@ -2594,7 +2594,7 @@
     "char_440_pinecn": {
         "name": "Pinecone",
         "class": "SNIPER",
-        "subClass": "reaperrange",
+        "subclass": "reaperrange",
         "dp": 30,
         "rarity": 4,
         "born": "Columbia",
@@ -2607,7 +2607,7 @@
     "char_445_wscoot": {
         "name": "Windscoot",
         "class": "WARRIOR",
-        "subClass": "librator",
+        "subclass": "librator",
         "dp": 10,
         "rarity": 4,
         "born": "Yan",
@@ -2620,7 +2620,7 @@
     "char_446_aroma": {
         "name": "Aroma",
         "class": "CASTER",
-        "subClass": "blastcaster",
+        "subclass": "blastcaster",
         "dp": 33,
         "rarity": 5,
         "born": "Siracusa",
@@ -2633,7 +2633,7 @@
     "char_449_glider": {
         "name": "Honeyberry",
         "class": "MEDIC",
-        "subClass": "wandermedic",
+        "subclass": "wandermedic",
         "dp": 15,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -2646,7 +2646,7 @@
     "char_450_necras": {
         "name": "Necrass",
         "class": "CASTER",
-        "subClass": "soulcaster",
+        "subclass": "soulcaster",
         "dp": 21,
         "rarity": 6,
         "born": "Victoria",
@@ -2660,7 +2660,7 @@
     "char_451_robin": {
         "name": "Robin",
         "class": "SPECIAL",
-        "subClass": "traper",
+        "subclass": "traper",
         "dp": 13,
         "rarity": 5,
         "born": "Columbia",
@@ -2673,7 +2673,7 @@
     "char_452_bstalk": {
         "name": "Beanstalk",
         "class": "PIONEER",
-        "subClass": "tactician",
+        "subclass": "tactician",
         "dp": 13,
         "rarity": 4,
         "born": "Columbia",
@@ -2686,7 +2686,7 @@
     "char_455_nothin": {
         "name": "Mr. Nothing",
         "class": "SPECIAL",
-        "subClass": "merchant",
+        "subclass": "merchant",
         "dp": 8,
         "rarity": 5,
         "born": "Yan",
@@ -2699,59 +2699,59 @@
     "char_456_ash": {
         "name": "Ash",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 14,
         "rarity": 6,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rainbow"
         ],
-        "race": "Unknown",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_456_ash.webp"
     },
     "char_457_blitz": {
         "name": "Blitz",
         "class": "TANK",
-        "subClass": "shotprotector",
+        "subclass": "shotprotector",
         "dp": 22,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rainbow"
         ],
-        "race": "Unknown",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_457_blitz.webp"
     },
     "char_458_rfrost": {
         "name": "Frost",
         "class": "SPECIAL",
-        "subClass": "traper",
+        "subclass": "traper",
         "dp": 11,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rainbow"
         ],
-        "race": "Unknown",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_458_rfrost.webp"
     },
     "char_459_tachak": {
         "name": "Tachanka",
         "class": "WARRIOR",
-        "subClass": "sword",
+        "subclass": "sword",
         "dp": 24,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rainbow"
         ],
-        "race": "Unknown",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_459_tachak.webp"
     },
     "char_464_cement": {
         "name": "Cement",
         "class": "TANK",
-        "subClass": "duelist",
+        "subclass": "duelist",
         "dp": 32,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -2764,7 +2764,7 @@
     "char_466_qanik": {
         "name": "Qanipalaat",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 20,
         "rarity": 5,
         "born": "Sami",
@@ -2777,7 +2777,7 @@
     "char_469_indigo": {
         "name": "Indigo",
         "class": "CASTER",
-        "subClass": "mystic",
+        "subclass": "mystic",
         "dp": 23,
         "rarity": 4,
         "born": "Iberia",
@@ -2790,7 +2790,7 @@
     "char_472_pasngr": {
         "name": "Passenger",
         "class": "CASTER",
-        "subClass": "chain",
+        "subclass": "chain",
         "dp": 33,
         "rarity": 6,
         "born": "Columbia",
@@ -2803,7 +2803,7 @@
     "char_473_mberry": {
         "name": "Mulberry",
         "class": "MEDIC",
-        "subClass": "wandermedic",
+        "subclass": "wandermedic",
         "dp": 15,
         "rarity": 5,
         "born": "Yan",
@@ -2816,7 +2816,7 @@
     "char_474_glady": {
         "name": "Gladiia",
         "class": "SPECIAL",
-        "subClass": "hookmaster",
+        "subclass": "hookmaster",
         "dp": 16,
         "rarity": 6,
         "born": "\u00c6gir",
@@ -2824,13 +2824,13 @@
             "egir",
             "abyssal"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_474_glady.webp"
     },
     "char_475_akafyu": {
         "name": "Akafuyu",
         "class": "WARRIOR",
-        "subClass": "musha",
+        "subclass": "musha",
         "dp": 25,
         "rarity": 5,
         "born": "Higashi",
@@ -2843,7 +2843,7 @@
     "char_476_blkngt": {
         "name": "Blacknight",
         "class": "PIONEER",
-        "subClass": "tactician",
+        "subclass": "tactician",
         "dp": 14,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -2856,7 +2856,7 @@
     "char_478_kirara": {
         "name": "Kirara",
         "class": "SPECIAL",
-        "subClass": "stalker",
+        "subclass": "stalker",
         "dp": 20,
         "rarity": 5,
         "born": "Higashi",
@@ -2869,7 +2869,7 @@
     "char_479_sleach": {
         "name": "Saileach",
         "class": "PIONEER",
-        "subClass": "bearer",
+        "subclass": "bearer",
         "dp": 12,
         "rarity": 6,
         "born": "Victoria",
@@ -2882,7 +2882,7 @@
     "char_484_robrta": {
         "name": "Roberta",
         "class": "SUPPORT",
-        "subClass": "craftsman",
+        "subclass": "craftsman",
         "dp": 17,
         "rarity": 4,
         "born": "Columbia",
@@ -2895,7 +2895,7 @@
     "char_485_pallas": {
         "name": "Pallas",
         "class": "WARRIOR",
-        "subClass": "instructor",
+        "subclass": "instructor",
         "dp": 17,
         "rarity": 6,
         "born": "Minos",
@@ -2908,7 +2908,7 @@
     "char_486_takila": {
         "name": "Tequila",
         "class": "WARRIOR",
-        "subClass": "librator",
+        "subclass": "librator",
         "dp": 13,
         "rarity": 5,
         "born": "Bol\u00edvar",
@@ -2921,7 +2921,7 @@
     "char_487_bobb": {
         "name": "Bobbing",
         "class": "SUPPORT",
-        "subClass": "ritualist",
+        "subclass": "ritualist",
         "dp": 15,
         "rarity": 5,
         "born": "Columbia",
@@ -2934,7 +2934,7 @@
     "char_488_buildr": {
         "name": "Poncirus",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 13,
         "rarity": 5,
         "born": "Siesta",
@@ -2948,7 +2948,7 @@
     "char_489_serum": {
         "name": "Corroserum",
         "class": "CASTER",
-        "subClass": "blastcaster",
+        "subclass": "blastcaster",
         "dp": 33,
         "rarity": 5,
         "born": "Columbia",
@@ -2961,7 +2961,7 @@
     "char_491_humus": {
         "name": "Humus",
         "class": "WARRIOR",
-        "subClass": "reaper",
+        "subclass": "reaper",
         "dp": 21,
         "rarity": 4,
         "born": "Columbia",
@@ -2974,7 +2974,7 @@
     "char_492_quercu": {
         "name": "Quercus",
         "class": "SUPPORT",
-        "subClass": "blessing",
+        "subclass": "blessing",
         "dp": 12,
         "rarity": 5,
         "born": "Victoria",
@@ -2987,7 +2987,7 @@
     "char_493_firwhl": {
         "name": "Firewhistle",
         "class": "TANK",
-        "subClass": "fortress",
+        "subclass": "fortress",
         "dp": 27,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -3000,7 +3000,7 @@
     "char_494_vendla": {
         "name": "Vendela",
         "class": "MEDIC",
-        "subClass": "incantationmedic",
+        "subclass": "incantationmedic",
         "dp": 17,
         "rarity": 5,
         "born": "Victoria",
@@ -3013,7 +3013,7 @@
     "char_496_wildmn": {
         "name": "Wild Mane",
         "class": "PIONEER",
-        "subClass": "charger",
+        "subclass": "charger",
         "dp": 14,
         "rarity": 5,
         "born": "Kazimierz",
@@ -3027,7 +3027,7 @@
     "char_497_ctable": {
         "name": "Cantabile",
         "class": "PIONEER",
-        "subClass": "agent",
+        "subclass": "agent",
         "dp": 10,
         "rarity": 5,
         "born": "Bol\u00edvar",
@@ -3040,7 +3040,7 @@
     "char_498_inside": {
         "name": "Insider",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 15,
         "rarity": 5,
         "born": "Laterano",
@@ -3053,7 +3053,7 @@
     "char_499_kaitou": {
         "name": "Diamante",
         "class": "CASTER",
-        "subClass": "primcaster",
+        "subclass": "primcaster",
         "dp": 20,
         "rarity": 5,
         "born": "Leithanien",
@@ -3066,7 +3066,7 @@
     "char_500_noirc": {
         "name": "Noir Corne",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 14,
         "rarity": 2,
         "born": "Higashi",
@@ -3080,10 +3080,10 @@
     "char_501_durin": {
         "name": "Durin",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 12,
         "rarity": 2,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes",
             "action4"
@@ -3094,7 +3094,7 @@
     "char_502_nblade": {
         "name": "Yato",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 7,
         "rarity": 2,
         "born": "Higashi",
@@ -3108,10 +3108,10 @@
     "char_503_rang": {
         "name": "Rangers",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 7,
         "rarity": 2,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes",
             "action4"
@@ -3122,7 +3122,7 @@
     "char_1011_lava2": {
         "name": "Lava the Purgatory",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 35,
         "rarity": 5,
         "born": "Victoria",
@@ -3135,20 +3135,20 @@
     "char_1012_skadi2": {
         "name": "Skadi the Corrupting Heart",
         "class": "SUPPORT",
-        "subClass": "bard",
+        "subclass": "bard",
         "dp": 8,
         "rarity": 6,
         "born": "\u00c6gir",
         "faction": [
             "egir"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_1012_skadi2.webp"
     },
     "char_1013_chen2": {
         "name": "Ch'en the Holungday",
         "class": "SNIPER",
-        "subClass": "reaperrange",
+        "subclass": "reaperrange",
         "dp": 32,
         "rarity": 6,
         "born": "Lungmen",
@@ -3161,7 +3161,7 @@
     "char_1014_nearl2": {
         "name": "Nearl the Radiant Knight",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 19,
         "rarity": 6,
         "born": "Kazimierz",
@@ -3174,7 +3174,7 @@
     "char_1016_agoat2": {
         "name": "Eyjafjalla the Hv\u00edt Aska",
         "class": "MEDIC",
-        "subClass": "wandermedic",
+        "subclass": "wandermedic",
         "dp": 16,
         "rarity": 6,
         "born": "Leithanien",
@@ -3187,7 +3187,7 @@
     "char_1019_siege2": {
         "name": "Vina Victoria",
         "class": "WARRIOR",
-        "subClass": "artsfghter",
+        "subclass": "artsfghter",
         "dp": 21,
         "rarity": 6,
         "born": "Victoria",
@@ -3200,7 +3200,7 @@
     "char_1020_reed2": {
         "name": "Reed the Flame Shadow",
         "class": "MEDIC",
-        "subClass": "incantationmedic",
+        "subclass": "incantationmedic",
         "dp": 17,
         "rarity": 6,
         "born": "Victoria",
@@ -3214,7 +3214,7 @@
     "char_1021_kroos2": {
         "name": "Kroos the Keen Glint",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 15,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -3227,7 +3227,7 @@
     "char_1023_ghost2": {
         "name": "Specter the Unchained",
         "class": "SPECIAL",
-        "subClass": "dollkeeper",
+        "subclass": "dollkeeper",
         "dp": 16,
         "rarity": 6,
         "born": "\u00c6gir",
@@ -3241,7 +3241,7 @@
     "char_1024_hbisc2": {
         "name": "Hibiscus the Purifier",
         "class": "MEDIC",
-        "subClass": "incantationmedic",
+        "subclass": "incantationmedic",
         "dp": 17,
         "rarity": 5,
         "born": "Victoria",
@@ -3254,7 +3254,7 @@
     "char_1026_gvial2": {
         "name": "Gavial the Invincible",
         "class": "WARRIOR",
-        "subClass": "centurion",
+        "subclass": "centurion",
         "dp": 24,
         "rarity": 6,
         "born": "Sargon",
@@ -3267,7 +3267,7 @@
     "char_1027_greyy2": {
         "name": "Greyy the Lightningbearer",
         "class": "SNIPER",
-        "subClass": "bombarder",
+        "subclass": "bombarder",
         "dp": 24,
         "rarity": 5,
         "born": "Bol\u00edvar",
@@ -3280,7 +3280,7 @@
     "char_1028_texas2": {
         "name": "Texas the Omertosa",
         "class": "SPECIAL",
-        "subClass": "executor",
+        "subclass": "executor",
         "dp": 10,
         "rarity": 6,
         "born": "Columbia",
@@ -3294,7 +3294,7 @@
     "char_1029_yato2": {
         "name": "Kirin R Yato",
         "class": "SPECIAL",
-        "subClass": "executor",
+        "subclass": "executor",
         "dp": 10,
         "rarity": 6,
         "born": "Higashi",
@@ -3308,7 +3308,7 @@
     "char_1030_noirc2": {
         "name": "Rathalos S Noir Corne",
         "class": "WARRIOR",
-        "subClass": "musha",
+        "subclass": "musha",
         "dp": 25,
         "rarity": 5,
         "born": "Higashi",
@@ -3322,7 +3322,7 @@
     "char_1031_slent2": {
         "name": "Silence the Paradigmatic",
         "class": "SUPPORT",
-        "subClass": "blessing",
+        "subclass": "blessing",
         "dp": 15,
         "rarity": 6,
         "born": "Columbia",
@@ -3336,7 +3336,7 @@
     "char_1032_excu2": {
         "name": "Executor the Ex Foedere",
         "class": "WARRIOR",
-        "subClass": "reaper",
+        "subclass": "reaper",
         "dp": 23,
         "rarity": 6,
         "born": "Laterano",
@@ -3349,7 +3349,7 @@
     "char_1033_swire2": {
         "name": "Swire the Elegant Wit",
         "class": "SPECIAL",
-        "subClass": "merchant",
+        "subclass": "merchant",
         "dp": 9,
         "rarity": 6,
         "born": "Lungmen",
@@ -3362,7 +3362,7 @@
     "char_1034_jesca2": {
         "name": "Jessica the Liberated",
         "class": "TANK",
-        "subClass": "shotprotector",
+        "subclass": "shotprotector",
         "dp": 23,
         "rarity": 6,
         "born": "Victoria",
@@ -3376,7 +3376,7 @@
     "char_1035_wisdel": {
         "name": "Wi\u0161'adel",
         "class": "SNIPER",
-        "subClass": "bombarder",
+        "subclass": "bombarder",
         "dp": 25,
         "rarity": 6,
         "born": "Kazdel",
@@ -3389,7 +3389,7 @@
     "char_1036_fang2": {
         "name": "Fang the Fire-Sharpened",
         "class": "PIONEER",
-        "subClass": "charger",
+        "subclass": "charger",
         "dp": 12,
         "rarity": 5,
         "born": "Kazimierz",
@@ -3402,7 +3402,7 @@
     "char_1038_whitw2": {
         "name": "Lappland the Decadenza",
         "class": "CASTER",
-        "subClass": "funnel",
+        "subclass": "funnel",
         "dp": 22,
         "rarity": 6,
         "born": "Siracusa",
@@ -3415,7 +3415,7 @@
     "char_1039_thorn2": {
         "name": "Thorns the Lodestar",
         "class": "SPECIAL",
-        "subClass": "alchemist",
+        "subclass": "alchemist",
         "dp": 18,
         "rarity": 6,
         "born": "Iberia",
@@ -3428,7 +3428,7 @@
     "char_1040_blaze2": {
         "name": "Blaze the Igniting Spark",
         "class": "CASTER",
-        "subClass": "primcaster",
+        "subclass": "primcaster",
         "dp": 21,
         "rarity": 6,
         "born": "Yan",
@@ -3442,7 +3442,7 @@
     "char_1502_crosly": {
         "name": "Crownslayer",
         "class": "SPECIAL",
-        "subClass": "executor",
+        "subclass": "executor",
         "dp": 12,
         "rarity": 6,
         "born": "Ursus",
@@ -3455,7 +3455,7 @@
     "char_2012_typhon": {
         "name": "Typhon",
         "class": "SNIPER",
-        "subClass": "siegesniper",
+        "subclass": "siegesniper",
         "dp": 24,
         "rarity": 6,
         "born": "Sami",
@@ -3468,7 +3468,7 @@
     "char_2013_cerber": {
         "name": "Ceobe",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 21,
         "rarity": 6,
         "born": "Bol\u00edvar",
@@ -3481,7 +3481,7 @@
     "char_2014_nian": {
         "name": "Nian",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 23,
         "rarity": 6,
         "born": "Yan",
@@ -3489,13 +3489,13 @@
             "yan",
             "sui"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2014_nian.webp"
     },
     "char_2015_dusk": {
         "name": "Dusk",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 34,
         "rarity": 6,
         "born": "Yan",
@@ -3503,13 +3503,13 @@
             "yan",
             "sui"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2015_dusk.webp"
     },
     "char_2023_ling": {
         "name": "Ling",
         "class": "SUPPORT",
-        "subClass": "summoner",
+        "subclass": "summoner",
         "dp": 12,
         "rarity": 6,
         "born": "Yan",
@@ -3517,13 +3517,13 @@
             "yan",
             "sui"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2023_ling.webp"
     },
     "char_2024_chyue": {
         "name": "Chongyue",
         "class": "WARRIOR",
-        "subClass": "fighter",
+        "subclass": "fighter",
         "dp": 11,
         "rarity": 6,
         "born": "Yan",
@@ -3531,13 +3531,13 @@
             "yan",
             "sui"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2024_chyue.webp"
     },
     "char_2025_shu": {
         "name": "Shu",
         "class": "TANK",
-        "subClass": "guardian",
+        "subclass": "guardian",
         "dp": 22,
         "rarity": 6,
         "born": "Yan",
@@ -3545,13 +3545,13 @@
             "yan",
             "sui"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2025_shu.webp"
     },
     "char_2026_yu": {
         "name": "Yu",
         "class": "TANK",
-        "subClass": "primprotector",
+        "subclass": "primprotector",
         "dp": 26,
         "rarity": 6,
         "born": "Yan",
@@ -3559,13 +3559,13 @@
             "yan",
             "sui"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2026_yu.webp"
     },
     "char_4000_jnight": {
         "name": "'Justice Knight'",
         "class": "SNIPER",
-        "subClass": "fastshot",
+        "subclass": "fastshot",
         "dp": 3,
         "rarity": 1,
         "born": "Columbia",
@@ -3579,7 +3579,7 @@
     "char_4004_pudd": {
         "name": "Pudding",
         "class": "CASTER",
-        "subClass": "chain",
+        "subclass": "chain",
         "dp": 31,
         "rarity": 4,
         "born": "Columbia",
@@ -3592,7 +3592,7 @@
     "char_4006_melnte": {
         "name": "Melanite",
         "class": "SNIPER",
-        "subClass": "closerange",
+        "subclass": "closerange",
         "dp": 19,
         "rarity": 5,
         "born": "Columbia",
@@ -3605,7 +3605,7 @@
     "char_4009_irene": {
         "name": "Irene",
         "class": "WARRIOR",
-        "subClass": "sword",
+        "subclass": "sword",
         "dp": 23,
         "rarity": 6,
         "born": "Iberia",
@@ -3618,7 +3618,7 @@
     "char_4010_etlchi": {
         "name": "Entelechia",
         "class": "WARRIOR",
-        "subClass": "reaper",
+        "subclass": "reaper",
         "dp": 23,
         "rarity": 6,
         "born": "Kazdel",
@@ -3631,7 +3631,7 @@
     "char_4011_lessng": {
         "name": "Lessing",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 21,
         "rarity": 6,
         "born": "Leithanien",
@@ -3644,7 +3644,7 @@
     "char_4013_kjera": {
         "name": "Kjera",
         "class": "CASTER",
-        "subClass": "funnel",
+        "subclass": "funnel",
         "dp": 23,
         "rarity": 5,
         "born": "Kjerag",
@@ -3652,13 +3652,13 @@
             "kjerag",
             "karlan"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4013_kjera.webp"
     },
     "char_4014_lunacu": {
         "name": "Lunacub",
         "class": "SNIPER",
-        "subClass": "longrange",
+        "subclass": "longrange",
         "dp": 21,
         "rarity": 5,
         "born": "Siracusa",
@@ -3671,7 +3671,7 @@
     "char_4015_spuria": {
         "name": "Spuria",
         "class": "SPECIAL",
-        "subClass": "geek",
+        "subclass": "geek",
         "dp": 12,
         "rarity": 5,
         "born": "Laterano",
@@ -3684,7 +3684,7 @@
     "char_4016_kazema": {
         "name": "Kazemaru",
         "class": "SPECIAL",
-        "subClass": "dollkeeper",
+        "subclass": "dollkeeper",
         "dp": 15,
         "rarity": 5,
         "born": "Higashi",
@@ -3697,7 +3697,7 @@
     "char_4017_puzzle": {
         "name": "Puzzle",
         "class": "PIONEER",
-        "subClass": "agent",
+        "subclass": "agent",
         "dp": 12,
         "rarity": 5,
         "born": "Victoria",
@@ -3710,7 +3710,7 @@
     "char_4019_ncdeer": {
         "name": "Nine-Colored Deer",
         "class": "SUPPORT",
-        "subClass": "blessing",
+        "subclass": "blessing",
         "dp": 11,
         "rarity": 5,
         "born": "Yan",
@@ -3723,7 +3723,7 @@
     "char_4023_rfalcn": {
         "name": "Kestrel",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 13,
         "rarity": 5,
         "born": "Sargon",
@@ -3736,7 +3736,7 @@
     "char_4025_aprot2": {
         "name": "Shalem",
         "class": "TANK",
-        "subClass": "artsprotector",
+        "subclass": "artsprotector",
         "dp": 25,
         "rarity": 5,
         "born": "Victoria",
@@ -3749,7 +3749,7 @@
     "char_4026_vulpis": {
         "name": "Vulpisfoglia",
         "class": "PIONEER",
-        "subClass": "pioneer",
+        "subclass": "pioneer",
         "dp": 14,
         "rarity": 6,
         "born": "Siracusa",
@@ -3762,20 +3762,20 @@
     "char_4027_heyak": {
         "name": "Ho'olheyak",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 21,
         "rarity": 6,
         "born": "Columbia",
         "faction": [
             "columbia"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4027_heyak.webp"
     },
     "char_4032_provs": {
         "name": "Proviso",
         "class": "SUPPORT",
-        "subClass": "slower",
+        "subclass": "slower",
         "dp": 15,
         "rarity": 5,
         "born": "Kazimierz",
@@ -3788,7 +3788,7 @@
     "char_4036_forcer": {
         "name": "Enforcer",
         "class": "SPECIAL",
-        "subClass": "pusher",
+        "subclass": "pusher",
         "dp": 22,
         "rarity": 5,
         "born": "Laterano",
@@ -3801,7 +3801,7 @@
     "char_4039_horn": {
         "name": "Horn",
         "class": "TANK",
-        "subClass": "fortress",
+        "subclass": "fortress",
         "dp": 28,
         "rarity": 6,
         "born": "Victoria",
@@ -3814,7 +3814,7 @@
     "char_4040_rockr": {
         "name": "Rockrock",
         "class": "CASTER",
-        "subClass": "funnel",
+        "subclass": "funnel",
         "dp": 21,
         "rarity": 5,
         "born": "Victoria",
@@ -3827,10 +3827,10 @@
     "char_4041_chnut": {
         "name": "Chestnut",
         "class": "MEDIC",
-        "subClass": "wandermedic",
+        "subclass": "wandermedic",
         "dp": 14,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -3840,7 +3840,7 @@
     "char_4042_lumen": {
         "name": "Lumen",
         "class": "MEDIC",
-        "subClass": "healer",
+        "subclass": "healer",
         "dp": 23,
         "rarity": 6,
         "born": "Iberia",
@@ -3853,7 +3853,7 @@
     "char_4043_erato": {
         "name": "Erato",
         "class": "SNIPER",
-        "subClass": "siegesniper",
+        "subclass": "siegesniper",
         "dp": 23,
         "rarity": 5,
         "born": "Minos",
@@ -3866,7 +3866,7 @@
     "char_4045_heidi": {
         "name": "Heidi",
         "class": "SUPPORT",
-        "subClass": "bard",
+        "subclass": "bard",
         "dp": 9,
         "rarity": 5,
         "born": "Victoria",
@@ -3879,7 +3879,7 @@
     "char_4046_ebnhlz": {
         "name": "Ebenholz",
         "class": "CASTER",
-        "subClass": "mystic",
+        "subclass": "mystic",
         "dp": 25,
         "rarity": 6,
         "born": "Leithanien",
@@ -3892,7 +3892,7 @@
     "char_4047_pianst": {
         "name": "Czerny",
         "class": "TANK",
-        "subClass": "artsprotector",
+        "subclass": "artsprotector",
         "dp": 27,
         "rarity": 5,
         "born": "Leithanien",
@@ -3905,7 +3905,7 @@
     "char_4048_doroth": {
         "name": "Dorothy",
         "class": "SPECIAL",
-        "subClass": "traper",
+        "subclass": "traper",
         "dp": 12,
         "rarity": 6,
         "born": "Columbia",
@@ -3919,7 +3919,7 @@
     "char_4052_surfer": {
         "name": "Surfer",
         "class": "PIONEER",
-        "subClass": "agent",
+        "subclass": "agent",
         "dp": 10,
         "rarity": 5,
         "born": "Columbia",
@@ -3933,7 +3933,7 @@
     "char_4054_malist": {
         "name": "Minimalist",
         "class": "CASTER",
-        "subClass": "funnel",
+        "subclass": "funnel",
         "dp": 23,
         "rarity": 5,
         "born": "Durin",
@@ -3946,7 +3946,7 @@
     "char_4055_bgsnow": {
         "name": "Poz\u00ebmka",
         "class": "SNIPER",
-        "subClass": "closerange",
+        "subclass": "closerange",
         "dp": 20,
         "rarity": 6,
         "born": "Ursus",
@@ -3959,7 +3959,7 @@
     "char_4058_pepe": {
         "name": "Pepe",
         "class": "WARRIOR",
-        "subClass": "hammer",
+        "subclass": "hammer",
         "dp": 20,
         "rarity": 6,
         "born": "Sargon",
@@ -3972,7 +3972,7 @@
     "char_4062_totter": {
         "name": "Totter",
         "class": "SNIPER",
-        "subClass": "siegesniper",
+        "subclass": "siegesniper",
         "dp": 22,
         "rarity": 4,
         "born": "Sargon",
@@ -3985,7 +3985,7 @@
     "char_4063_quartz": {
         "name": "Quartz",
         "class": "WARRIOR",
-        "subClass": "crusher",
+        "subclass": "crusher",
         "dp": 22,
         "rarity": 4,
         "born": "Columbia",
@@ -3998,7 +3998,7 @@
     "char_4064_mlynar": {
         "name": "M\u0142ynar",
         "class": "WARRIOR",
-        "subClass": "librator",
+        "subclass": "librator",
         "dp": 12,
         "rarity": 6,
         "born": "Kazimierz",
@@ -4011,7 +4011,7 @@
     "char_4065_judge": {
         "name": "Penance",
         "class": "TANK",
-        "subClass": "unyield",
+        "subclass": "unyield",
         "dp": 36,
         "rarity": 6,
         "born": "Siracusa",
@@ -4024,7 +4024,7 @@
     "char_4066_highmo": {
         "name": "Highmore",
         "class": "WARRIOR",
-        "subClass": "reaper",
+        "subclass": "reaper",
         "dp": 22,
         "rarity": 5,
         "born": "Iberia",
@@ -4037,10 +4037,10 @@
     "char_4067_lolxh": {
         "name": "Luo Xiaohei",
         "class": "WARRIOR",
-        "subClass": "lord",
+        "subclass": "lord",
         "dp": 17,
         "rarity": 4,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "yan"
         ],
@@ -4050,7 +4050,7 @@
     "char_4071_peper": {
         "name": "Paprika",
         "class": "MEDIC",
-        "subClass": "chainhealer",
+        "subclass": "chainhealer",
         "dp": 18,
         "rarity": 5,
         "born": "Columbia",
@@ -4063,7 +4063,7 @@
     "char_4072_ironmn": {
         "name": "Stainless",
         "class": "SUPPORT",
-        "subClass": "craftsman",
+        "subclass": "craftsman",
         "dp": 19,
         "rarity": 6,
         "born": "Victoria",
@@ -4076,20 +4076,20 @@
     "char_4077_palico": {
         "name": "Terra Research Commission",
         "class": "SNIPER",
-        "subClass": "bombarder",
+        "subclass": "bombarder",
         "dp": 3,
         "rarity": 1,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4077_palico.webp"
     },
     "char_4078_bdhkgt": {
         "name": "Jieyun",
         "class": "SNIPER",
-        "subClass": "aoesniper",
+        "subclass": "aoesniper",
         "dp": 30,
         "rarity": 5,
         "born": "Yan",
@@ -4102,7 +4102,7 @@
     "char_4079_haini": {
         "name": "Lucilla",
         "class": "SUPPORT",
-        "subClass": "underminer",
+        "subclass": "underminer",
         "dp": 12,
         "rarity": 5,
         "born": "\u00c6gir",
@@ -4115,7 +4115,7 @@
     "char_4080_lin": {
         "name": "Lin",
         "class": "CASTER",
-        "subClass": "phalanx",
+        "subclass": "phalanx",
         "dp": 24,
         "rarity": 6,
         "born": "Lungmen",
@@ -4128,7 +4128,7 @@
     "char_4081_warmy": {
         "name": "Warmy",
         "class": "CASTER",
-        "subClass": "primcaster",
+        "subclass": "primcaster",
         "dp": 20,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -4141,7 +4141,7 @@
     "char_4082_qiubai": {
         "name": "Qiubai",
         "class": "WARRIOR",
-        "subClass": "lord",
+        "subclass": "lord",
         "dp": 20,
         "rarity": 6,
         "born": "Yan",
@@ -4154,7 +4154,7 @@
     "char_4083_chimes": {
         "name": "Wind Chimes",
         "class": "WARRIOR",
-        "subClass": "crusher",
+        "subclass": "crusher",
         "dp": 23,
         "rarity": 5,
         "born": "Yan",
@@ -4167,20 +4167,20 @@
     "char_4087_ines": {
         "name": "Ines",
         "class": "PIONEER",
-        "subClass": "agent",
+        "subclass": "agent",
         "dp": 11,
         "rarity": 6,
         "born": "Kazdel",
         "faction": [
             "babel"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4087_ines.webp"
     },
     "char_4088_hodrer": {
         "name": "Hoederer",
         "class": "WARRIOR",
-        "subClass": "crusher",
+        "subclass": "crusher",
         "dp": 24,
         "rarity": 6,
         "born": "Kazdel",
@@ -4193,10 +4193,10 @@
     "char_4091_ulika": {
         "name": "U-Official",
         "class": "SUPPORT",
-        "subClass": "bard",
+        "subclass": "bard",
         "dp": 3,
         "rarity": 1,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rhodes"
         ],
@@ -4206,7 +4206,7 @@
     "char_4093_frston": {
         "name": "Friston-3",
         "class": "TANK",
-        "subClass": "protector",
+        "subclass": "protector",
         "dp": 3,
         "rarity": 1,
         "born": "Rhodes Island",
@@ -4219,7 +4219,7 @@
     "char_4098_vvana": {
         "name": "Viviana",
         "class": "WARRIOR",
-        "subClass": "artsfghter",
+        "subclass": "artsfghter",
         "dp": 21,
         "rarity": 6,
         "born": "Leithanien",
@@ -4232,7 +4232,7 @@
     "char_4100_caper": {
         "name": "Caper",
         "class": "SNIPER",
-        "subClass": "loopshooter",
+        "subclass": "loopshooter",
         "dp": 14,
         "rarity": 4,
         "born": "Bol\u00edvar",
@@ -4245,7 +4245,7 @@
     "char_4102_threye": {
         "name": "Valarqvin",
         "class": "SUPPORT",
-        "subClass": "ritualist",
+        "subclass": "ritualist",
         "dp": 15,
         "rarity": 5,
         "born": "Sami",
@@ -4258,7 +4258,7 @@
     "char_4104_coldst": {
         "name": "Coldshot",
         "class": "SNIPER",
-        "subClass": "hunter",
+        "subclass": "hunter",
         "dp": 21,
         "rarity": 5,
         "born": "Columbia",
@@ -4271,7 +4271,7 @@
     "char_4105_almond": {
         "name": "Almond",
         "class": "SPECIAL",
-        "subClass": "hookmaster",
+        "subclass": "hookmaster",
         "dp": 13,
         "rarity": 5,
         "born": "Columbia",
@@ -4285,7 +4285,7 @@
     "char_4106_bryota": {
         "name": "Bryophyta",
         "class": "WARRIOR",
-        "subClass": "instructor",
+        "subclass": "instructor",
         "dp": 18,
         "rarity": 5,
         "born": "Siesta",
@@ -4299,7 +4299,7 @@
     "char_4107_vrdant": {
         "name": "Verdant",
         "class": "SPECIAL",
-        "subClass": "dollkeeper",
+        "subclass": "dollkeeper",
         "dp": 14,
         "rarity": 4,
         "born": "Victoria",
@@ -4312,7 +4312,7 @@
     "char_4109_baslin": {
         "name": "Bassline",
         "class": "TANK",
-        "subClass": "guardian",
+        "subclass": "guardian",
         "dp": 21,
         "rarity": 5,
         "born": "Leithanien",
@@ -4325,7 +4325,7 @@
     "char_4110_delphn": {
         "name": "Delphine",
         "class": "CASTER",
-        "subClass": "mystic",
+        "subclass": "mystic",
         "dp": 26,
         "rarity": 5,
         "born": "Victoria",
@@ -4338,7 +4338,7 @@
     "char_4114_harold": {
         "name": "Harold",
         "class": "MEDIC",
-        "subClass": "wandermedic",
+        "subclass": "wandermedic",
         "dp": 17,
         "rarity": 5,
         "born": "Victoria",
@@ -4351,7 +4351,7 @@
     "char_4116_blkkgt": {
         "name": "Degenbrecher",
         "class": "WARRIOR",
-        "subClass": "sword",
+        "subclass": "sword",
         "dp": 23,
         "rarity": 6,
         "born": "Leithanien",
@@ -4365,7 +4365,7 @@
     "char_4117_ray": {
         "name": "Ray",
         "class": "SNIPER",
-        "subClass": "hunter",
+        "subclass": "hunter",
         "dp": 21,
         "rarity": 6,
         "born": "Rim Billiton",
@@ -4378,7 +4378,7 @@
     "char_4119_wanqin": {
         "name": "Wanqing",
         "class": "PIONEER",
-        "subClass": "bearer",
+        "subclass": "bearer",
         "dp": 13,
         "rarity": 5,
         "born": "Yan",
@@ -4391,7 +4391,7 @@
     "char_4121_zuole": {
         "name": "Zuo Le",
         "class": "WARRIOR",
-        "subClass": "musha",
+        "subclass": "musha",
         "dp": 26,
         "rarity": 6,
         "born": "Yan",
@@ -4404,7 +4404,7 @@
     "char_4122_grabds": {
         "name": "Grain Buds",
         "class": "SUPPORT",
-        "subClass": "slower",
+        "subclass": "slower",
         "dp": 15,
         "rarity": 5,
         "born": "Yan",
@@ -4417,59 +4417,59 @@
     "char_4123_ela": {
         "name": "Ela",
         "class": "SPECIAL",
-        "subClass": "traper",
+        "subclass": "traper",
         "dp": 12,
         "rarity": 6,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rainbow"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4123_ela.webp"
     },
     "char_4124_iana": {
         "name": "Iana",
         "class": "SPECIAL",
-        "subClass": "dollkeeper",
+        "subclass": "dollkeeper",
         "dp": 15,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rainbow"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4124_iana.webp"
     },
     "char_4125_rdoc": {
         "name": "Doc",
         "class": "WARRIOR",
-        "subClass": "instructor",
+        "subclass": "instructor",
         "dp": 16,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rainbow"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4125_rdoc.webp"
     },
     "char_4126_fuze": {
         "name": "Fuze",
         "class": "WARRIOR",
-        "subClass": "centurion",
+        "subclass": "centurion",
         "dp": 25,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "rainbow"
         ],
-        "race": "Unknown",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4126_fuze.webp"
     },
     "char_4130_luton": {
         "name": "Lutonada",
         "class": "TANK",
-        "subClass": "unyield",
+        "subclass": "unyield",
         "dp": 34,
         "rarity": 4,
         "born": "Bol\u00edvar",
@@ -4482,7 +4482,7 @@
     "char_4131_odda": {
         "name": "Odda",
         "class": "WARRIOR",
-        "subClass": "hammer",
+        "subclass": "hammer",
         "dp": 21,
         "rarity": 5,
         "born": "Kazdel",
@@ -4495,7 +4495,7 @@
     "char_4132_ascln": {
         "name": "Ascalon",
         "class": "SPECIAL",
-        "subClass": "stalker",
+        "subclass": "stalker",
         "dp": 21,
         "rarity": 6,
         "born": "Kazdel",
@@ -4509,7 +4509,7 @@
     "char_4133_logos": {
         "name": "Logos",
         "class": "CASTER",
-        "subClass": "corecaster",
+        "subclass": "corecaster",
         "dp": 21,
         "rarity": 6,
         "born": "Kazdel",
@@ -4523,20 +4523,20 @@
     "char_4134_cetsyr": {
         "name": "Civilight Eterna",
         "class": "SUPPORT",
-        "subClass": "bard",
+        "subclass": "bard",
         "dp": 10,
         "rarity": 6,
         "born": "Kazdel",
         "faction": [
             "rhodes"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4134_cetsyr.webp"
     },
     "char_4136_phonor": {
         "name": "PhonoR-0",
         "class": "SUPPORT",
-        "subClass": "ritualist",
+        "subclass": "ritualist",
         "dp": 3,
         "rarity": 1,
         "born": "Rhodes Island",
@@ -4549,7 +4549,7 @@
     "char_4137_udflow": {
         "name": "Underflow",
         "class": "TANK",
-        "subClass": "shotprotector",
+        "subclass": "shotprotector",
         "dp": 24,
         "rarity": 5,
         "born": "\u00c6gir",
@@ -4562,7 +4562,7 @@
     "char_4138_narant": {
         "name": "Narantuya",
         "class": "SNIPER",
-        "subClass": "loopshooter",
+        "subclass": "loopshooter",
         "dp": 16,
         "rarity": 6,
         "born": "Sargon",
@@ -4575,7 +4575,7 @@
     "char_4139_papyrs": {
         "name": "Papyrus",
         "class": "MEDIC",
-        "subClass": "chainhealer",
+        "subclass": "chainhealer",
         "dp": 20,
         "rarity": 5,
         "born": "Sargon",
@@ -4588,7 +4588,7 @@
     "char_4140_lasher": {
         "name": "Sand Reckoner",
         "class": "SUPPORT",
-        "subClass": "summoner",
+        "subclass": "summoner",
         "dp": 11,
         "rarity": 5,
         "born": "Sargon",
@@ -4601,7 +4601,7 @@
     "char_4141_marcil": {
         "name": "Marcille",
         "class": "CASTER",
-        "subClass": "splashcaster",
+        "subclass": "splashcaster",
         "dp": 34,
         "rarity": 6,
         "born": "Northern Continent (Self-declared)",
@@ -4615,7 +4615,7 @@
     "char_4142_laios": {
         "name": "Laios",
         "class": "WARRIOR",
-        "subClass": "fearless",
+        "subclass": "fearless",
         "dp": 18,
         "rarity": 5,
         "born": "Northern Continent (Self-declared)",
@@ -4629,7 +4629,7 @@
     "char_4143_sensi": {
         "name": "Senshi",
         "class": "TANK",
-        "subClass": "guardian",
+        "subclass": "guardian",
         "dp": 23,
         "rarity": 5,
         "born": "Izganda (Self-declared)",
@@ -4643,7 +4643,7 @@
     "char_4144_chilc": {
         "name": "Chilchuck",
         "class": "PIONEER",
-        "subClass": "agent",
+        "subclass": "agent",
         "dp": 10,
         "rarity": 5,
         "born": "Eastern Continent (Self-declared)",
@@ -4657,7 +4657,7 @@
     "char_4145_ulpia": {
         "name": "Ulpianus",
         "class": "WARRIOR",
-        "subClass": "crusher",
+        "subclass": "crusher",
         "dp": 24,
         "rarity": 6,
         "born": "\u00c6gir",
@@ -4671,7 +4671,7 @@
     "char_4146_nymph": {
         "name": "Nymph",
         "class": "CASTER",
-        "subClass": "primcaster",
+        "subclass": "primcaster",
         "dp": 21,
         "rarity": 6,
         "born": "Kazdel",
@@ -4684,7 +4684,7 @@
     "char_4147_mitm": {
         "name": "Mitm",
         "class": "PIONEER",
-        "subClass": "tactician",
+        "subclass": "tactician",
         "dp": 14,
         "rarity": 5,
         "born": "Kazdel",
@@ -4697,7 +4697,7 @@
     "char_4148_philae": {
         "name": "Philae",
         "class": "TANK",
-        "subClass": "primprotector",
+        "subclass": "primprotector",
         "dp": 25,
         "rarity": 5,
         "born": "Sargon",
@@ -4710,20 +4710,20 @@
     "char_4151_tinman": {
         "name": "Tin Man",
         "class": "SPECIAL",
-        "subClass": "alchemist",
+        "subclass": "alchemist",
         "dp": 17,
         "rarity": 5,
-        "born": "Unknown/Undisclosed",
+        "born": "Unknown/\u200bUndisclosed",
         "faction": [
             "columbia"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4151_tinman.webp"
     },
     "char_4155_talr": {
         "name": "Figurino",
         "class": "SPECIAL",
-        "subClass": "merchant",
+        "subclass": "merchant",
         "dp": 8,
         "rarity": 5,
         "born": "Siracusa",
@@ -4736,7 +4736,7 @@
     "char_4162_cathy": {
         "name": "Catherine",
         "class": "SUPPORT",
-        "subClass": "craftsman",
+        "subclass": "craftsman",
         "dp": 20,
         "rarity": 5,
         "born": "Victoria",
@@ -4749,7 +4749,7 @@
     "char_4163_rosesa": {
         "name": "Rose Salt",
         "class": "MEDIC",
-        "subClass": "ringhealer",
+        "subclass": "ringhealer",
         "dp": 19,
         "rarity": 5,
         "born": "Iberia",
@@ -4762,7 +4762,7 @@
     "char_4164_tecno": {
         "name": "Tecno",
         "class": "CASTER",
-        "subClass": "soulcaster",
+        "subclass": "soulcaster",
         "dp": 20,
         "rarity": 5,
         "born": "Bol\u00edvar",
@@ -4775,7 +4775,7 @@
     "char_4165_ctrail": {
         "name": "Contrail",
         "class": "SPECIAL",
-        "subClass": "skywalker",
+        "subclass": "skywalker",
         "dp": 16,
         "rarity": 4,
         "born": "Columbia",
@@ -4788,7 +4788,7 @@
     "char_4171_wulfen": {
         "name": "Wulfenite",
         "class": "SPECIAL",
-        "subClass": "traper",
+        "subclass": "traper",
         "dp": 11,
         "rarity": 5,
         "born": "Sargon",
@@ -4801,7 +4801,7 @@
     "char_4172_xingzh": {
         "name": "Xingzhu",
         "class": "SUPPORT",
-        "subClass": "blessing",
+        "subclass": "blessing",
         "dp": 13,
         "rarity": 5,
         "born": "Yan",
@@ -4814,7 +4814,7 @@
     "char_4173_nowell": {
         "name": "Nowell",
         "class": "MEDIC",
-        "subClass": "healer",
+        "subclass": "healer",
         "dp": 20,
         "rarity": 5,
         "born": "Victoria",
@@ -4827,7 +4827,7 @@
     "char_4177_brigid": {
         "name": "Brigid",
         "class": "SNIPER",
-        "subClass": "loopshooter",
+        "subclass": "loopshooter",
         "dp": 17,
         "rarity": 5,
         "born": "Victoria",
@@ -4841,7 +4841,7 @@
     "char_4178_alanna": {
         "name": "Alanna",
         "class": "SUPPORT",
-        "subClass": "craftsman",
+        "subclass": "craftsman",
         "dp": 18,
         "rarity": 5,
         "born": "Rim Billiton",
@@ -4854,14 +4854,14 @@
     "char_4179_monstr": {
         "name": "Mon3tr",
         "class": "MEDIC",
-        "subClass": "chainhealer",
+        "subclass": "chainhealer",
         "dp": 18,
         "rarity": 6,
         "born": "Rhodes Island",
         "faction": [
             "rhodes"
         ],
-        "race": "Undisclosed",
+        "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4179_monstr.png"
     }
 }

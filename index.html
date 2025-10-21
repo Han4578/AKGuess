@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="suggestionList.js" type="module" defer></script>
+    <script src="main.js" type="module" defer></script>
+    <script src="operatorMenu.js" type="module" defer></script>
+</head>
+<body>
+    <div class="frame">
+        <div class="shade center">
+            <div class="main">
+                <div class="center">
+                    <h1>AK Guess</h1>
+                    <h2>Guess The Arknights Operator</h2>
+                </div>
+                <div class="center">
+                    <input type="text" name="guess" id="guess">
+                    <div class="suggestion-list center"></div>
+                </div>
+                <div class="options-row center">
+                    <button id="list-button">List</button>
+                </div>
+                <div id="win" class="center">
+                    <div>You Win!</div>
+                    <button>New Round</button>
+                </div>
+                <div class="guess-table">
+                    <div class="guess-slot">No.</div>
+                    <div class="guess-slot">Name</div>
+                    <div class="guess-slot">Class</div>
+                    <div class="guess-slot">Sub Class</div>
+                    <div class="guess-slot">Rarity</div>
+                    <div class="guess-slot">DP</div>
+                    <div class="guess-slot">Born In</div>
+                    <div class="guess-slot">Race</div>
+                    <div class="guess-slot">Faction</div>
+                </div>
+            </div>
+        </div>
+        <div class="operator-menu"></div>
+    </div>
+</body>
+</html>

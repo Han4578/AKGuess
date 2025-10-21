@@ -15,7 +15,7 @@ for id, o in op_list:
     ops[id] = {
             "name": o["name"],
             "class": o["profession"],
-            "subClass": o["subProfessionId"],
+            "subclass": o["subProfessionId"],
             "dp": o["phases"][-1]["attributesKeyFrames"][-1]["data"]["cost"],
             "rarity": int(o["rarity"][-1]),
             "born": "",
