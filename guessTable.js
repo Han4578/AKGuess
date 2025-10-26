@@ -1,20 +1,25 @@
 import * as data from "./globalData.js"
 
 let guessTable = document.querySelector(".guess-table .guess-slot:last-child")
+const tooltipContainerTemplate = document.querySelector("#tooltip-container-template").content
 let slots = []
 
 export function insertOperatorRow(operator, operatorToGuess) {
-    let ans = data.operators[operatorToGuess]
+    const ans = data.operators[operatorToGuess]
+    const frag = document.createDocumentFragment()
+    
+    insertImageSlot(frag, data.IMAGE_PATH_OPERATOR, operator)
+    insertGuessSlot(frag, operator.name)
+    validateSlot(insertImageSlot(frag, data.IMAGE_PATH_CLASS, data.class_map[operator.class]), operator.class, ans.class)
+    validateSlot(insertImageSlot(frag, data.IMAGE_PATH_SUBCLASS, data.subclass_map[operator.subclass]), operator.subclass, ans.subclass)
+    validateNumber(insertGuessSlot(frag, operator.rarity), operator.rarity, ans.rarity)
+    validateNumber(insertGuessSlot(frag, operator.dp), operator.dp, ans.dp)
+    validateSlot(insertGuessSlot(frag, operator.born), operator.born, ans.born)
+    validateSlot(insertGuessSlot(frag, operator.race), operator.race, ans.race)
+    validateFaction(insertImageSlot(frag, data.IMAGE_PATH_FACTION, data.faction_map[operator.faction[operator.faction.length - 1]]), operator.faction, ans.faction)
 
-    validateFaction(insertImageSlot(data.IMAGE_PATH_FACTION, data.faction_map[operator.faction[operator.faction.length - 1]]), operator.faction, ans.faction)
-    validateSlot(insertGuessSlot(operator.race), operator.race, ans.race)
-    validateSlot(insertGuessSlot(operator.born), operator.born, ans.born)
-    validateNumber(insertGuessSlot(operator.dp), operator.dp, ans.dp)
-    validateNumber(insertGuessSlot(operator.rarity), operator.rarity, ans.rarity)
-    validateSlot(insertImageSlot(data.IMAGE_PATH_SUBCLASS, data.subclass_map[operator.subclass]), operator.subclass, ans.subclass)
-    validateSlot(insertImageSlot(data.IMAGE_PATH_CLASS, data.class_map[operator.class]), operator.class, ans.class)
-    insertGuessSlot(operator.name)
-    insertImageSlot(data.IMAGE_PATH_OPERATOR, operator)
+
+    guessTable.after(frag)
 }
 
 export function clear() {
@@ -24,28 +29,23 @@ export function clear() {
     slots = []
 }
 
-function insertImageSlot(path, obj) {
+function insertImageSlot(fragment, path, obj) {
     let image = document.createElement("img")
 
     image.classList.add("icon")
     image.src = path + obj.icon
     image.loading = "lazy"
-    return insertGuessSlot(image, obj.name)
+    return insertGuessSlot(fragment, image, obj.name)
 }
 
-function insertGuessSlot(content, tooltip = null) {
-    let slot = document.createElement("div")
+function insertGuessSlot(fragment, content, tooltip = null) {
+    const slot = tooltipContainerTemplate.cloneNode(true).children[0]
 
     slot.classList.add("guess-slot")
     slot.append(content)
+    slot.querySelector(".tooltip").textContent = tooltip
 
-    if (tooltip != null) {
-        let tip = document.createElement("div")
-        tip.textContent = tooltip
-        tip.classList.add("tooltip")
-        slot.appendChild(tip)
-    }
-    guessTable.after(slot)
+    fragment.appendChild(slot)
     slots.push(slot)
     return slot
 }

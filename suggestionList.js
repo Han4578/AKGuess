@@ -4,7 +4,7 @@ import * as data from "./globalData.js"
 let suggestionListElement = document.querySelector(".suggestion-list")
 let guessInput = document.querySelector("#guess")
 
-let suggestionElements = {}
+let suggestionElements = new Map()
 let visibleSuggestions = []
 let suggestionIndex = -1
 
@@ -27,9 +27,9 @@ guessInput.addEventListener("click", e => {
 
 guessInput.addEventListener("keydown", e => {
     switch (e.keyCode) {
-        case 13:
+        case 13: //enter
             e.preventDefault()
-            if (visibleSuggestions.length == 0) return
+            if (visibleSuggestions.length == 0 || !suggestionListElement.classList.contains("show")) return
             if (suggestionIndex == -1) {
                 visibleSuggestions[0]?.click()
             } else visibleSuggestions[suggestionIndex].click()
@@ -67,19 +67,26 @@ guessInput.addEventListener("keydown", e => {
 })
 
 async function loadSuggestions() {
+    const frag = document.createDocumentFragment()
     for (const id of data.operatorList) {    
-        const suggestion = insertSuggestionOperator(data.operators[id])
+        const suggestion = createSuggestionOperator(data.operators[id])
 
-        suggestion.addEventListener("click", () => {
+        suggestion.addEventListener("click", e => {
+            hideSuggestions()
             guessOperator(id)
+            guessInput.value = ""
+            guessInput.focus()
+            e.stopPropagation()
         })
 
-        suggestionElements[id] = suggestion
+        suggestionElements.set(id, suggestion)
         visibleSuggestions.push(suggestion)
+        frag.appendChild(suggestion)
     }
+    suggestionListElement.appendChild(frag)
 } 
 
-function insertSuggestionOperator(operator) {
+function createSuggestionOperator(operator) {
     let suggestion = document.createElement("div")
     suggestion.classList.add("suggestion")
 
@@ -92,7 +99,6 @@ function insertSuggestionOperator(operator) {
     name.textContent = operator.name
     suggestion.appendChild(name)
 
-    suggestionListElement.appendChild(suggestion)
     return suggestion
 }
 
@@ -101,10 +107,10 @@ export function updateSuggestions() {
     visibleSuggestions = []
     suggestionIndex = -1
     for (const id of data.operatorList) {
-        if (data.operators[id].search.some(t => t.includes(guessInput.value))) {
-            suggestionElements[id].style.display ="flex"
-            visibleSuggestions.push(suggestionElements[id])
-        } else suggestionElements[id].style.display ="none"
+        if (data.operators[id].search.some(t => t.includes(guessInput.value)) && !data.excludedOperators.has(id)) {
+            suggestionElements.get(id).classList.remove("excluded")
+            visibleSuggestions.push(suggestionElements.get(id))
+        } else suggestionElements.get(id).classList.add("excluded")
     }
 }
 

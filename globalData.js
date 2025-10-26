@@ -9,7 +9,8 @@ export const IMAGE_PATH_SUBCLASS = "./images/subclass/"
 export const IMAGE_PATH_FACTION = "./images/faction/"
 
 
-export let operatorList = Object.keys(operators)
+export const operatorList = Object.keys(operators)
+export const excludedOperators = new Set()
 
 export {
     operators,
@@ -19,3 +20,4 @@ export {
 }
 
 operatorList.sort((a, b) => {return operators[a].name.localeCompare(operators[b].name)})
+gainedInfo.reset()

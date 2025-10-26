@@ -1,0 +1,84 @@
+{
+    "CASTER": [
+        "blastcaster",
+        "chain",
+        "corecaster",
+        "funnel",
+        "mystic",
+        "phalanx",
+        "primcaster",
+        "soulcaster",
+        "splashcaster"
+    ],
+    "MEDIC": [
+        "chainhealer",
+        "healer",
+        "incantationmedic",
+        "physician",
+        "ringhealer",
+        "wandermedic"
+    ],
+    "PIONEER": [
+        "agent",
+        "bearer",
+        "charger",
+        "pioneer",
+        "tactician"
+    ],
+    "SNIPER": [
+        "aoesniper",
+        "bombarder",
+        "closerange",
+        "fastshot",
+        "hunter",
+        "longrange",
+        "loopshooter",
+        "reaperrange",
+        "siegesniper"
+    ],
+    "SPECIAL": [
+        "alchemist",
+        "dollkeeper",
+        "executor",
+        "geek",
+        "hookmaster",
+        "merchant",
+        "pusher",
+        "skywalker",
+        "stalker",
+        "traper"
+    ],
+    "SUPPORT": [
+        "bard",
+        "blessing",
+        "craftsman",
+        "ritualist",
+        "slower",
+        "summoner",
+        "underminer"
+    ],
+    "TANK": [
+        "artsprotector",
+        "duelist",
+        "fortress",
+        "guardian",
+        "primprotector",
+        "protector",
+        "shotprotector",
+        "unyield"
+    ],
+    "WARRIOR": [
+        "artsfghter",
+        "centurion",
+        "crusher",
+        "fearless",
+        "fighter",
+        "hammer",
+        "instructor",
+        "librator",
+        "lord",
+        "musha",
+        "reaper",
+        "sword"
+    ]
+}

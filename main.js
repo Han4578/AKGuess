@@ -1,6 +1,7 @@
 import * as data from "./globalData.js";
 import * as guessTable from "./guessTable.js";
 import { updateSuggestions } from "./suggestionList.js"
+import { clearAllExcluded, excludeOperator } from "./operatorMenu.js";
 
 let guessInput = document.querySelector("#guess")
 let winContainer = document.querySelector("#win")
@@ -16,8 +17,10 @@ export function guessOperator(id) {
     if (id == operatorToGuess) {
         winContainer.classList.add("show")
         guessInput.disabled = true
-        
-    }
+    } 
+
+    excludeOperator(id)
+    updateSuggestions()
 }
 
 function newGuess() {
@@ -26,5 +29,6 @@ function newGuess() {
     guessInput.disabled = false
     winContainer.classList.remove("show")
     guessInput.value = ""
+    clearAllExcluded()
     updateSuggestions()
 }
