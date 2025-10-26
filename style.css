@@ -1,5 +1,7 @@
 :root {
-    --white: rgba(240, 248, 255, 0.8)
+    --white: rgba(240, 248, 255, 0.8);
+    --grey: rgb(233, 233, 233);
+    --menu-width: 450px;
 }
 
 * {
@@ -9,14 +11,27 @@
     text-align: center;
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
     background-image: url("./images/wallpaper/EXDR9RAi.jpeg");
     background-color: grey;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
+    width: 100dvw;
     height: 100dvh;
     overflow: hidden;
+}
+
+button {
+    transition: 0.2s;
+}
+
+button:hover, .menu-item:hover {
+    filter: brightness(0.9);
 }
 
 .round-border {
@@ -27,7 +42,7 @@ body {
 
 .frame {
     height: 100%;
-    width: 130vw;
+    width: calc(100vw + var(--menu-width));
     display: flex;
     transition: all 1s;
 }
@@ -190,14 +205,12 @@ div:has(.suggestion-list) {
 }
 
 .operator-menu {
-    width: 30vw;
+    width: var(--menu-width);
     height: 100%;
     flex-shrink: 0;
-    background-color: rgb(233, 233, 233);
+    background-color: var(--grey);
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
-    overflow-x: hidden;
 }
 
 .operator-tools {
@@ -206,11 +219,37 @@ div:has(.suggestion-list) {
     background-color: inherit;
     z-index: 1;
     padding: 16px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     box-shadow: 0 0 10px black;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.operator-tools div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.operator-tools label {
+    user-select: none;
+    display: block;
+    width: 100%;
+}
+
+.operator-tools img {
+    width: 24px;
+}
+
+#reverse-sort {
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+    transition: 0.1s;
 }
 
 .operator-container {
@@ -218,7 +257,13 @@ div:has(.suggestion-list) {
     width: 100%;
     flex-direction: column;
     gap: 5vh;
-    margin-top: 5vh;
+    padding-top: 5vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.operator-container.reverse {
+    flex-direction: column-reverse;
 }
 
 .operator-section:has(.operator-grid:empty) {
@@ -252,6 +297,7 @@ div:has(.suggestion-list) {
 .menu-item {
     border: 1px solid;
     border-radius: 8px;
+    background-color: var(--grey);
 }
 
 .menu-item.selected {
@@ -289,6 +335,10 @@ div:has(.suggestion-list) {
     bottom: 0;
 }
 
+.operator-menu.exclude-mode #batch-exclude {
+    background-color: lime;
+}
+
 #batch-exclude-confirm {
     background-color: red;
     color: white;
@@ -308,4 +358,36 @@ div:has(.suggestion-list) {
 
 #operator-sort {
     padding: 10px 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    :root {
+        --menu-width: 300px;
+    }
+
+    .operator-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .frame {
+        width: 100vw;
+    }
+
+    .operator-menu {
+        position: absolute;
+        left: 100%;
+        width: 100%;
+        transition: 0.5s;
+    }
+
+    .frame.show-menu .operator-menu {
+        left: 0;
+    }
+
+    .guess-table {
+        font-size: 8px;
+    }
 }

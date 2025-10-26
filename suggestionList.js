@@ -19,6 +19,7 @@ document.addEventListener("click", hideSuggestions)
 guessInput.addEventListener("input", e => {
     updateSuggestions()
     showSuggestions()
+    e.stopPropagation()
 })
 guessInput.addEventListener("click", e => {
     showSuggestions()
@@ -34,7 +35,6 @@ guessInput.addEventListener("keydown", e => {
                 visibleSuggestions[0]?.click()
             } else visibleSuggestions[suggestionIndex].click()
             guessInput.value = ""
-            updateSuggestions()
             break
         case 38: //up
             e.preventDefault()

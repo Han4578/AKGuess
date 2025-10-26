@@ -13,21 +13,20 @@ const tooltipContainerTemplate = document.querySelector("#tooltip-container-temp
 const menuElements = new Map()
 const elementGrid = new Map()
 
-let sortType = "name"
-
 let showExcluded = false
+let autoExclude = true
 
 let batchExcludeMode = false
 let batchExcludeSelected = new Set()
 
-sortInput.addEventListener("change", e => displayOperators(sortInput.value))
-frame.addEventListener("click", hideMenu)
+sortInput.addEventListener("change", () => displayOperators(sortInput.value))
 document.querySelector("#list-button").addEventListener("click", e => {
-    showMenu()
+    frame.classList.toggle("show-menu")
     e.stopPropagation()
 })
 
-document.querySelector(".operator-menu").addEventListener("click", e => e.stopPropagation())
+document.querySelector("#reverse-sort").addEventListener("click", () => operatorContainer.classList.toggle("reverse"))
+document.querySelector("#close-menu").addEventListener("click", () => frame.classList.toggle("show-menu"))
 document.querySelector("#show-excluded").addEventListener("input", () => {
     showExcluded = !showExcluded
     if (showExcluded) {
@@ -35,6 +34,10 @@ document.querySelector("#show-excluded").addEventListener("input", () => {
         } else {
         for (const id of data.excludedOperators) menuElements.get(id).remove()
     }
+})
+document.querySelector("#auto-exclude").addEventListener("input", () => {
+    autoExclude = !autoExclude
+    if (autoExclude) autoExcludeOperators()
 })
 document.querySelector("#batch-exclude-confirm").addEventListener("click", e => {
     for (const id of batchExcludeSelected) excludeOperator(id)
@@ -46,14 +49,6 @@ document.querySelector("#batch-exclude").addEventListener("click", () => toggleB
 loadOperators().then(() => {
     displayOperators()
 })
-
-export function showMenu() {
-    frame.classList.add("show-menu")
-}
-
-function hideMenu() {
-    frame.classList.remove("show-menu")
-}
 
 async function loadOperators() {
     for (const id of data.operatorList) {
@@ -76,8 +71,7 @@ async function loadOperators() {
     }
 }
 
-function displayOperators(type = sortType) {
-    sortType = type
+function displayOperators(type = "name") {
     const frag = document.createDocumentFragment()
     let groups;
     switch (type) {
@@ -107,9 +101,7 @@ function displayOperators(type = sortType) {
             break;
         case "rarity":
             groups = Map.groupBy(data.operatorList, id => data.operators[id].rarity)
-            console.log(groups);
-            for (let rarity = 1; rarity <= 6; rarity++) {
-                
+            for (let rarity = 6; rarity >= 1; --rarity) {
                 frag.appendChild(displaySection(rarity, groups.get(rarity)))
             }
             break;
@@ -155,13 +147,38 @@ export function excludeOperator(id) {
 function includeOperator(id) {
     menuElements.get(id).classList.remove("excluded")
     elementGrid.get(id).appendChild(menuElements.get(id))
-    data.excludedOperators.remove(id)
+    data.excludedOperators.delete(id)
 }
 
 export function clearAllExcluded() {
     data.excludedOperators.forEach(includeOperator)
     updateSuggestions()
 }
+
+export function autoExcludeOperators() {
+    if (!autoExclude) return;
+
+    data.operatorList.forEach(id => {
+        if (data.excludedOperators.has(id)) return
+        const operator = data.operators[id]
+
+        if (
+            !data.gainedInfo.class.has(operator.class) ||
+            !data.gainedInfo.subclass.has(operator.subclass) ||
+            data.gainedInfo.rarity[0] > operator.rarity ||
+            data.gainedInfo.rarity[1] < operator.rarity ||
+            data.gainedInfo.dp[0] > operator.dp ||
+            data.gainedInfo.dp[1] < operator.dp ||
+            !data.gainedInfo.race.has(operator.race) ||
+            !data.gainedInfo.born.has(operator.born) ||
+            !(
+                operator.faction.some(o => data.gainedInfo.faction.has(o)) &&
+                !data.gainedInfo.excludedFaction.has(operator.faction[operator.faction.length - 1])
+            )
+        ) excludeOperator(id)
+    })
+    
+}   
 
 function create_icon(path, tooltip) {
     const tooltipContainer = tooltipContainerTemplate.cloneNode(true).children[0]

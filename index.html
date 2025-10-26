@@ -56,18 +56,29 @@
         </div>
         <div class="operator-menu">
             <div class="operator-tools">
-                <label for="show-excluded">
-                    <input type="checkbox" name="show-excluded" id="show-excluded"> Show Exluded
-                </label>
-                <button class="round-border" id="batch-exclude">Batch Exclude</button>
-                <span>
-                    Sort By: 
-                    <select class="round-border" name="operator-sort" id="operator-sort">
-                        <option value="name">Name</option>
-                        <option value="class">Class</option>
-                        <option value="rarity">Rarity</option>
-                    </select>
-                </span>
+                <div>
+                    <button class="round-border" id="batch-exclude">Batch Exclude</button>
+                    <div>
+                        Sort By:
+                        <select class="round-border" name="operator-sort" id="operator-sort">
+                            <option value="name">Name</option>
+                            <option value="class">Class</option>
+                            <option value="rarity">Rarity</option>
+                        </select>
+                        <button id="reverse-sort" class="center">
+                            <img src="./images/icon/sort.png"alt="reverse-sort">
+                        </button>
+                    </div>
+                    <img src="./images/icon/close.svg" alt="close" id="close-menu">
+                </div>
+                <div>
+                    <label for="show-excluded">
+                        <input type="checkbox" name="show-excluded" id="show-excluded"> Show Exluded
+                    </label>
+                    <label for="auto-exclude">
+                        <input type="checkbox" name="auto-exclude" id="auto-exclude" checked> Auto Exclude
+                    </label>
+                </div>
             </div>
             <div class="operator-container"></div>
             <div id="exclude-bar">

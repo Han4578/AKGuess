@@ -11,6 +11,27 @@ export const IMAGE_PATH_FACTION = "./images/faction/"
 
 export const operatorList = Object.keys(operators)
 export const excludedOperators = new Set()
+export const gainedInfo = {
+    class: new Set(),
+    subclass: new Set(),
+    dp: [1, 99],
+    rarity: [1, 6],
+    born: new Set(),
+    race: new Set(),
+    faction: new Set(),
+    excludedFaction: new Set(),
+
+    reset() {
+        this.class = new Set(Object.keys(class_map))
+        this.subclass = new Set(Object.keys(subclass_map))
+        this.dp = [1, 99],
+        this.rarity = [1, 6],
+        this.born = new Set(Object.values(operators).map(o => o.born))
+        this.race = new Set(Object.values(operators).map(o => o.race))
+        this.faction = new Set(Object.keys(faction_map))
+        this.excludedFaction.clear()
+    }
+}
 
 export {
     operators,
