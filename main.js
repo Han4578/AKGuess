@@ -1,7 +1,7 @@
 import * as data from "./globalData.js";
 import * as guessTable from "./guessTable.js";
 import { addSuggestion, removeSuggestion, updateSuggestions } from "./suggestionList.js"
-import { addToMenu, autoExcludeOperators, removeFromMenu } from "./operatorMenu.js";
+import { addToMenu, removeFromMenu, autoExclude } from "./operatorMenu.js";
 
 let guessInput = document.querySelector("#guess")
 let winContainer = document.querySelector("#win")

@@ -14,7 +14,7 @@ const menuElements = new Map()
 const elementGrid = new Map()
 
 let showExcluded = false
-let autoExclude = true
+export let autoExclude = true
 
 let batchExcludeMode = false
 let batchExcludeSelected = new Set()
