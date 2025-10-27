@@ -5,7 +5,7 @@ let suggestionListElement = document.querySelector(".suggestion-list")
 let guessInput = document.querySelector("#guess")
 
 let suggestionElements = new Map()
-let visibleSuggestions = []
+let visibleSuggestions = data.operatorList.slice()
 let suggestionIndex = -1
 
 loadSuggestions()
@@ -32,8 +32,8 @@ guessInput.addEventListener("keydown", e => {
             e.preventDefault()
             if (visibleSuggestions.length == 0 || !suggestionListElement.classList.contains("show")) return
             if (suggestionIndex == -1) {
-                visibleSuggestions[0]?.click()
-            } else visibleSuggestions[suggestionIndex].click()
+                suggestionElements.get(visibleSuggestions[0])?.click()
+            } else suggestionElements.get(visibleSuggestions[suggestionIndex]).click()
             guessInput.value = ""
             break
         case 38: //up
@@ -42,12 +42,12 @@ guessInput.addEventListener("keydown", e => {
             if (suggestionIndex == -1) {
                 suggestionIndex = visibleSuggestions.length - 1
             } else {
-                visibleSuggestions[suggestionIndex].classList.remove("selected")
+                suggestionElements.get(visibleSuggestions[suggestionIndex]).classList.remove("selected")
                 suggestionIndex = ((suggestionIndex - 1) + visibleSuggestions.length) % visibleSuggestions.length
             }
             
-            visibleSuggestions[suggestionIndex].scrollIntoView({block: "nearest"})
-            visibleSuggestions[suggestionIndex].classList.add("selected")
+            suggestionElements.get(visibleSuggestions[suggestionIndex]).scrollIntoView({block: "nearest"})
+            suggestionElements.get(visibleSuggestions[suggestionIndex]).classList.add("selected")
             break
         case 40: //down
             e.preventDefault()
@@ -56,12 +56,12 @@ guessInput.addEventListener("keydown", e => {
             if (suggestionIndex == -1) {
                 suggestionIndex = 0
             } else {
-                visibleSuggestions[suggestionIndex].classList.remove("selected")
+                suggestionElements.get(visibleSuggestions[suggestionIndex]).classList.remove("selected")
                 suggestionIndex = (suggestionIndex + 1) % visibleSuggestions.length
             }
 
-            visibleSuggestions[suggestionIndex].classList.add("selected")
-            visibleSuggestions[suggestionIndex].scrollIntoView({block: "nearest"})
+            suggestionElements.get(visibleSuggestions[suggestionIndex]).classList.add("selected")
+            suggestionElements.get(visibleSuggestions[suggestionIndex]).scrollIntoView({block: "nearest"})
             break
     }
 })
@@ -72,15 +72,15 @@ async function loadSuggestions() {
         const suggestion = createSuggestionOperator(data.operators[id])
 
         suggestion.addEventListener("click", e => {
+            suggestionIndex = -1
             hideSuggestions()
-            guessOperator(id)
             guessInput.value = ""
+            guessOperator(id)
             guessInput.focus()
             e.stopPropagation()
         })
 
         suggestionElements.set(id, suggestion)
-        visibleSuggestions.push(suggestion)
         frag.appendChild(suggestion)
     }
     suggestionListElement.appendChild(frag)
@@ -104,14 +104,29 @@ function createSuggestionOperator(operator) {
 
 
 export function updateSuggestions() {
-    visibleSuggestions = []
     suggestionIndex = -1
-    for (const id of data.operatorList) {
-        if (data.operators[id].search.some(t => t.includes(guessInput.value)) && !data.excludedOperators.has(id)) {
-            suggestionElements.get(id).classList.remove("excluded")
-            visibleSuggestions.push(suggestionElements.get(id))
-        } else suggestionElements.get(id).classList.add("excluded")
+    if (guessInput.value.length == 0 && data.excludedOperators.size == 0) {
+        visibleSuggestions = data.operatorList.slice()
+        suggestionElements.forEach(e => e.classList.remove("excluded"))
+    }else {    
+        visibleSuggestions = []
+        for (const id of data.operatorList) {
+            if (data.operators[id].search.some(t => t.includes(guessInput.value)) && !data.excludedOperators.has(id)) {
+                suggestionElements.get(id).classList.remove("excluded")
+                visibleSuggestions.push(id)
+            } else suggestionElements.get(id).classList.add("excluded")
+        }
     }
+}
+
+export function addSuggestion(id) {
+    suggestionElements.get(id).classList.remove("excluded")
+    visibleSuggestions.splice(binarySearch(id), 0, id)
+}
+
+export function removeSuggestion(id) {
+    suggestionElements.get(id).classList.add("excluded")
+    visibleSuggestions.splice(binarySearch(id), 1)
 }
 
 function showSuggestions() {
@@ -120,4 +135,22 @@ function showSuggestions() {
 
 function hideSuggestions() {
     suggestionListElement.classList.remove("show")
+}
+
+function binarySearch(id) {
+    let low = 0, high = visibleSuggestions.length - 1, ans = visibleSuggestions.length
+    const name = data.operators[id].name
+
+    while (low <= high) {
+        const middle = (low + high) >> 1
+
+        if (data.operators[visibleSuggestions[middle]].name.localeCompare(name) >= 0) {
+            ans = middle
+            high = middle - 1
+        } else {
+            low = middle + 1
+        }
+    }
+    
+    return ans
 }

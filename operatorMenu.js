@@ -1,6 +1,6 @@
 import * as data from "./globalData.js"
 import class_subclass from "./data/map/class-subclass.json" with { type: "json" };
-import { updateSuggestions } from "./suggestionList.js";
+import { excludeOperator, includeOperator, autoExcludeOperators } from "./main.js";
 
 //sort ops, batch exclude, guess or exclude
 
@@ -138,47 +138,15 @@ function toggleBatchExclude() {
     batchExcludeSelected.clear()
 }
 
-export function excludeOperator(id) {
+export function removeFromMenu(id) {
     menuElements.get(id).classList.add("excluded")
     if (!showExcluded) menuElements.get(id).remove()
-    data.excludedOperators.add(id)
 }
 
-function includeOperator(id) {
+export function addToMenu(id) {
     menuElements.get(id).classList.remove("excluded")
     elementGrid.get(id).appendChild(menuElements.get(id))
-    data.excludedOperators.delete(id)
 }
-
-export function clearAllExcluded() {
-    data.excludedOperators.forEach(includeOperator)
-    updateSuggestions()
-}
-
-export function autoExcludeOperators() {
-    if (!autoExclude) return;
-
-    data.operatorList.forEach(id => {
-        if (data.excludedOperators.has(id)) return
-        const operator = data.operators[id]
-
-        if (
-            !data.gainedInfo.class.has(operator.class) ||
-            !data.gainedInfo.subclass.has(operator.subclass) ||
-            data.gainedInfo.rarity[0] > operator.rarity ||
-            data.gainedInfo.rarity[1] < operator.rarity ||
-            data.gainedInfo.dp[0] > operator.dp ||
-            data.gainedInfo.dp[1] < operator.dp ||
-            !data.gainedInfo.race.has(operator.race) ||
-            !data.gainedInfo.born.has(operator.born) ||
-            !(
-                operator.faction.some(o => data.gainedInfo.faction.has(o)) &&
-                !data.gainedInfo.excludedFaction.has(operator.faction[operator.faction.length - 1])
-            )
-        ) excludeOperator(id)
-    })
-    
-}   
 
 function create_icon(path, tooltip) {
     const tooltipContainer = tooltipContainerTemplate.cloneNode(true).children[0]
