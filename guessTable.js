@@ -3,10 +3,13 @@ import * as data from "./globalData.js"
 let guessTable = document.querySelector(".guess-table .guess-slot:last-child")
 const tooltipContainerTemplate = document.querySelector("#tooltip-container-template").content
 let slots = []
+let delay = 0
+const delayIncrement = 100
 
 export function insertOperatorRow(operator, operatorToGuess) {
     const ans = data.operators[operatorToGuess]
     const frag = document.createDocumentFragment()
+    delay = 0
     
     insertImageSlot(frag, data.IMAGE_PATH_OPERATOR, operator)
     insertGuessSlot(frag, operator.name)
@@ -42,11 +45,14 @@ function insertGuessSlot(fragment, content, tooltip = null) {
     const slot = tooltipContainerTemplate.cloneNode(true).children[0]
 
     slot.classList.add("guess-slot")
+    slot.classList.add("flip")
     slot.append(content)
     slot.querySelector(".tooltip").textContent = tooltip
 
     fragment.appendChild(slot)
     slots.push(slot)
+    setTimeout(() => {slot.classList.add("start")}, delay)
+    delay += delayIncrement
     return slot
 }
 

@@ -31,11 +31,12 @@
                     <h2>Guess The Arknights Operator</h2>
                 </div>
                 <div class="center">
-                    <input type="text" name="guess" id="guess">
+                    <input type="text" name="guess" id="guess-input">
                     <div class="suggestion-list center"></div>
                 </div>
                 <div class="options-row center">
-                    <button id="list-button" class="round-border">List</button>
+                    <button id="list-button" class="round-border icon-button"><img src="./images/icon/filter.png" class="icon" alt="list">Filter</button>
+                    <button id="list-button" class="round-border icon-button"><img src="./images/icon/menu.png" class="icon" alt="list">List</button>
                 </div>
                 <div id="win" class="center">
                     <div>You Win!</div>
@@ -57,7 +58,7 @@
         <div class="operator-menu">
             <div class="operator-tools">
                 <div>
-                    <button class="round-border" id="batch-exclude">Batch Exclude</button>
+                    <button class="round-border" id="batch-exclude">Batch <br>Exclude</button>
                     <div>
                         Sort By:
                         <select class="round-border" name="operator-sort" id="operator-sort">
@@ -76,7 +77,7 @@
                         <input type="checkbox" name="show-excluded" id="show-excluded"> Show Exluded
                     </label>
                     <label for="auto-exclude">
-                        <input type="checkbox" name="auto-exclude" id="auto-exclude" checked> Auto Exclude
+                        <input type="checkbox" name="auto-exclude" id="auto-exclude"> Auto Exclude
                     </label>
                 </div>
             </div>
@@ -87,5 +88,58 @@
             </div>
         </div>
     </div>
+    <div class="shade center" id="operator-details">
+        <div id="operator-details-grid">
+            <div>Name:</div>
+            <div id="operator-details-name"></div>
+            <img src="./images/operator/char_002_amiya.webp" alt="operator icon" id="operator-details-icon">
+
+            <div>Class</div>
+            <div>
+                <img src="./images/class/icon_profession_caster.png" class="icon" alt="class icon" id="operator-details-class-icon">
+                <div id="operator-details-class"></div>
+            </div>
+            
+            <div>Subclass:</div>
+            <div>
+                <img src="./images/subclass/sub_corecaster_icon.png" class="icon" alt="class icon" id="operator-details-subclass-icon">
+                <div id="operator-details-subclass"></div>
+            </div>
+
+            <div>Rarity:</div>
+            <div id="operator-details-rarity"></div>
+
+            <div>DP:</div>
+            <div id="operator-details-dp"></div>
+
+            <div>Born In:</div>
+            <div id="operator-details-born"></div>
+
+            <div>Race:</div>
+            <div id="operator-details-race"></div>
+
+            <div>Faction:</div>
+            <div>
+                <img src="./images/faction/logo_rhodes.png" class="icon" id="operator-details-faction-icon" alt="faction icon">
+                <div id="operator-details-faction"></div>
+                <span id="part-of">
+                    (
+                    <img src="./images/faction/logo_rhodes_override.png" class="icon" alt="class icon" id="operator-details-faction-icon-2">
+                    <span id="operator-details-faction-2"></span>
+                    )
+                </span>
+            </div>
+            <img src="./images/icon/close.svg" alt="" id="close-details">
+            <div>
+                <button class="round-border" id="in-or-exclude">Exclude</button>
+                <button class="round-border" id="guess">Guess</button>
+            </div>
+        </div>
+    </div>
+    <div class="shade center" id="filter-menu-shade">
+        <div id="filter-menu" class="center">
+
+        </div>
+    </div>
 </body>
-</html>
+</html> 

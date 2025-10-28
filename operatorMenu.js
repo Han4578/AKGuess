@@ -1,6 +1,7 @@
 import * as data from "./globalData.js"
 import class_subclass from "./data/map/class-subclass.json" with { type: "json" };
 import { excludeOperator, includeOperator, autoExcludeOperators } from "./main.js";
+import { openDetails } from "./operatorDetails.js";
 
 //sort ops, batch exclude, guess or exclude
 
@@ -14,7 +15,7 @@ const menuElements = new Map()
 const elementGrid = new Map()
 
 let showExcluded = false
-export let autoExclude = true
+export let autoExclude = false
 
 let batchExcludeMode = false
 let batchExcludeSelected = new Set()
@@ -65,7 +66,7 @@ async function loadOperators() {
                     batchExcludeSelected.add(id)
                     icon.classList.add("selected")
                 }
-            }
+            } else openDetails(id)
         })
         menuElements.set(id, icon)
     }

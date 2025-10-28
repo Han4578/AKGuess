@@ -3,15 +3,17 @@ import * as guessTable from "./guessTable.js";
 import { addSuggestion, removeSuggestion, updateSuggestions } from "./suggestionList.js"
 import { addToMenu, removeFromMenu, autoExclude } from "./operatorMenu.js";
 
-let guessInput = document.querySelector("#guess")
+let guessInput = document.querySelector("#guess-input")
 let winContainer = document.querySelector("#win")
 let winButton = document.querySelector("#win button")
+let hasWon = false
 
 let operatorToGuess = data.operatorList[Math.floor(Math.random() * data.operatorList.length)]
 
 winButton.addEventListener("click", newGuess)
 
 export function guessOperator(id) {
+    if (hasWon) return
     const currentGuess = data.operators[id]
     const ans = data.operators[operatorToGuess]
     guessTable.insertOperatorRow(data.operators[id], operatorToGuess)
@@ -19,13 +21,16 @@ export function guessOperator(id) {
     if (id == operatorToGuess) {
         winContainer.classList.add("show")
         guessInput.disabled = true
+        hasWon = true
     } else updateGainedInfo(currentGuess, ans)
 
     excludeOperator(id)
     autoExcludeOperators()
+    updateSuggestions()
 }
 
 function newGuess() {
+    hasWon = false
     operatorToGuess = data.operatorList[Math.floor(Math.random() * data.operatorList.length)]
     guessTable.clear()
     guessInput.disabled = false
@@ -70,7 +75,6 @@ function updateGainedInfo(currentGuess, ans) {
 export function excludeOperator(id) {
     data.excludedOperators.add(id)
     removeFromMenu(id)
-    removeSuggestion(id)
 }
 
 function clearAllExcluded() {

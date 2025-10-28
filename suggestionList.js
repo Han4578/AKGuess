@@ -2,7 +2,7 @@ import { guessOperator } from "./main.js"
 import * as data from "./globalData.js"
 
 let suggestionListElement = document.querySelector(".suggestion-list")
-let guessInput = document.querySelector("#guess")
+let guessInput = document.querySelector("#guess-input")
 
 let suggestionElements = new Map()
 let visibleSuggestions = data.operatorList.slice()
@@ -120,6 +120,7 @@ export function updateSuggestions() {
 }
 
 export function addSuggestion(id) {
+    if (!data.operators[id].search.some(t => t.includes(guessInput.value))) return
     suggestionElements.get(id).classList.remove("excluded")
     visibleSuggestions.splice(binarySearch(id), 0, id)
 }
