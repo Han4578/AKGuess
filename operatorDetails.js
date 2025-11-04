@@ -55,11 +55,11 @@ export function openDetails(id) {
     element.dp.textContent = operator.dp
     element.born.textContent = operator.born
     element.race.textContent = operator.race
-    element.faction.textContent = data.faction_map[operator.faction[operator.faction.length - 1]].name
-    element.factionIcon.src = data.IMAGE_PATH_FACTION + data.faction_map[operator.faction[operator.faction.length - 1]].icon
-    if (operator.faction.length > 1) {
-        element.parentFaction.textContent = data.faction_map[operator.faction[0]].name
-        element.parentFactionIcon.src = data.IMAGE_PATH_FACTION + data.faction_map[operator.faction[0]].icon
+    element.faction.textContent = data.faction_map[operator.faction].name
+    element.factionIcon.src = data.IMAGE_PATH_FACTION + data.faction_map[operator.faction].icon
+    if (operator.subfaction != "") {
+        element.parentFaction.textContent = data.faction_map[operator.subfaction].name
+        element.parentFactionIcon.src = data.IMAGE_PATH_FACTION + data.faction_map[operator.subfaction].icon
         partOf.classList.add("show")
     } else partOf.classList.remove("show")
 

@@ -1,6 +1,6 @@
 import * as data from "./globalData.js"
-import class_subclass from "./data/map/class-subclass.json" with { type: "json" };
-import { excludeOperator, includeOperator, autoExcludeOperators } from "./main.js";
+import class_subclass from "./data/map/class_subclass.json" with { type: "json" };
+import { excludeOperator, create_icon, autoExcludeOperators } from "./main.js";
 import { openDetails } from "./operatorDetails.js";
 
 //sort ops, batch exclude, guess or exclude
@@ -10,7 +10,6 @@ const operatorMenu = document.querySelector(".operator-menu")
 const operatorContainer = document.querySelector(".operator-container")
 const sortInput = document.querySelector("#operator-sort")
 const sectionTemplate = document.querySelector("#section-template")
-const tooltipContainerTemplate = document.querySelector("#tooltip-container-template").content
 const menuElements = new Map()
 const elementGrid = new Map()
 
@@ -47,11 +46,7 @@ document.querySelector("#batch-exclude-confirm").addEventListener("click", e => 
 document.querySelector("#batch-exclude-cancel").addEventListener("click", () => toggleBatchExclude())
 document.querySelector("#batch-exclude").addEventListener("click", () => toggleBatchExclude())
 
-loadOperators().then(() => {
-    displayOperators()
-})
-
-async function loadOperators() {
+export async function loadOperators() {
     for (const id of data.operatorList) {
         const operator = data.operators[id]
         const icon = create_icon(data.IMAGE_PATH_OPERATOR + operator.icon, operator.name)
@@ -70,42 +65,69 @@ async function loadOperators() {
         })
         menuElements.set(id, icon)
     }
+    displayOperators()
 }
 
 function displayOperators(type = "name") {
     const frag = document.createDocumentFragment()
-    let groups;
+
     switch (type) {
         case "name":
-            groups = Map.groupBy(data.operatorList, id => data.operators[id].name[0])
-            for (const [k, v] of groups.entries()) {
+            const nameGroups = Map.groupBy(data.operatorList, id => data.operators[id].name[0])
+            for (const [k, v] of nameGroups.entries()) {
                 frag.appendChild(displaySection(k, v))
             }
             break;
         case "class":
-            groups = Map.groupBy(data.operatorList, id => data.operators[id].subclass)
+            const classGroups = Map.groupBy(data.operatorList, id => data.operators[id].subclass)
 
             for (const [class_id, subclasses] of Object.entries(class_subclass)) {
                 const class_icon = create_icon(data.IMAGE_PATH_CLASS + data.class_map[class_id].icon, data.class_map[class_id].name)
+                class_icon.classList.add("class-icon")
                 
                 for (const subclass of subclasses) {
-                    if (!groups.has(subclass)) continue
+                    if (!classGroups.has(subclass)) continue
                     const subclass_icon = create_icon(data.IMAGE_PATH_SUBCLASS + data.subclass_map[subclass].icon, data.subclass_map[subclass].name)
+                    subclass_icon.classList.add("class-icon")
                     const titleFrag = document.createDocumentFragment()
                     titleFrag.appendChild(class_icon.cloneNode(true))
                     titleFrag.appendChild(subclass_icon)
                     titleFrag.append(data.subclass_map[subclass].name)
                     
-                    frag.appendChild(displaySection(titleFrag, groups.get(subclass)))
+                    frag.appendChild(displaySection(titleFrag, classGroups.get(subclass)))
                 }
             }
             break;
         case "rarity":
-            groups = Map.groupBy(data.operatorList, id => data.operators[id].rarity)
+            const rarityGroups = Map.groupBy(data.operatorList, id => data.operators[id].rarity)
             for (let rarity = 6; rarity >= 1; --rarity) {
-                frag.appendChild(displaySection(rarity, groups.get(rarity)))
+                frag.appendChild(displaySection(rarity, rarityGroups.get(rarity)))
             }
             break;
+        case "faction":
+            const factionGroups = Map.groupBy(data.operatorList, id => data.operators[id].faction)
+            
+            for (const [faction_id, subfactions] of Object.entries(data.faction_subfaction)) {
+                const faction_icon = create_icon(data.IMAGE_PATH_FACTION + data.faction_map[faction_id].icon, data.faction_map[faction_id].name)
+                const subfactionGroups = Map.groupBy(factionGroups.get(faction_id), id => data.operators[id].subfaction)
+                faction_icon.classList.add("class-icon")
+                
+                for (const subfaction of subfactions) {
+                    if (!subfactionGroups.has(subfaction)) continue
+                    const titleFrag = document.createDocumentFragment()
+                    titleFrag.appendChild(faction_icon.cloneNode(true))
+
+                    if (subfaction != "") {
+                        const subfaction_icon = create_icon(data.IMAGE_PATH_FACTION + data.faction_map[subfaction].icon, data.faction_map[subfaction].name)
+                        subfaction_icon.classList.add("class-icon")
+                        titleFrag.appendChild(subfaction_icon)
+                        titleFrag.append(data.faction_map[subfaction].name)
+                    } else titleFrag.append(data.faction_map[faction_id].name)
+                    
+                    frag.appendChild(displaySection(titleFrag, subfactionGroups.get(subfaction)))
+                }
+            }
+            break
         default:
             break;
     }
@@ -147,18 +169,4 @@ export function removeFromMenu(id) {
 export function addToMenu(id) {
     menuElements.get(id).classList.remove("excluded")
     elementGrid.get(id).appendChild(menuElements.get(id))
-}
-
-function create_icon(path, tooltip) {
-    const tooltipContainer = tooltipContainerTemplate.cloneNode(true).children[0]
-    const image = document.createElement("img")
-
-    image.classList.add("icon")
-    image.src = path
-    image.loading = "lazy"
-
-    tooltipContainer.appendChild(image)
-    tooltipContainer.querySelector(".tooltip").textContent = tooltip
-
-    return tooltipContainer
 }

@@ -1,16 +1,20 @@
 import * as data from "./globalData.js";
 import * as guessTable from "./guessTable.js";
-import { addSuggestion, removeSuggestion, updateSuggestions } from "./suggestionList.js"
-import { addToMenu, removeFromMenu, autoExclude } from "./operatorMenu.js";
+import { addSuggestion, updateSuggestions } from "./suggestionList.js"
+import { addToMenu, removeFromMenu, autoExclude, loadOperators } from "./operatorMenu.js";
 
-let guessInput = document.querySelector("#guess-input")
-let winContainer = document.querySelector("#win")
-let winButton = document.querySelector("#win button")
+const tooltipContainerTemplate = document.querySelector("#tooltip-container-template").content
+const guessInput = document.querySelector("#guess-input")
+const winContainer = document.querySelector("#win")
 let hasWon = false
 
-let operatorToGuess = data.operatorList[Math.floor(Math.random() * data.operatorList.length)]
+let operatorToGuess = data.operators.char_002_amiya
 
-winButton.addEventListener("click", newGuess)
+newGuess()
+loadOperators()
+
+document.querySelector("#new-round").addEventListener("click", newGuess)
+document.querySelector("#win button").addEventListener("click", newGuess)
 
 export function guessOperator(id) {
     if (hasWon) return
@@ -31,14 +35,22 @@ export function guessOperator(id) {
 
 function newGuess() {
     hasWon = false
-    operatorToGuess = data.operatorList[Math.floor(Math.random() * data.operatorList.length)]
+    const filteredList = data.operatorList.filter(o => data.settings.validateOperator(o))
+    
+    if (filteredList.length == 0) {
+        alert("No operators match guess filters, a random operator was chosen instead")
+        operatorToGuess = data.operatorList[Math.floor(Math.random() * data.operatorList.length)]
+    } else operatorToGuess = filteredList[Math.floor(Math.random() * filteredList.length)]
+    
     guessTable.clear()
     guessInput.disabled = false
     winContainer.classList.remove("show")
     guessInput.value = ""
-    clearAllExcluded()
-    updateSuggestions()
     data.gainedInfo.reset()
+    data.settings.apply()
+    clearAllExcluded()
+    autoExcludeOperators()
+    updateSuggestions()
 }
 
 function updateGainedInfo(currentGuess, ans) {
@@ -54,9 +66,10 @@ function updateGainedInfo(currentGuess, ans) {
     else data.gainedInfo.dp[1] = Math.min(data.gainedInfo.dp[1], currentGuess.dp - 1)
 
     if (currentGuess.rarity == ans.rarity) {
-        data.gainedInfo.rarity = [ans.rarity, ans.rarity]
-    } else if (currentGuess.rarity < ans.rarity) data.gainedInfo.rarity[0] = Math.max(data.gainedInfo.rarity[0], currentGuess.rarity + 1)
-    else data.gainedInfo.rarity[1] = Math.min(data.gainedInfo.rarity[1], currentGuess.rarity - 1)
+        data.gainedInfo.rarity.fill(false)
+        data.gainedInfo.rarity[ans.rarity - 1] = true
+    } else if (currentGuess.rarity < ans.rarity) data.gainedInfo.rarity.fill(false, 0, currentGuess.rarity)
+    else data.gainedInfo.rarity.fill(false, currentGuess.rarity - 1)
         
     if (currentGuess.born == ans.born) data.gainedInfo.born = new Set([ans.born])
     else data.gainedInfo.born.delete(currentGuess.born)
@@ -64,12 +77,14 @@ function updateGainedInfo(currentGuess, ans) {
     if (currentGuess.race == ans.race) data.gainedInfo.race = new Set([ans.race])
     else data.gainedInfo.race.delete(currentGuess.race)
 
-    if (currentGuess.faction[currentGuess.faction.length - 1] == ans.faction[ans.faction.length - 1]) data.gainedInfo.faction = new Set([ans.faction[ans.faction.length - 1]])
-    else if (currentGuess.faction[0] == ans.faction[0]) {
-        data.gainedInfo.faction = new Set([ans.faction[ans.faction.length - 1]])
-        data.gainedInfo.excludedFaction.add(currentGuess.faction[currentGuess.faction.length - 1])
+    if (currentGuess.faction == ans.faction) data.gainedInfo.faction = new Set([ans.faction])
+    else data.gainedInfo.faction.delete(currentGuess.faction)
+
+    if (data.gainedInfo.faction.size == 1 || currentGuess.subfaction != "") {
+        if (currentGuess.subfaction == ans.subfaction) data.gainedInfo.subfaction = new Set([ans.subfaction])
+        else data.gainedInfo.subfaction.delete(currentGuess.subfaction)
     }
-    else data.gainedInfo.faction.delete(currentGuess.faction[0])
+
 }
 
 export function excludeOperator(id) {
@@ -98,16 +113,27 @@ export function autoExcludeOperators() {
         if (
             !data.gainedInfo.class.has(operator.class) ||
             !data.gainedInfo.subclass.has(operator.subclass) ||
-            data.gainedInfo.rarity[0] > operator.rarity ||
-            data.gainedInfo.rarity[1] < operator.rarity ||
+            !data.gainedInfo.rarity[operator.rarity - 1] ||
             data.gainedInfo.dp[0] > operator.dp ||
             data.gainedInfo.dp[1] < operator.dp ||
             !data.gainedInfo.race.has(operator.race) ||
             !data.gainedInfo.born.has(operator.born) ||
-            !(
-                operator.faction.some(o => data.gainedInfo.faction.has(o)) &&
-                !data.gainedInfo.excludedFaction.has(operator.faction[operator.faction.length - 1])
-            )
+            !data.gainedInfo.faction.has(operator.faction) ||
+            !data.gainedInfo.subfaction.has(operator.subfaction)
         ) excludeOperator(id)
     })
 }   
+
+export function create_icon(path, tooltip = null) {
+    const tooltipContainer = tooltipContainerTemplate.cloneNode(true).children[0]
+    const image = document.createElement("img")
+
+    image.classList.add("icon")
+    image.src = path
+    image.loading = "lazy"
+
+    tooltipContainer.appendChild(image)
+    if (tooltip != null) tooltipContainer.querySelector(".tooltip").textContent = tooltip
+
+    return tooltipContainer
+}

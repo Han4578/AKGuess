@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="suggestionList.js" type="module" defer></script>
     <script src="main.js" type="module" defer></script>
-    <script src="operatorMenu.js" type="module" defer></script>
+    <script src="settingsMenu.js" type="module" defer></script>
 
     <template id="section-template">
         <div class="operator-section">
@@ -35,8 +34,9 @@
                     <div class="suggestion-list center"></div>
                 </div>
                 <div class="options-row center">
-                    <button id="list-button" class="round-border icon-button"><img src="./images/icon/filter.png" class="icon" alt="list">Filter</button>
+                    <button id="new-round" class="round-border">New Round</button>
                     <button id="list-button" class="round-border icon-button"><img src="./images/icon/menu.png" class="icon" alt="list">List</button>
+                    <button id="settings-button" class="round-border icon-button"><img src="./images/icon/settings.png" class="icon" alt="list">settings</button>
                 </div>
                 <div id="win" class="center">
                     <div>You Win!</div>
@@ -65,6 +65,7 @@
                             <option value="name">Name</option>
                             <option value="class">Class</option>
                             <option value="rarity">Rarity</option>
+                            <option value="faction">Faction</option>
                         </select>
                         <button id="reverse-sort" class="center">
                             <img src="./images/icon/sort.png"alt="reverse-sort">
@@ -89,20 +90,20 @@
         </div>
     </div>
     <div class="shade center" id="operator-details">
-        <div id="operator-details-grid">
+        <div id="operator-details-grid" class="floating-window">
             <div>Name:</div>
             <div id="operator-details-name"></div>
             <img src="./images/operator/char_002_amiya.webp" alt="operator icon" id="operator-details-icon">
 
             <div>Class</div>
             <div>
-                <img src="./images/class/icon_profession_caster.png" class="icon" alt="class icon" id="operator-details-class-icon">
+                <img src="./images/class/icon_profession_caster.png" class="class-icon" alt="class icon" id="operator-details-class-icon">
                 <div id="operator-details-class"></div>
             </div>
             
             <div>Subclass:</div>
             <div>
-                <img src="./images/subclass/sub_corecaster_icon.png" class="icon" alt="class icon" id="operator-details-subclass-icon">
+                <img src="./images/subclass/sub_corecaster_icon.png" class="class-icon" alt="class icon" id="operator-details-subclass-icon">
                 <div id="operator-details-subclass"></div>
             </div>
 
@@ -120,11 +121,11 @@
 
             <div>Faction:</div>
             <div>
-                <img src="./images/faction/logo_rhodes.png" class="icon" id="operator-details-faction-icon" alt="faction icon">
+                <img src="./images/faction/logo_rhodes.png" class="class-icon" id="operator-details-faction-icon" alt="faction icon">
                 <div id="operator-details-faction"></div>
                 <span id="part-of">
                     (
-                    <img src="./images/faction/logo_rhodes_override.png" class="icon" alt="class icon" id="operator-details-faction-icon-2">
+                    <img src="./images/faction/logo_rhodes_override.png" class="class-icon" alt="class icon" id="operator-details-faction-icon-2">
                     <span id="operator-details-faction-2"></span>
                     )
                 </span>
@@ -136,9 +137,49 @@
             </div>
         </div>
     </div>
-    <div class="shade center" id="filter-menu-shade">
-        <div id="filter-menu" class="center">
-
+    <div class="shade center" id="settings-menu-shade">
+        <div id="settings-menu" class="center floating-window">
+            <div>
+                <h1>Guess Settings</h1>
+                <h3>Filter what operators can appear in guesses</h3>
+            </div>
+            <div>
+                <div>
+                    <h2>Rarity</h2>
+                    <button class="round-border" id="select-all-rarity">Select All</button>
+                </div>
+                <hr>
+                <button class="round-border rarity-button settings-toggle" data-rarity="1">1★</button>
+                <button class="round-border rarity-button settings-toggle" data-rarity="2">2★</button>
+                <button class="round-border rarity-button settings-toggle" data-rarity="3">3★</button>
+                <button class="round-border rarity-button settings-toggle" data-rarity="4">4★</button>
+                <button class="round-border rarity-button settings-toggle" data-rarity="5">5★</button>
+                <button class="round-border rarity-button settings-toggle" data-rarity="6">6★</button>
+            </div>
+            <div id="settings-class">
+                <div>
+                    <h2>Class</h2>
+                    <button class="round-border" id="select-all-class">Select All</button>
+                </div>
+                <hr>
+                <div class="settings-grid" id="settings-class-grid">
+                    
+                </div>
+            </div>
+            <div id="settings-faction">
+                <div>
+                    <h2>Faction</h2>
+                    <button class="round-border" id="select-all-faction">Select All</button>
+                </div>
+                <hr>
+                <div class="settings-grid" id="settings-faction-grid">
+                    
+                </div>
+            </div>
+            <div>
+                <button class="round-border" id="settings-cancel">Cancel</button>
+                <button class="round-border" id="settings-apply">Apply</button>
+            </div>
         </div>
     </div>
 </body>

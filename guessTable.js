@@ -19,7 +19,7 @@ export function insertOperatorRow(operator, operatorToGuess) {
     validateNumber(insertGuessSlot(frag, operator.dp), operator.dp, ans.dp)
     validateSlot(insertGuessSlot(frag, operator.born), operator.born, ans.born)
     validateSlot(insertGuessSlot(frag, operator.race), operator.race, ans.race)
-    validateFaction(insertImageSlot(frag, data.IMAGE_PATH_FACTION, data.faction_map[operator.faction[operator.faction.length - 1]]), operator.faction, ans.faction)
+    validateFaction(insertImageSlot(frag, data.IMAGE_PATH_FACTION, data.faction_map[operator.subfaction != ""? operator.subfaction: operator.faction]), [operator.faction, operator.subfaction], [ans.faction, ans.subfaction])
 
 
     guessTable.after(frag)
@@ -61,10 +61,9 @@ function validateSlot(slot, a, b) {
 }
 
 function validateFaction(slot, a, b) {
-    if (a[a.length - 1] == b[b.length - 1]) {
-        slot.classList.add("correct")
-    } else if (a[0] == b[0]) {
-        slot.classList.add("kinda")
+    if (a[0] == b[0]) {
+        if (a[1] == b[1]) slot.classList.add("correct")
+        else slot.classList.add("kinda")
     } else {
         slot.classList.add("wrong")
     }
