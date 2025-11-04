@@ -10,7 +10,7 @@ load_dotenv()
 
 def parseIcons():
     print("Getting List of Icons")
-    fs = fsspec.filesystem("github", org="Three6ty1", repo="ak-wordle-icons-2.1", sha="en", key=os.getenv("GITHUB_API_KEY"))
+    fs = fsspec.filesystem("github", org="Three6ty1", repo="ak-wordle-icons-2.1", sha="en", username=os.getenv("GITHUB_USERNAME"), token=os.getenv("GITHUB_API_KEY"))
     ops = load_from("data/operators.json")
 
     images = {}

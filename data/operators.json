@@ -5,11 +5,9 @@
         "subclass": "fastshot",
         "dp": 3,
         "rarity": 1,
+        "faction": "kazimierz",
+        "subfaction": "pinus",
         "born": "Columbia",
-        "faction": [
-            "kazimierz",
-            "pinus"
-        ],
         "race": "Robot",
         "icon": "char_4000_jnight.webp"
     },
@@ -19,10 +17,9 @@
         "subclass": "splashcaster",
         "dp": 24,
         "rarity": 2,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Savra",
         "icon": "char_009_12fce.webp"
     },
@@ -32,11 +29,9 @@
         "subclass": "geek",
         "dp": 13,
         "rarity": 6,
+        "faction": "lungmen",
+        "subfaction": "lee",
         "born": "Lungmen",
-        "faction": [
-            "lungmen",
-            "lee"
-        ],
         "race": "Feline",
         "icon": "char_225_haak.webp"
     },
@@ -46,10 +41,9 @@
         "subclass": "corecaster",
         "dp": 22,
         "rarity": 5,
+        "faction": "ursus",
+        "subfaction": "",
         "born": "Ursus",
-        "faction": [
-            "ursus"
-        ],
         "race": "Ursus",
         "icon": "char_405_absin.webp"
     },
@@ -59,10 +53,9 @@
         "subclass": "closerange",
         "dp": 18,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Liberi",
         "icon": "char_366_acdrop.webp"
     },
@@ -72,11 +65,9 @@
         "subclass": "fastshot",
         "dp": 11,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve4",
         "born": "Laterano",
-        "faction": [
-            "rhodes",
-            "reserve4"
-        ],
         "race": "Sankta",
         "icon": "char_211_adnach.webp"
     },
@@ -86,10 +77,9 @@
         "subclass": "musha",
         "dp": 25,
         "rarity": 5,
+        "faction": "higashi",
+        "subfaction": "",
         "born": "Higashi",
-        "faction": [
-            "higashi"
-        ],
         "race": "\u00c6gir",
         "icon": "char_475_akafyu.webp"
     },
@@ -99,10 +89,9 @@
         "subclass": "craftsman",
         "dp": 18,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Savra",
         "icon": "char_4178_alanna.png"
     },
@@ -112,11 +101,9 @@
         "subclass": "hookmaster",
         "dp": 13,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "blacksteel",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "blacksteel"
-        ],
         "race": "Perro",
         "icon": "char_4105_almond.webp"
     },
@@ -126,10 +113,9 @@
         "subclass": "longrange",
         "dp": 20,
         "rarity": 4,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Sankta",
         "icon": "char_302_glaze.webp"
     },
@@ -139,10 +125,9 @@
         "subclass": "corecaster",
         "dp": 20,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Cautus",
         "icon": "char_002_amiya.webp"
     },
@@ -152,11 +137,9 @@
         "subclass": "longrange",
         "dp": 21,
         "rarity": 5,
+        "faction": "egir",
+        "subfaction": "abyssal",
         "born": "Iberia",
-        "faction": [
-            "egir",
-            "abyssal"
-        ],
         "race": "\u00c6gir",
         "icon": "char_218_cuttle.webp"
     },
@@ -166,10 +149,9 @@
         "subclass": "slower",
         "dp": 16,
         "rarity": 6,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Vulpo",
         "icon": "char_291_aglina.webp"
     },
@@ -179,11 +161,9 @@
         "subclass": "physician",
         "dp": 17,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve4",
         "born": "Rim Billiton",
-        "faction": [
-            "rhodes",
-            "reserve4"
-        ],
         "race": "Cautus",
         "icon": "char_212_ansel.webp"
     },
@@ -193,11 +173,9 @@
         "subclass": "reaperrange",
         "dp": 31,
         "rarity": 5,
+        "faction": "siracusa",
+        "subfaction": "chiave",
         "born": "Siracusa",
-        "faction": [
-            "siracusa",
-            "chiave"
-        ],
         "race": "Lupo",
         "icon": "char_346_aosta.webp"
     },
@@ -207,10 +185,9 @@
         "subclass": "fastshot",
         "dp": 13,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Cautus",
         "icon": "char_365_aprl.webp"
     },
@@ -220,10 +197,9 @@
         "subclass": "fastshot",
         "dp": 14,
         "rarity": 6,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Liberi",
         "icon": "char_332_archet.webp"
     },
@@ -233,10 +209,9 @@
         "subclass": "lord",
         "dp": 18,
         "rarity": 4,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Sankta",
         "icon": "char_271_spikes.webp"
     },
@@ -246,10 +221,9 @@
         "subclass": "blastcaster",
         "dp": 33,
         "rarity": 5,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Lupo",
         "icon": "char_446_aroma.webp"
     },
@@ -259,10 +233,9 @@
         "subclass": "artsprotector",
         "dp": 25,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Savra",
         "icon": "char_378_asbest.webp"
     },
@@ -272,11 +245,9 @@
         "subclass": "stalker",
         "dp": 21,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "sweep",
         "born": "Kazdel",
-        "faction": [
-            "rhodes",
-            "sweep"
-        ],
         "race": "Sarkaz",
         "icon": "char_4132_ascln.webp"
     },
@@ -286,10 +257,9 @@
         "subclass": "fastshot",
         "dp": 14,
         "rarity": 6,
+        "faction": "rainbow",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rainbow"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_456_ash.webp"
     },
@@ -299,11 +269,9 @@
         "subclass": "fortress",
         "dp": 27,
         "rarity": 5,
+        "faction": "kazimierz",
+        "subfaction": "pinus",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz",
-            "pinus"
-        ],
         "race": "Zalak",
         "icon": "char_431_ashlok.webp"
     },
@@ -313,10 +281,9 @@
         "subclass": "artsfghter",
         "dp": 21,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Liberi",
         "icon": "char_274_astesi.webp"
     },
@@ -326,11 +293,9 @@
         "subclass": "chain",
         "dp": 34,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "rhine",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "rhine"
-        ],
         "race": "Liberi",
         "icon": "char_135_halo.webp"
     },
@@ -340,11 +305,9 @@
         "subclass": "duelist",
         "dp": 32,
         "rarity": 5,
+        "faction": "kjerag",
+        "subfaction": "karlan",
         "born": "Kjerag",
-        "faction": [
-            "kjerag",
-            "karlan"
-        ],
         "race": "Ursus",
         "icon": "char_422_aurora.webp"
     },
@@ -354,10 +317,9 @@
         "subclass": "lord",
         "dp": 19,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Cautus",
         "icon": "char_294_ayer.webp"
     },
@@ -367,10 +329,9 @@
         "subclass": "charger",
         "dp": 13,
         "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Vouivre",
         "icon": "char_222_bpipe.webp"
     },
@@ -380,10 +341,9 @@
         "subclass": "guardian",
         "dp": 21,
         "rarity": 5,
+        "faction": "leithanien",
+        "subfaction": "",
         "born": "Leithanien",
-        "faction": [
-            "leithanien"
-        ],
         "race": "Lupo",
         "icon": "char_4109_baslin.webp"
     },
@@ -393,11 +353,9 @@
         "subclass": "protector",
         "dp": 18,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve1",
         "born": "Bol\u00edvar",
-        "faction": [
-            "rhodes",
-            "reserve1"
-        ],
         "race": "Perro",
         "icon": "char_122_beagle.webp"
     },
@@ -407,10 +365,9 @@
         "subclass": "tactician",
         "dp": 13,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Reproba",
         "icon": "char_452_bstalk.webp"
     },
@@ -420,10 +377,9 @@
         "subclass": "fighter",
         "dp": 9,
         "rarity": 4,
+        "faction": "ursus",
+        "subfaction": "",
         "born": "Ursus",
-        "faction": [
-            "ursus"
-        ],
         "race": "Ursus",
         "icon": "char_137_brownb.webp"
     },
@@ -433,10 +389,9 @@
         "subclass": "phalanx",
         "dp": 23,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Caprinae",
         "icon": "char_344_beewax.webp"
     },
@@ -446,10 +401,9 @@
         "subclass": "dollkeeper",
         "dp": 17,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Caprinae",
         "icon": "char_369_bena.webp"
     },
@@ -459,10 +413,9 @@
         "subclass": "sword",
         "dp": 22,
         "rarity": 5,
+        "faction": "sami",
+        "subfaction": "",
         "born": "Sami",
-        "faction": [
-            "sami"
-        ],
         "race": "Liberi",
         "icon": "char_252_bibeak.webp"
     },
@@ -472,10 +425,9 @@
         "subclass": "protector",
         "dp": 24,
         "rarity": 5,
+        "faction": "lungmen",
+        "subfaction": "",
         "born": "Lungmen",
-        "faction": [
-            "lungmen"
-        ],
         "race": "Forte",
         "icon": "char_325_bison.webp"
     },
@@ -485,10 +437,9 @@
         "subclass": "tactician",
         "dp": 14,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Savra",
         "icon": "char_476_blkngt.webp"
     },
@@ -498,11 +449,9 @@
         "subclass": "centurion",
         "dp": 24,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "elite",
         "born": "Victoria",
-        "faction": [
-            "rhodes",
-            "elite"
-        ],
         "race": "Feline",
         "icon": "char_017_huang.webp"
     },
@@ -512,11 +461,9 @@
         "subclass": "primcaster",
         "dp": 21,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "elite",
         "born": "Yan",
-        "faction": [
-            "rhodes",
-            "elite"
-        ],
         "race": "Feline",
         "icon": "char_1040_blaze2.webp"
     },
@@ -526,10 +473,9 @@
         "subclass": "guardian",
         "dp": 22,
         "rarity": 6,
+        "faction": "kazimierz",
+        "subfaction": "",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz"
-        ],
         "race": "Kuranta",
         "icon": "char_423_blemsh.webp"
     },
@@ -539,10 +485,9 @@
         "subclass": "shotprotector",
         "dp": 22,
         "rarity": 5,
+        "faction": "rainbow",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rainbow"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_457_blitz.webp"
     },
@@ -552,10 +497,9 @@
         "subclass": "fastshot",
         "dp": 13,
         "rarity": 5,
+        "faction": "iberia",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "iberia"
-        ],
         "race": "Anura",
         "icon": "char_129_bluep.webp"
     },
@@ -565,10 +509,9 @@
         "subclass": "ritualist",
         "dp": 15,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Perro",
         "icon": "char_487_bobb.webp"
     },
@@ -578,10 +521,9 @@
         "subclass": "ringhealer",
         "dp": 17,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Vulpo",
         "icon": "char_275_breeze.webp"
     },
@@ -591,11 +533,9 @@
         "subclass": "loopshooter",
         "dp": 17,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "tara",
         "born": "Victoria",
-        "faction": [
-            "victoria",
-            "tara"
-        ],
         "race": "Perro",
         "icon": "char_4177_brigid.webp"
     },
@@ -605,11 +545,9 @@
         "subclass": "centurion",
         "dp": 23,
         "rarity": 5,
+        "faction": "siracusa",
+        "subfaction": "chiave",
         "born": "Siracusa",
-        "faction": [
-            "siracusa",
-            "chiave"
-        ],
         "race": "Feline",
         "icon": "char_356_broca.webp"
     },
@@ -619,11 +557,9 @@
         "subclass": "instructor",
         "dp": 18,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "siesta",
         "born": "Siesta",
-        "faction": [
-            "columbia",
-            "siesta"
-        ],
         "race": "Liberi",
         "icon": "char_4106_bryota.webp"
     },
@@ -633,10 +569,9 @@
         "subclass": "protector",
         "dp": 21,
         "rarity": 4,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Cerato",
         "icon": "char_381_bubble.webp"
     },
@@ -646,10 +581,9 @@
         "subclass": "pioneer",
         "dp": 3,
         "rarity": 1,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Robot",
         "icon": "char_4188_confes.png"
     },
@@ -659,10 +593,9 @@
         "subclass": "agent",
         "dp": 10,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Liberi",
         "icon": "char_497_ctable.webp"
     },
@@ -672,10 +605,9 @@
         "subclass": "loopshooter",
         "dp": 14,
         "rarity": 4,
+        "faction": "bolivar",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "bolivar"
-        ],
         "race": "Cautus",
         "icon": "char_4100_caper.webp"
     },
@@ -685,11 +617,9 @@
         "subclass": "protector",
         "dp": 18,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve4",
         "born": "Leithanien",
-        "faction": [
-            "rhodes",
-            "reserve4"
-        ],
         "race": "Perro",
         "icon": "char_209_ardign.webp"
     },
@@ -699,10 +629,9 @@
         "subclass": "phalanx",
         "dp": 24,
         "rarity": 6,
+        "faction": "leithanien",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "leithanien"
-        ],
         "race": "Caprinae",
         "icon": "char_426_billro.webp"
     },
@@ -712,10 +641,9 @@
         "subclass": "fearless",
         "dp": 3,
         "rarity": 1,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Robot",
         "icon": "char_286_cast3.webp"
     },
@@ -725,11 +653,9 @@
         "subclass": "aoesniper",
         "dp": 23,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve6",
         "born": "Kazimierz",
-        "faction": [
-            "rhodes",
-            "reserve6"
-        ],
         "race": "Kuranta",
         "icon": "char_282_catap.webp"
     },
@@ -739,10 +665,9 @@
         "subclass": "craftsman",
         "dp": 20,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_4162_cathy.webp"
     },
@@ -752,10 +677,9 @@
         "subclass": "duelist",
         "dp": 32,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Zalak",
         "icon": "char_464_cement.webp"
     },
@@ -765,10 +689,9 @@
         "subclass": "corecaster",
         "dp": 21,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Perro",
         "icon": "char_2013_cerber.webp"
     },
@@ -778,11 +701,9 @@
         "subclass": "healer",
         "dp": 22,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "siesta",
         "born": "Siesta",
-        "faction": [
-            "columbia",
-            "siesta"
-        ],
         "race": "Liberi",
         "icon": "char_348_ceylon.webp"
     },
@@ -792,11 +713,9 @@
         "subclass": "sword",
         "dp": 23,
         "rarity": 6,
+        "faction": "lungmen",
+        "subfaction": "lgd",
         "born": "Lungmen",
-        "faction": [
-            "lungmen",
-            "lgd"
-        ],
         "race": "Lung",
         "icon": "char_010_chen.webp"
     },
@@ -806,10 +725,9 @@
         "subclass": "reaperrange",
         "dp": 32,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Lungmen",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Lung",
         "icon": "char_1013_chen2.webp"
     },
@@ -819,10 +737,9 @@
         "subclass": "wandermedic",
         "dp": 14,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Durin",
         "icon": "char_4041_chnut.webp"
     },
@@ -832,11 +749,9 @@
         "subclass": "pioneer",
         "dp": 13,
         "rarity": 5,
+        "faction": "siracusa",
+        "subfaction": "chiave",
         "born": "Siracusa",
-        "faction": [
-            "siracusa",
-            "chiave"
-        ],
         "race": "Vulpo",
         "icon": "char_349_chiave.webp"
     },
@@ -846,11 +761,9 @@
         "subclass": "agent",
         "dp": 10,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "laios",
         "born": "Eastern Continent (Self-declared)",
-        "faction": [
-            "rhodes",
-            "laios"
-        ],
         "race": "Half-foot (Self-declared)",
         "icon": "char_4144_chilc.webp"
     },
@@ -860,11 +773,9 @@
         "subclass": "fighter",
         "dp": 11,
         "rarity": 6,
+        "faction": "yan",
+        "subfaction": "sui",
         "born": "Yan",
-        "faction": [
-            "yan",
-            "sui"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2024_chyue.webp"
     },
@@ -874,10 +785,9 @@
         "subclass": "bard",
         "dp": 10,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4134_cetsyr.webp"
     },
@@ -887,10 +797,9 @@
         "subclass": "funnel",
         "dp": 20,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Zalak",
         "icon": "char_328_cammou.webp"
     },
@@ -900,11 +809,9 @@
         "subclass": "hookmaster",
         "dp": 13,
         "rarity": 5,
+        "faction": "kjerag",
+        "subfaction": "karlan",
         "born": "Kjerag",
-        "faction": [
-            "kjerag",
-            "karlan"
-        ],
         "race": "Feline",
         "icon": "char_173_slchan.webp"
     },
@@ -914,10 +821,9 @@
         "subclass": "hunter",
         "dp": 21,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Elafia",
         "icon": "char_4104_coldst.webp"
     },
@@ -927,10 +833,9 @@
         "subclass": "skywalker",
         "dp": 16,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Zalak",
         "icon": "char_4165_ctrail.webp"
     },
@@ -940,10 +845,9 @@
         "subclass": "fearless",
         "dp": 16,
         "rarity": 4,
+        "faction": "minos",
+        "subfaction": "",
         "born": "Minos",
-        "faction": [
-            "minos"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_159_peacok.webp"
     },
@@ -953,10 +857,9 @@
         "subclass": "blastcaster",
         "dp": 33,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Phidia",
         "icon": "char_489_serum.webp"
     },
@@ -966,11 +869,9 @@
         "subclass": "pioneer",
         "dp": 12,
         "rarity": 4,
+        "faction": "kjerag",
+        "subfaction": "karlan",
         "born": "Kjerag",
-        "faction": [
-            "kjerag",
-            "karlan"
-        ],
         "race": "Itra",
         "icon": "char_198_blackd.webp"
     },
@@ -980,11 +881,9 @@
         "subclass": "protector",
         "dp": 22,
         "rarity": 5,
+        "faction": "lungmen",
+        "subfaction": "penguin",
         "born": "Minos",
-        "faction": [
-            "lungmen",
-            "penguin"
-        ],
         "race": "Forte",
         "icon": "char_201_moeshd.webp"
     },
@@ -994,10 +893,9 @@
         "subclass": "executor",
         "dp": 12,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Ursus",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Reproba",
         "icon": "char_1502_crosly.webp"
     },
@@ -1007,10 +905,9 @@
         "subclass": "protector",
         "dp": 21,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "columbia"
-        ],
         "race": "Petram",
         "icon": "char_150_snakek.webp"
     },
@@ -1020,10 +917,9 @@
         "subclass": "sword",
         "dp": 21,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Vulpo",
         "icon": "char_301_cutter.webp"
     },
@@ -1033,10 +929,9 @@
         "subclass": "artsprotector",
         "dp": 27,
         "rarity": 5,
+        "faction": "leithanien",
+        "subfaction": "",
         "born": "Leithanien",
-        "faction": [
-            "leithanien"
-        ],
         "race": "Elafia",
         "icon": "char_4047_pianst.webp"
     },
@@ -1046,11 +941,9 @@
         "subclass": "fighter",
         "dp": 12,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "glasgow",
         "born": "Victoria",
-        "faction": [
-            "victoria",
-            "glasgow"
-        ],
         "race": "Feline",
         "icon": "char_157_dagda.webp"
     },
@@ -1060,10 +953,9 @@
         "subclass": "summoner",
         "dp": 10,
         "rarity": 4,
+        "faction": "egir",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "egir"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_110_deepcl.webp"
     },
@@ -1073,11 +965,9 @@
         "subclass": "sword",
         "dp": 23,
         "rarity": 6,
+        "faction": "kjerag",
+        "subfaction": "karlan",
         "born": "Leithanien",
-        "faction": [
-            "kjerag",
-            "karlan"
-        ],
         "race": "Caprinae",
         "icon": "char_4116_blkkgt.webp"
     },
@@ -1087,10 +977,9 @@
         "subclass": "mystic",
         "dp": 26,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_4110_delphn.webp"
     },
@@ -1100,10 +989,9 @@
         "subclass": "primcaster",
         "dp": 20,
         "rarity": 5,
+        "faction": "leithanien",
+        "subfaction": "",
         "born": "Leithanien",
-        "faction": [
-            "leithanien"
-        ],
         "race": "Caprinae",
         "icon": "char_499_kaitou.webp"
     },
@@ -1113,10 +1001,9 @@
         "subclass": "instructor",
         "dp": 15,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Perro",
         "icon": "char_130_doberm.webp"
     },
@@ -1126,10 +1013,9 @@
         "subclass": "instructor",
         "dp": 16,
         "rarity": 5,
+        "faction": "rainbow",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rainbow"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4125_rdoc.webp"
     },
@@ -1139,11 +1025,9 @@
         "subclass": "traper",
         "dp": 12,
         "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "rhine",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "rhine"
-        ],
         "race": "Zalak",
         "icon": "char_4048_doroth.webp"
     },
@@ -1153,10 +1037,9 @@
         "subclass": "artsprotector",
         "dp": 24,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Vulpo",
         "icon": "char_260_durnar.webp"
     },
@@ -1166,11 +1049,9 @@
         "subclass": "corecaster",
         "dp": 12,
         "rarity": 2,
+        "faction": "rhodes",
+        "subfaction": "action4",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes",
-            "action4"
-        ],
         "race": "Durin",
         "icon": "char_501_durin.webp"
     },
@@ -1180,11 +1061,9 @@
         "subclass": "splashcaster",
         "dp": 34,
         "rarity": 6,
+        "faction": "yan",
+        "subfaction": "sui",
         "born": "Yan",
-        "faction": [
-            "yan",
-            "sui"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2015_dusk.webp"
     },
@@ -1194,10 +1073,9 @@
         "subclass": "slower",
         "dp": 14,
         "rarity": 4,
+        "faction": "leithanien",
+        "subfaction": "",
         "born": "Leithanien",
-        "faction": [
-            "leithanien"
-        ],
         "race": "Caprinae",
         "icon": "char_183_skgoat.webp"
     },
@@ -1207,10 +1085,9 @@
         "subclass": "mystic",
         "dp": 25,
         "rarity": 6,
+        "faction": "leithanien",
+        "subfaction": "",
         "born": "Leithanien",
-        "faction": [
-            "leithanien"
-        ],
         "race": "Caprinae",
         "icon": "char_4046_ebnhlz.webp"
     },
@@ -1220,10 +1097,9 @@
         "subclass": "traper",
         "dp": 12,
         "rarity": 6,
+        "faction": "rainbow",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rainbow"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4123_ela.webp"
     },
@@ -1233,10 +1109,9 @@
         "subclass": "bearer",
         "dp": 11,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Iberia",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Liberi",
         "icon": "char_401_elysm.webp"
     },
@@ -1246,10 +1121,9 @@
         "subclass": "pusher",
         "dp": 22,
         "rarity": 5,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Sankta",
         "icon": "char_4036_forcer.webp"
     },
@@ -1259,10 +1133,9 @@
         "subclass": "reaper",
         "dp": 23,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_4010_etlchi.webp"
     },
@@ -1272,10 +1145,9 @@
         "subclass": "siegesniper",
         "dp": 23,
         "rarity": 5,
+        "faction": "minos",
+        "subfaction": "",
         "born": "Minos",
-        "faction": [
-            "minos"
-        ],
         "race": "Liberi",
         "icon": "char_4043_erato.webp"
     },
@@ -1285,10 +1157,9 @@
         "subclass": "centurion",
         "dp": 22,
         "rarity": 4,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "sargon"
-        ],
         "race": "Archosauria",
         "icon": "char_127_estell.webp"
     },
@@ -1298,10 +1169,9 @@
         "subclass": "stalker",
         "dp": 19,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Savra",
         "icon": "char_355_ethan.webp"
     },
@@ -1311,10 +1181,9 @@
         "subclass": "duelist",
         "dp": 33,
         "rarity": 6,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Phidia",
         "icon": "char_416_zumama.webp"
     },
@@ -1324,10 +1193,9 @@
         "subclass": "reaperrange",
         "dp": 31,
         "rarity": 5,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Sankta",
         "icon": "char_279_excu.webp"
     },
@@ -1337,10 +1205,9 @@
         "subclass": "reaper",
         "dp": 23,
         "rarity": 6,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Sankta",
         "icon": "char_1032_excu2.webp"
     },
@@ -1350,11 +1217,9 @@
         "subclass": "fastshot",
         "dp": 14,
         "rarity": 6,
+        "faction": "lungmen",
+        "subfaction": "penguin",
         "born": "Laterano",
-        "faction": [
-            "lungmen",
-            "penguin"
-        ],
         "race": "Sankta",
         "icon": "char_103_angel.webp"
     },
@@ -1364,11 +1229,9 @@
         "subclass": "geek",
         "dp": 13,
         "rarity": 6,
+        "faction": "lungmen",
+        "subfaction": "penguin",
         "born": "Laterano",
-        "faction": [
-            "lungmen",
-            "penguin"
-        ],
         "race": "Sankta",
         "icon": "char_1041_angel2.png"
     },
@@ -1378,10 +1241,9 @@
         "subclass": "corecaster",
         "dp": 21,
         "rarity": 6,
+        "faction": "leithanien",
+        "subfaction": "",
         "born": "Leithanien",
-        "faction": [
-            "leithanien"
-        ],
         "race": "Caprinae",
         "icon": "char_180_amgoat.webp"
     },
@@ -1391,10 +1253,9 @@
         "subclass": "wandermedic",
         "dp": 16,
         "rarity": 6,
+        "faction": "leithanien",
+        "subfaction": "",
         "born": "Leithanien",
-        "faction": [
-            "leithanien"
-        ],
         "race": "Caprinae",
         "icon": "char_1016_agoat2.webp"
     },
@@ -1404,10 +1265,9 @@
         "subclass": "pusher",
         "dp": 20,
         "rarity": 5,
+        "faction": "lungmen",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "lungmen"
-        ],
         "race": "Ursus",
         "icon": "char_241_panda.webp"
     },
@@ -1417,11 +1277,9 @@
         "subclass": "pioneer",
         "dp": 11,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve1",
         "born": "Kazimierz",
-        "faction": [
-            "rhodes",
-            "reserve1"
-        ],
         "race": "Kuranta",
         "icon": "char_123_fang.webp"
     },
@@ -1431,10 +1289,9 @@
         "subclass": "charger",
         "dp": 12,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Kazimierz",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Kuranta",
         "icon": "char_1036_fang2.webp"
     },
@@ -1444,11 +1301,9 @@
         "subclass": "longrange",
         "dp": 22,
         "rarity": 6,
+        "faction": "kazimierz",
+        "subfaction": "pinus",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz",
-            "pinus"
-        ],
         "race": "Liberi",
         "icon": "char_430_fartth.webp"
     },
@@ -1458,10 +1313,9 @@
         "subclass": "aoesniper",
         "dp": 29,
         "rarity": 6,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Liberi",
         "icon": "char_300_phenxi.webp"
     },
@@ -1471,10 +1325,9 @@
         "subclass": "merchant",
         "dp": 8,
         "rarity": 5,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Lupo",
         "icon": "char_4155_talr.webp"
     },
@@ -1484,10 +1337,9 @@
         "subclass": "longrange",
         "dp": 21,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Elafia",
         "icon": "char_158_milu.webp"
     },
@@ -1497,10 +1349,9 @@
         "subclass": "fortress",
         "dp": 27,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Liberi",
         "icon": "char_493_firwhl.webp"
     },
@@ -1510,10 +1361,9 @@
         "subclass": "fearless",
         "dp": 20,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_131_flameb.webp"
     },
@@ -1523,11 +1373,9 @@
         "subclass": "pioneer",
         "dp": 14,
         "rarity": 6,
+        "faction": "kazimierz",
+        "subfaction": "pinus",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz",
-            "pinus"
-        ],
         "race": "Zalak",
         "icon": "char_420_flamtl.webp"
     },
@@ -1537,10 +1385,9 @@
         "subclass": "fighter",
         "dp": 10,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Liberi",
         "icon": "char_415_flint.webp"
     },
@@ -1550,10 +1397,9 @@
         "subclass": "physician",
         "dp": 21,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Ursus",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Feline",
         "icon": "char_345_folnic.webp"
     },
@@ -1563,11 +1409,9 @@
         "subclass": "fearless",
         "dp": 18,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "blacksteel",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "blacksteel"
-        ],
         "race": "Vulpo",
         "icon": "char_106_franka.webp"
     },
@@ -1577,10 +1421,9 @@
         "subclass": "protector",
         "dp": 3,
         "rarity": 1,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Rhodes Island",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Robot",
         "icon": "char_4093_frston.webp"
     },
@@ -1590,10 +1433,9 @@
         "subclass": "traper",
         "dp": 11,
         "rarity": 5,
+        "faction": "rainbow",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rainbow"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_458_rfrost.webp"
     },
@@ -1603,10 +1445,9 @@
         "subclass": "lord",
         "dp": 18,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Vulpo",
         "icon": "char_193_frostl.webp"
     },
@@ -1616,10 +1457,9 @@
         "subclass": "centurion",
         "dp": 25,
         "rarity": 5,
+        "faction": "rainbow",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rainbow"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4126_fuze.webp"
     },
@@ -1629,10 +1469,9 @@
         "subclass": "physician",
         "dp": 18,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Archosauria",
         "icon": "char_187_ccheal.webp"
     },
@@ -1642,10 +1481,9 @@
         "subclass": "centurion",
         "dp": 24,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Archosauria",
         "icon": "char_1026_gvial2.webp"
     },
@@ -1655,10 +1493,9 @@
         "subclass": "splashcaster",
         "dp": 32,
         "rarity": 4,
+        "faction": "sami",
+        "subfaction": "",
         "born": "Sami",
-        "faction": [
-            "sami"
-        ],
         "race": "Elafia",
         "icon": "char_109_fmout.webp"
     },
@@ -1668,11 +1505,9 @@
         "subclass": "hookmaster",
         "dp": 16,
         "rarity": 6,
+        "faction": "egir",
+        "subfaction": "abyssal",
         "born": "\u00c6gir",
-        "faction": [
-            "egir",
-            "abyssal"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_474_glady.webp"
     },
@@ -1682,10 +1517,9 @@
         "subclass": "slower",
         "dp": 15,
         "rarity": 5,
+        "faction": "iberia",
+        "subfaction": "",
         "born": "\u00c6gir",
-        "faction": [
-            "iberia"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_326_glacus.webp"
     },
@@ -1695,11 +1529,9 @@
         "subclass": "underminer",
         "dp": 13,
         "rarity": 6,
+        "faction": "kjerag",
+        "subfaction": "karlan",
         "born": "Kjerag",
-        "faction": [
-            "kjerag",
-            "karlan"
-        ],
         "race": "Liberi",
         "icon": "char_206_gnosis.webp"
     },
@@ -1709,10 +1541,9 @@
         "subclass": "funnel",
         "dp": 22,
         "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_377_gdglow.webp"
     },
@@ -1722,10 +1553,9 @@
         "subclass": "primguard",
         "dp": 22,
         "rarity": 5,
+        "faction": "bolivar",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "bolivar"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4187_graceb.png"
     },
@@ -1735,10 +1565,9 @@
         "subclass": "slower",
         "dp": 15,
         "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Liberi",
         "icon": "char_4122_grabds.webp"
     },
@@ -1748,10 +1577,9 @@
         "subclass": "charger",
         "dp": 14,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Kuranta",
         "icon": "char_220_grani.webp"
     },
@@ -1761,10 +1589,9 @@
         "subclass": "executor",
         "dp": 8,
         "rarity": 4,
+        "faction": "kazimierz",
+        "subfaction": "",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz"
-        ],
         "race": "Zalak",
         "icon": "char_237_gravel.webp"
     },
@@ -1774,10 +1601,9 @@
         "subclass": "fastshot",
         "dp": 13,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Liberi",
         "icon": "char_367_swllow.webp"
     },
@@ -1787,10 +1613,9 @@
         "subclass": "splashcaster",
         "dp": 32,
         "rarity": 4,
+        "faction": "bolivar",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "bolivar"
-        ],
         "race": "Perro",
         "icon": "char_253_greyy.webp"
     },
@@ -1800,10 +1625,9 @@
         "subclass": "bombarder",
         "dp": 24,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Perro",
         "icon": "char_1027_greyy2.webp"
     },
@@ -1813,11 +1637,9 @@
         "subclass": "guardian",
         "dp": 20,
         "rarity": 4,
+        "faction": "ursus",
+        "subfaction": "student",
         "born": "Ursus",
-        "faction": [
-            "ursus",
-            "student"
-        ],
         "race": "Ursus",
         "icon": "char_196_sunbr.webp"
     },
@@ -1827,11 +1649,9 @@
         "subclass": "mystic",
         "dp": 24,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "tara",
         "born": "Victoria",
-        "faction": [
-            "victoria",
-            "tara"
-        ],
         "race": "Feline",
         "icon": "char_297_hamoni.webp"
     },
@@ -1841,10 +1661,9 @@
         "subclass": "wandermedic",
         "dp": 17,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_4114_harold.webp"
     },
@@ -1854,10 +1673,9 @@
         "subclass": "corecaster",
         "dp": 19,
         "rarity": 4,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_141_nights.webp"
     },
@@ -1867,10 +1685,9 @@
         "subclass": "protector",
         "dp": 24,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Kuranta",
         "icon": "char_304_zebra.webp"
     },
@@ -1880,10 +1697,9 @@
         "subclass": "bard",
         "dp": 9,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_4045_heidi.webp"
     },
@@ -1893,10 +1709,9 @@
         "subclass": "musha",
         "dp": 26,
         "rarity": 6,
+        "faction": "ursus",
+        "subfaction": "",
         "born": "Ursus",
-        "faction": [
-            "ursus"
-        ],
         "race": "Liberi",
         "icon": "char_188_helage.webp"
     },
@@ -1906,11 +1721,9 @@
         "subclass": "physician",
         "dp": 17,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve1",
         "born": "Victoria",
-        "faction": [
-            "rhodes",
-            "reserve1"
-        ],
         "race": "Sarkaz",
         "icon": "char_120_hibisc.webp"
     },
@@ -1920,10 +1733,9 @@
         "subclass": "incantationmedic",
         "dp": 17,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_1024_hbisc2.webp"
     },
@@ -1933,10 +1745,9 @@
         "subclass": "reaper",
         "dp": 22,
         "rarity": 5,
+        "faction": "iberia",
+        "subfaction": "",
         "born": "Iberia",
-        "faction": [
-            "iberia"
-        ],
         "race": "\u00c6gir",
         "icon": "char_4066_highmo.webp"
     },
@@ -1946,10 +1757,9 @@
         "subclass": "corecaster",
         "dp": 21,
         "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4027_heyak.webp"
     },
@@ -1959,10 +1769,9 @@
         "subclass": "crusher",
         "dp": 24,
         "rarity": 6,
+        "faction": "babel",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "babel"
-        ],
         "race": "Sarkaz",
         "icon": "char_4088_hodrer.webp"
     },
@@ -1972,10 +1781,9 @@
         "subclass": "wandermedic",
         "dp": 15,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Zalak",
         "icon": "char_449_glider.webp"
     },
@@ -1985,10 +1793,9 @@
         "subclass": "fortress",
         "dp": 28,
         "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Lupo",
         "icon": "char_4039_horn.webp"
     },
@@ -1998,11 +1805,9 @@
         "subclass": "protector",
         "dp": 23,
         "rarity": 6,
+        "faction": "lungmen",
+        "subfaction": "lgd",
         "born": "Higashi",
-        "faction": [
-            "lungmen",
-            "lgd"
-        ],
         "race": "Oni",
         "icon": "char_136_hsguma.webp"
     },
@@ -2012,10 +1817,9 @@
         "subclass": "reaper",
         "dp": 21,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Forte",
         "icon": "char_491_humus.webp"
     },
@@ -2025,11 +1829,9 @@
         "subclass": "guardian",
         "dp": 21,
         "rarity": 5,
+        "faction": "lungmen",
+        "subfaction": "lee",
         "born": "Lungmen",
-        "faction": [
-            "lungmen",
-            "lee"
-        ],
         "race": "Perro",
         "icon": "char_226_hmau.webp"
     },
@@ -2039,10 +1841,9 @@
         "subclass": "dollkeeper",
         "dp": 15,
         "rarity": 5,
+        "faction": "rainbow",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rainbow"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4124_iana.webp"
     },
@@ -2052,11 +1853,9 @@
         "subclass": "blastcaster",
         "dp": 34,
         "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "rhine",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "columbia",
-            "rhine"
-        ],
         "race": "Sarkaz",
         "icon": "char_134_ifrit.webp"
     },
@@ -2066,10 +1865,9 @@
         "subclass": "mystic",
         "dp": 23,
         "rarity": 4,
+        "faction": "iberia",
+        "subfaction": "",
         "born": "Iberia",
-        "faction": [
-            "iberia"
-        ],
         "race": "Phidia",
         "icon": "char_469_indigo.webp"
     },
@@ -2079,11 +1877,9 @@
         "subclass": "fighter",
         "dp": 10,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "glasgow",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "victoria",
-            "glasgow"
-        ],
         "race": "Feline",
         "icon": "char_155_tiger.webp"
     },
@@ -2093,10 +1889,9 @@
         "subclass": "agent",
         "dp": 11,
         "rarity": 6,
+        "faction": "babel",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "babel"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4087_ines.webp"
     },
@@ -2106,10 +1901,9 @@
         "subclass": "fastshot",
         "dp": 15,
         "rarity": 5,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Sankta",
         "icon": "char_498_inside.webp"
     },
@@ -2119,10 +1913,9 @@
         "subclass": "sword",
         "dp": 23,
         "rarity": 6,
+        "faction": "iberia",
+        "subfaction": "",
         "born": "Iberia",
-        "faction": [
-            "iberia"
-        ],
         "race": "Liberi",
         "icon": "char_4009_irene.webp"
     },
@@ -2132,10 +1925,9 @@
         "subclass": "mystic",
         "dp": 24,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_338_iris.webp"
     },
@@ -2145,11 +1937,9 @@
         "subclass": "slower",
         "dp": 15,
         "rarity": 5,
+        "faction": "ursus",
+        "subfaction": "student",
         "born": "Ursus",
-        "faction": [
-            "ursus",
-            "student"
-        ],
         "race": "Ursus",
         "icon": "char_195_glassb.webp"
     },
@@ -2159,10 +1949,9 @@
         "subclass": "fighter",
         "dp": 9,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Perro",
         "icon": "char_347_jaksel.webp"
     },
@@ -2172,10 +1961,9 @@
         "subclass": "merchant",
         "dp": 7,
         "rarity": 4,
+        "faction": "lungmen",
+        "subfaction": "",
         "born": "Lungmen",
-        "faction": [
-            "lungmen"
-        ],
         "race": "Ursus",
         "icon": "char_272_strong.webp"
     },
@@ -2185,11 +1973,9 @@
         "subclass": "fastshot",
         "dp": 12,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "blacksteel",
         "born": "Victoria",
-        "faction": [
-            "columbia",
-            "blacksteel"
-        ],
         "race": "Feline",
         "icon": "char_235_jesica.webp"
     },
@@ -2199,11 +1985,9 @@
         "subclass": "shotprotector",
         "dp": 23,
         "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "blacksteel",
         "born": "Victoria",
-        "faction": [
-            "columbia",
-            "blacksteel"
-        ],
         "race": "Feline",
         "icon": "char_1034_jesca2.webp"
     },
@@ -2213,10 +1997,9 @@
         "subclass": "aoesniper",
         "dp": 30,
         "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Anasa",
         "icon": "char_4078_bdhkgt.webp"
     },
@@ -2226,10 +2009,9 @@
         "subclass": "executor",
         "dp": 9,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Liberi",
         "icon": "char_214_kafka.webp"
     },
@@ -2239,10 +2021,9 @@
         "subclass": "physician",
         "dp": 20,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Rhodes Island",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Feline",
         "icon": "char_003_kalts.webp"
     },
@@ -2252,10 +2033,9 @@
         "subclass": "dollkeeper",
         "dp": 15,
         "rarity": 5,
+        "faction": "higashi",
+        "subfaction": "",
         "born": "Higashi",
-        "faction": [
-            "higashi"
-        ],
         "race": "Feline",
         "icon": "char_4016_kazema.webp"
     },
@@ -2265,10 +2045,9 @@
         "subclass": "pioneer",
         "dp": 13,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Liberi",
         "icon": "char_4023_rfalcn.webp"
     },
@@ -2278,10 +2057,9 @@
         "subclass": "stalker",
         "dp": 20,
         "rarity": 5,
+        "faction": "higashi",
+        "subfaction": "",
         "born": "Higashi",
-        "faction": [
-            "higashi"
-        ],
         "race": "\u00c6gir",
         "icon": "char_478_kirara.webp"
     },
@@ -2291,11 +2069,9 @@
         "subclass": "executor",
         "dp": 10,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "action4",
         "born": "Higashi",
-        "faction": [
-            "rhodes",
-            "action4"
-        ],
         "race": "Oni",
         "icon": "char_1029_yato2.webp"
     },
@@ -2305,11 +2081,9 @@
         "subclass": "funnel",
         "dp": 23,
         "rarity": 5,
+        "faction": "kjerag",
+        "subfaction": "karlan",
         "born": "Kjerag",
-        "faction": [
-            "kjerag",
-            "karlan"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4013_kjera.webp"
     },
@@ -2319,11 +2093,9 @@
         "subclass": "fastshot",
         "dp": 11,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve1",
         "born": "Rim Billiton",
-        "faction": [
-            "rhodes",
-            "reserve1"
-        ],
         "race": "Cautus",
         "icon": "char_124_kroos.webp"
     },
@@ -2333,10 +2105,9 @@
         "subclass": "fastshot",
         "dp": 15,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Cautus",
         "icon": "char_1021_kroos2.webp"
     },
@@ -2346,10 +2117,9 @@
         "subclass": "reaper",
         "dp": 22,
         "rarity": 5,
+        "faction": "bolivar",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "bolivar"
-        ],
         "race": "Liberi",
         "icon": "char_421_crow.webp"
     },
@@ -2359,11 +2129,9 @@
         "subclass": "fearless",
         "dp": 18,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "laios",
         "born": "Northern Continent (Self-declared)",
-        "faction": [
-            "rhodes",
-            "laios"
-        ],
         "race": "Tall-man (Self-declared)",
         "icon": "char_4142_laios.webp"
     },
@@ -2373,10 +2141,9 @@
         "subclass": "physician",
         "dp": 3,
         "rarity": 1,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Robot",
         "icon": "char_285_medic2.webp"
     },
@@ -2386,10 +2153,9 @@
         "subclass": "lord",
         "dp": 19,
         "rarity": 5,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Lupo",
         "icon": "char_140_whitew.webp"
     },
@@ -2399,10 +2165,9 @@
         "subclass": "funnel",
         "dp": 22,
         "rarity": 6,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Lupo",
         "icon": "char_1038_whitw2.webp"
     },
@@ -2412,11 +2177,9 @@
         "subclass": "splashcaster",
         "dp": 30,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve1",
         "born": "Victoria",
-        "faction": [
-            "rhodes",
-            "reserve1"
-        ],
         "race": "Sarkaz",
         "icon": "char_121_lava.webp"
     },
@@ -2426,10 +2189,9 @@
         "subclass": "splashcaster",
         "dp": 35,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_1011_lava2.webp"
     },
@@ -2439,11 +2201,9 @@
         "subclass": "merchant",
         "dp": 9,
         "rarity": 6,
+        "faction": "lungmen",
+        "subfaction": "lee",
         "born": "Yan",
-        "faction": [
-            "lungmen",
-            "lee"
-        ],
         "race": "Lung",
         "icon": "char_322_lmlee.webp"
     },
@@ -2453,10 +2213,9 @@
         "subclass": "chain",
         "dp": 32,
         "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Kylin",
         "icon": "char_306_leizi.webp"
     },
@@ -2466,10 +2225,9 @@
         "subclass": "longrange",
         "dp": 22,
         "rarity": 6,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Sankta",
         "icon": "char_4193_lemuen.png"
     },
@@ -2479,10 +2237,9 @@
         "subclass": "splashcaster",
         "dp": 33,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Cautus",
         "icon": "char_373_lionhd.webp"
     },
@@ -2492,10 +2249,9 @@
         "subclass": "fearless",
         "dp": 21,
         "rarity": 6,
+        "faction": "leithanien",
+        "subfaction": "",
         "born": "Leithanien",
-        "faction": [
-            "leithanien"
-        ],
         "race": "Caprinae",
         "icon": "char_4011_lessng.webp"
     },
@@ -2505,11 +2261,9 @@
         "subclass": "lord",
         "dp": 19,
         "rarity": 5,
+        "faction": "ursus",
+        "subfaction": "student",
         "born": "Ursus",
-        "faction": [
-            "ursus",
-            "student"
-        ],
         "race": "Ursus",
         "icon": "char_194_leto.webp"
     },
@@ -2519,10 +2273,9 @@
         "subclass": "phalanx",
         "dp": 24,
         "rarity": 6,
+        "faction": "lungmen",
+        "subfaction": "",
         "born": "Lungmen",
-        "faction": [
-            "lungmen"
-        ],
         "race": "Zalak",
         "icon": "char_4080_lin.webp"
     },
@@ -2532,11 +2285,9 @@
         "subclass": "summoner",
         "dp": 12,
         "rarity": 6,
+        "faction": "yan",
+        "subfaction": "sui",
         "born": "Yan",
-        "faction": [
-            "yan",
-            "sui"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2023_ling.webp"
     },
@@ -2546,11 +2297,9 @@
         "subclass": "shotprotector",
         "dp": 22,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "blacksteel",
         "born": "Vouivre",
-        "faction": [
-            "columbia",
-            "blacksteel"
-        ],
         "race": "Vouivre",
         "icon": "char_107_liskam.webp"
     },
@@ -2560,11 +2309,9 @@
         "subclass": "corecaster",
         "dp": 21,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "elite",
         "born": "Kazdel",
-        "faction": [
-            "rhodes",
-            "elite"
-        ],
         "race": "Sarkaz",
         "icon": "char_4133_logos.webp"
     },
@@ -2574,10 +2321,9 @@
         "subclass": "underminer",
         "dp": 12,
         "rarity": 5,
+        "faction": "egir",
+        "subfaction": "",
         "born": "\u00c6gir",
-        "faction": [
-            "egir"
-        ],
         "race": "\u00c6gir",
         "icon": "char_4079_haini.webp"
     },
@@ -2587,10 +2333,9 @@
         "subclass": "healer",
         "dp": 23,
         "rarity": 6,
+        "faction": "iberia",
+        "subfaction": "",
         "born": "Iberia",
-        "faction": [
-            "iberia"
-        ],
         "race": "\u00c6gir",
         "icon": "char_4042_lumen.webp"
     },
@@ -2600,10 +2345,9 @@
         "subclass": "longrange",
         "dp": 21,
         "rarity": 5,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Lupo",
         "icon": "char_4014_lunacu.webp"
     },
@@ -2613,10 +2357,9 @@
         "subclass": "lord",
         "dp": 17,
         "rarity": 4,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "yan"
-        ],
         "race": "Feline",
         "icon": "char_4067_lolxh.webp"
     },
@@ -2626,10 +2369,9 @@
         "subclass": "unyield",
         "dp": 34,
         "rarity": 4,
+        "faction": "bolivar",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "bolivar"
-        ],
         "race": "Zalak",
         "icon": "char_4130_luton.webp"
     },
@@ -2639,11 +2381,9 @@
         "subclass": "summoner",
         "dp": 12,
         "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "rhine",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "rhine"
-        ],
         "race": "Liberi",
         "icon": "char_248_mgllan.webp"
     },
@@ -2653,10 +2393,9 @@
         "subclass": "stalker",
         "dp": 20,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Manticore",
         "icon": "char_215_mantic.webp"
     },
@@ -2666,11 +2405,9 @@
         "subclass": "splashcaster",
         "dp": 34,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "laios",
         "born": "Northern Continent (Self-declared)",
-        "faction": [
-            "rhodes",
-            "laios"
-        ],
         "race": "Elf",
         "icon": "char_4141_marcil.webp"
     },
@@ -2680,10 +2417,9 @@
         "subclass": "fearless",
         "dp": 17,
         "rarity": 4,
+        "faction": "higashi",
+        "subfaction": "",
         "born": "Higashi",
-        "faction": [
-            "higashi"
-        ],
         "race": "Oni",
         "icon": "char_289_gyuki.webp"
     },
@@ -2693,11 +2429,9 @@
         "subclass": "protector",
         "dp": 21,
         "rarity": 4,
+        "faction": "kjerag",
+        "subfaction": "karlan",
         "born": "Kjerag",
-        "faction": [
-            "kjerag",
-            "karlan"
-        ],
         "race": "Forte",
         "icon": "char_199_yak.webp"
     },
@@ -2707,10 +2441,9 @@
         "subclass": "fastshot",
         "dp": 12,
         "rarity": 4,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Liberi",
         "icon": "char_133_mm.webp"
     },
@@ -2720,11 +2453,9 @@
         "subclass": "summoner",
         "dp": 11,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "rhine",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "rhine"
-        ],
         "race": "Anaty",
         "icon": "char_242_otter.webp"
     },
@@ -2734,10 +2465,9 @@
         "subclass": "closerange",
         "dp": 19,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Phidia",
         "icon": "char_4006_melnte.webp"
     },
@@ -2747,11 +2477,9 @@
         "subclass": "fearless",
         "dp": 15,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve4",
         "born": "Victoria",
-        "faction": [
-            "rhodes",
-            "reserve4"
-        ],
         "race": "Feline",
         "icon": "char_208_melan.webp"
     },
@@ -2761,10 +2489,9 @@
         "subclass": "fastshot",
         "dp": 12,
         "rarity": 4,
+        "faction": "kazimierz",
+        "subfaction": "",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz"
-        ],
         "race": "Kuranta",
         "icon": "char_126_shotst.webp"
     },
@@ -2774,10 +2501,9 @@
         "subclass": "aoesniper",
         "dp": 28,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_219_meteo.webp"
     },
@@ -2787,11 +2513,9 @@
         "subclass": "lord",
         "dp": 16,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve6",
         "born": "Higashi",
-        "faction": [
-            "rhodes",
-            "reserve6"
-        ],
         "race": "Sarkaz",
         "icon": "char_283_midn.webp"
     },
@@ -2801,10 +2525,9 @@
         "subclass": "funnel",
         "dp": 23,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Durin",
-        "faction": [
-            "sargon"
-        ],
         "race": "Durin",
         "icon": "char_4054_malist.webp"
     },
@@ -2814,10 +2537,9 @@
         "subclass": "phalanx",
         "dp": 25,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_388_mint.webp"
     },
@@ -2827,10 +2549,9 @@
         "subclass": "primcaster",
         "dp": 22,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "victoria"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4198_christ.png"
     },
@@ -2840,10 +2561,9 @@
         "subclass": "tactician",
         "dp": 14,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_4147_mitm.webp"
     },
@@ -2853,10 +2573,9 @@
         "subclass": "stalker",
         "dp": 21,
         "rarity": 6,
+        "faction": "higashi",
+        "subfaction": "",
         "born": "Higashi",
-        "faction": [
-            "higashi"
-        ],
         "race": "\u00c6gir",
         "icon": "char_437_mizuki.webp"
     },
@@ -2866,10 +2585,9 @@
         "subclass": "chainhealer",
         "dp": 18,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Rhodes Island",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4179_monstr.png"
     },
@@ -2879,11 +2597,9 @@
         "subclass": "fearless",
         "dp": 20,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "glasgow",
         "born": "Victoria",
-        "faction": [
-            "victoria",
-            "glasgow"
-        ],
         "race": "Feline",
         "icon": "char_154_morgan.webp"
     },
@@ -2893,10 +2609,9 @@
         "subclass": "splashcaster",
         "dp": 34,
         "rarity": 6,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_213_mostma.webp"
     },
@@ -2906,10 +2621,9 @@
         "subclass": "fighter",
         "dp": 11,
         "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Feline",
         "icon": "char_264_f12yin.webp"
     },
@@ -2919,10 +2633,9 @@
         "subclass": "artsfghter",
         "dp": 20,
         "rarity": 4,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_185_frncat.webp"
     },
@@ -2932,10 +2645,9 @@
         "subclass": "merchant",
         "dp": 8,
         "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Liberi",
         "icon": "char_455_nothin.webp"
     },
@@ -2945,10 +2657,9 @@
         "subclass": "unyield",
         "dp": 36,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_311_mudrok.webp"
     },
@@ -2958,11 +2669,9 @@
         "subclass": "tactician",
         "dp": 15,
         "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "rhine",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "columbia",
-            "rhine"
-        ],
         "race": "Elf",
         "icon": "char_249_mlyss.webp"
     },
@@ -2972,10 +2681,9 @@
         "subclass": "wandermedic",
         "dp": 15,
         "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Liberi",
         "icon": "char_473_mberry.webp"
     },
@@ -2985,10 +2693,9 @@
         "subclass": "physician",
         "dp": 18,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Vulpo",
         "icon": "char_117_myrrh.webp"
     },
@@ -2998,10 +2705,9 @@
         "subclass": "bearer",
         "dp": 10,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Durin",
         "icon": "char_151_myrtle.webp"
     },
@@ -3011,10 +2717,9 @@
         "subclass": "librator",
         "dp": 12,
         "rarity": 6,
+        "faction": "kazimierz",
+        "subfaction": "",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz"
-        ],
         "race": "Kuranta",
         "icon": "char_4064_mlynar.webp"
     },
@@ -3024,10 +2729,9 @@
         "subclass": "loopshooter",
         "dp": 16,
         "rarity": 6,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Kuranta",
         "icon": "char_4138_narant.webp"
     },
@@ -3037,10 +2741,9 @@
         "subclass": "guardian",
         "dp": 21,
         "rarity": 5,
+        "faction": "followers",
+        "subfaction": "",
         "born": "Kazimierz",
-        "faction": [
-            "followers"
-        ],
         "race": "Kuranta",
         "icon": "char_148_nearl.webp"
     },
@@ -3050,10 +2753,9 @@
         "subclass": "fearless",
         "dp": 19,
         "rarity": 6,
+        "faction": "kazimierz",
+        "subfaction": "",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz"
-        ],
         "race": "Kuranta",
         "icon": "char_1014_nearl2.webp"
     },
@@ -3063,11 +2765,9 @@
         "subclass": "soulcaster",
         "dp": 21,
         "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "tara",
         "born": "Victoria",
-        "faction": [
-            "victoria",
-            "tara"
-        ],
         "race": "Draco",
         "icon": "char_450_necras.webp"
     },
@@ -3077,11 +2777,9 @@
         "subclass": "protector",
         "dp": 23,
         "rarity": 6,
+        "faction": "yan",
+        "subfaction": "sui",
         "born": "Yan",
-        "faction": [
-            "yan",
-            "sui"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2014_nian.webp"
     },
@@ -3091,10 +2789,9 @@
         "subclass": "ringhealer",
         "dp": 18,
         "rarity": 6,
+        "faction": "followers",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "followers"
-        ],
         "race": "Sarkaz",
         "icon": "char_179_cgbird.webp"
     },
@@ -3104,10 +2801,9 @@
         "subclass": "corecaster",
         "dp": 20,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_164_nightm.webp"
     },
@@ -3117,10 +2813,9 @@
         "subclass": "blessing",
         "dp": 11,
         "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Elafia",
         "icon": "char_4019_ncdeer.webp"
     },
@@ -3130,11 +2825,9 @@
         "subclass": "protector",
         "dp": 14,
         "rarity": 2,
+        "faction": "rhodes",
+        "subfaction": "action4",
         "born": "Higashi",
-        "faction": [
-            "rhodes",
-            "action4"
-        ],
         "race": "Oni",
         "icon": "char_500_noirc.webp"
     },
@@ -3144,10 +2837,9 @@
         "subclass": "healer",
         "dp": 20,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Vulpo",
         "icon": "char_4173_nowell.webp"
     },
@@ -3157,10 +2849,9 @@
         "subclass": "primcaster",
         "dp": 21,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_4146_nymph.webp"
     },
@@ -3170,10 +2861,9 @@
         "subclass": "hammer",
         "dp": 21,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_4131_odda.webp"
     },
@@ -3183,11 +2873,9 @@
         "subclass": "slower",
         "dp": 12,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve6",
         "born": "Columbia",
-        "faction": [
-            "rhodes",
-            "reserve6"
-        ],
         "race": "Liberi",
         "icon": "char_278_orchid.webp"
     },
@@ -3197,10 +2885,9 @@
         "subclass": "instructor",
         "dp": 17,
         "rarity": 6,
+        "faction": "minos",
+        "subfaction": "",
         "born": "Minos",
-        "faction": [
-            "minos"
-        ],
         "race": "Forte",
         "icon": "char_485_pallas.webp"
     },
@@ -3210,10 +2897,9 @@
         "subclass": "chainhealer",
         "dp": 18,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_4071_peper.webp"
     },
@@ -3223,10 +2909,9 @@
         "subclass": "chainhealer",
         "dp": 20,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Feline",
         "icon": "char_4139_papyrs.webp"
     },
@@ -3236,10 +2921,9 @@
         "subclass": "chain",
         "dp": 33,
         "rarity": 6,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "sargon"
-        ],
         "race": "Liberi",
         "icon": "char_472_pasngr.webp"
     },
@@ -3249,10 +2933,9 @@
         "subclass": "unyield",
         "dp": 36,
         "rarity": 6,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Lupo",
         "icon": "char_4065_judge.webp"
     },
@@ -3262,10 +2945,9 @@
         "subclass": "hammer",
         "dp": 20,
         "rarity": 6,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Feline",
         "icon": "char_4058_pepe.webp"
     },
@@ -3275,10 +2957,9 @@
         "subclass": "ringhealer",
         "dp": 16,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Minos",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Vulpo",
         "icon": "char_181_flower.webp"
     },
@@ -3288,10 +2969,9 @@
         "subclass": "executor",
         "dp": 10,
         "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_250_phatom.webp"
     },
@@ -3301,10 +2981,9 @@
         "subclass": "primprotector",
         "dp": 25,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Sarkaz",
         "icon": "char_4148_philae.webp"
     },
@@ -3314,10 +2993,9 @@
         "subclass": "ritualist",
         "dp": 3,
         "rarity": 1,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Rhodes Island",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Robot",
         "icon": "char_4136_phonor.webp"
     },
@@ -3327,10 +3005,9 @@
         "subclass": "reaperrange",
         "dp": 30,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Liberi",
         "icon": "char_440_pinecn.webp"
     },
@@ -3340,10 +3017,9 @@
         "subclass": "fastshot",
         "dp": 13,
         "rarity": 5,
+        "faction": "kazimierz",
+        "subfaction": "",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz"
-        ],
         "race": "Kuranta",
         "icon": "char_204_platnm.webp"
     },
@@ -3353,10 +3029,9 @@
         "subclass": "charger",
         "dp": 10,
         "rarity": 3,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Liberi",
         "icon": "char_192_falco.webp"
     },
@@ -3366,10 +3041,9 @@
         "subclass": "slower",
         "dp": 14,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Perro",
         "icon": "char_258_podego.webp"
     },
@@ -3379,11 +3053,9 @@
         "subclass": "pioneer",
         "dp": 13,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "siesta",
         "born": "Siesta",
-        "faction": [
-            "columbia",
-            "siesta"
-        ],
         "race": "Liberi",
         "icon": "char_488_buildr.webp"
     },
@@ -3393,11 +3065,9 @@
         "subclass": "centurion",
         "dp": 19,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve6",
         "born": "Rim Billiton",
-        "faction": [
-            "rhodes",
-            "reserve6"
-        ],
         "race": "Cautus",
         "icon": "char_281_popka.webp"
     },
@@ -3407,10 +3077,9 @@
         "subclass": "closerange",
         "dp": 20,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Ursus",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Lupo",
         "icon": "char_4055_bgsnow.webp"
     },
@@ -3420,11 +3089,9 @@
         "subclass": "underminer",
         "dp": 12,
         "rarity": 5,
+        "faction": "kjerag",
+        "subfaction": "karlan",
         "born": "Kjerag",
-        "faction": [
-            "kjerag",
-            "karlan"
-        ],
         "race": "Feline",
         "icon": "char_174_slbell.webp"
     },
@@ -3434,11 +3101,9 @@
         "subclass": "executor",
         "dp": 9,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "sweep",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes",
-            "sweep"
-        ],
         "race": "Lupo",
         "icon": "char_144_red.webp"
     },
@@ -3448,10 +3113,9 @@
         "subclass": "closerange",
         "dp": 19,
         "rarity": 5,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Lupo",
         "icon": "char_145_prove.webp"
     },
@@ -3461,10 +3125,9 @@
         "subclass": "slower",
         "dp": 15,
         "rarity": 5,
+        "faction": "kazimierz",
+        "subfaction": "",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz"
-        ],
         "race": "Kuranta",
         "icon": "char_4032_provs.webp"
     },
@@ -3474,11 +3137,9 @@
         "subclass": "ringhealer",
         "dp": 17,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "rhine",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "rhine"
-        ],
         "race": "Liberi",
         "icon": "char_128_plosis.webp"
     },
@@ -3488,10 +3149,9 @@
         "subclass": "chain",
         "dp": 31,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "\u00c6gir",
         "icon": "char_4004_pudd.webp"
     },
@@ -3501,10 +3161,9 @@
         "subclass": "healer",
         "dp": 19,
         "rarity": 4,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "\u00c6gir",
         "icon": "char_385_finlpp.webp"
     },
@@ -3514,10 +3173,9 @@
         "subclass": "agent",
         "dp": 12,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Vouivre",
         "icon": "char_4017_puzzle.webp"
     },
@@ -3527,10 +3185,9 @@
         "subclass": "corecaster",
         "dp": 20,
         "rarity": 5,
+        "faction": "sami",
+        "subfaction": "",
         "born": "Sami",
-        "faction": [
-            "sami"
-        ],
         "race": "Vulpo",
         "icon": "char_466_qanik.webp"
     },
@@ -3540,10 +3197,9 @@
         "subclass": "lord",
         "dp": 20,
         "rarity": 6,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Elafia",
         "icon": "char_4082_qiubai.webp"
     },
@@ -3553,10 +3209,9 @@
         "subclass": "crusher",
         "dp": 22,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Lupo",
         "icon": "char_4063_quartz.webp"
     },
@@ -3566,10 +3221,9 @@
         "subclass": "blessing",
         "dp": 12,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Feline",
         "icon": "char_492_quercu.webp"
     },
@@ -3579,11 +3233,9 @@
         "subclass": "fastshot",
         "dp": 7,
         "rarity": 2,
+        "faction": "rhodes",
+        "subfaction": "action4",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes",
-            "action4"
-        ],
         "race": "Savra",
         "icon": "char_503_rang.webp"
     },
@@ -3593,11 +3245,9 @@
         "subclass": "musha",
         "dp": 25,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "action4",
         "born": "Higashi",
-        "faction": [
-            "rhodes",
-            "action4"
-        ],
         "race": "Oni",
         "icon": "char_1030_noirc2.webp"
     },
@@ -3607,10 +3257,9 @@
         "subclass": "hunter",
         "dp": 21,
         "rarity": 6,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Cautus",
         "icon": "char_4117_ray.webp"
     },
@@ -3620,10 +3269,9 @@
         "subclass": "charger",
         "dp": 12,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Draco",
         "icon": "char_261_sddrag.webp"
     },
@@ -3633,11 +3281,9 @@
         "subclass": "incantationmedic",
         "dp": 17,
         "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "tara",
         "born": "Victoria",
-        "faction": [
-            "victoria",
-            "tara"
-        ],
         "race": "Draco",
         "icon": "char_1020_reed2.webp"
     },
@@ -3647,10 +3293,9 @@
         "subclass": "craftsman",
         "dp": 17,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Anaty",
         "icon": "char_484_robrta.webp"
     },
@@ -3660,10 +3305,9 @@
         "subclass": "traper",
         "dp": 13,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Anaty",
         "icon": "char_451_robin.webp"
     },
@@ -3673,10 +3317,9 @@
         "subclass": "funnel",
         "dp": 21,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_4040_rockr.webp"
     },
@@ -3686,10 +3329,9 @@
         "subclass": "hookmaster",
         "dp": 12,
         "rarity": 4,
+        "faction": "lungmen",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "lungmen"
-        ],
         "race": "Cautus",
         "icon": "char_236_rope.webp"
     },
@@ -3699,11 +3341,9 @@
         "subclass": "siegesniper",
         "dp": 24,
         "rarity": 6,
+        "faction": "ursus",
+        "subfaction": "student",
         "born": "Ursus",
-        "faction": [
-            "ursus",
-            "student"
-        ],
         "race": "Ursus",
         "icon": "char_197_poca.webp"
     },
@@ -3713,10 +3353,9 @@
         "subclass": "ringhealer",
         "dp": 19,
         "rarity": 5,
+        "faction": "iberia",
+        "subfaction": "",
         "born": "Iberia",
-        "faction": [
-            "iberia"
-        ],
         "race": "Phidia",
         "icon": "char_4163_rosesa.webp"
     },
@@ -3726,11 +3365,9 @@
         "subclass": "bombarder",
         "dp": 25,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "elite",
         "born": "Columbia",
-        "faction": [
-            "rhodes",
-            "elite"
-        ],
         "race": "Feline",
         "icon": "char_391_rosmon.webp"
     },
@@ -3740,10 +3377,9 @@
         "subclass": "pioneer",
         "dp": 14,
         "rarity": 6,
+        "faction": "higashi",
+        "subfaction": "",
         "born": "Higashi",
-        "faction": [
-            "higashi"
-        ],
         "race": "Perro",
         "icon": "char_362_saga.webp"
     },
@@ -3753,10 +3389,9 @@
         "subclass": "bearer",
         "dp": 12,
         "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Vouivre",
         "icon": "char_479_sleach.webp"
     },
@@ -3766,10 +3401,9 @@
         "subclass": "summoner",
         "dp": 11,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Liberi",
         "icon": "char_4140_lasher.webp"
     },
@@ -3779,10 +3413,9 @@
         "subclass": "shotprotector",
         "dp": 25,
         "rarity": 6,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Sankta",
         "icon": "char_4194_rmixer.png"
     },
@@ -3792,10 +3425,9 @@
         "subclass": "splashcaster",
         "dp": 33,
         "rarity": 5,
+        "faction": "sami",
+        "subfaction": "",
         "born": "Sami",
-        "faction": [
-            "sami"
-        ],
         "race": "Feline",
         "icon": "char_341_sntlla.webp"
     },
@@ -3805,11 +3437,9 @@
         "subclass": "guardian",
         "dp": 22,
         "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "rhine",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "rhine"
-        ],
         "race": "Vouivre",
         "icon": "char_202_demkni.webp"
     },
@@ -3819,10 +3449,9 @@
         "subclass": "centurion",
         "dp": 22,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Cautus",
         "icon": "char_230_savage.webp"
     },
@@ -3832,11 +3461,9 @@
         "subclass": "pioneer",
         "dp": 12,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "sweep",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes",
-            "sweep"
-        ],
         "race": "Zalak",
         "icon": "char_149_scave.webp"
     },
@@ -3846,10 +3473,9 @@
         "subclass": "summoner",
         "dp": 11,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Pilosa",
         "icon": "char_336_folivo.webp"
     },
@@ -3859,11 +3485,9 @@
         "subclass": "closerange",
         "dp": 20,
         "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "siesta",
         "born": "Rim Billiton",
-        "faction": [
-            "columbia",
-            "siesta"
-        ],
         "race": "Feline",
         "icon": "char_340_shwaz.webp"
     },
@@ -3873,11 +3497,9 @@
         "subclass": "guardian",
         "dp": 23,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "laios",
         "born": "Izganda (Self-declared)",
-        "faction": [
-            "rhodes",
-            "laios"
-        ],
         "race": "Dwarf (Self-declared)",
         "icon": "char_4143_sensi.webp"
     },
@@ -3887,10 +3509,9 @@
         "subclass": "aoesniper",
         "dp": 28,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Vouivre",
         "icon": "char_379_sesa.webp"
     },
@@ -3900,10 +3521,9 @@
         "subclass": "artsprotector",
         "dp": 25,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Phidia",
         "icon": "char_4025_aprot2.webp"
     },
@@ -3913,10 +3533,9 @@
         "subclass": "underminer",
         "dp": 12,
         "rarity": 5,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Vulpo",
         "icon": "char_254_vodfox.webp"
     },
@@ -3926,10 +3545,9 @@
         "subclass": "pusher",
         "dp": 19,
         "rarity": 4,
+        "faction": "lungmen",
+        "subfaction": "",
         "born": "Lungmen",
-        "faction": [
-            "lungmen"
-        ],
         "race": "Zalak",
         "icon": "char_277_sqrrel.webp"
     },
@@ -3939,10 +3557,9 @@
         "subclass": "physician",
         "dp": 20,
         "rarity": 6,
+        "faction": "followers",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "followers"
-        ],
         "race": "Sarkaz",
         "icon": "char_147_shining.webp"
     },
@@ -3952,10 +3569,9 @@
         "subclass": "aoesniper",
         "dp": 27,
         "rarity": 4,
+        "faction": "higashi",
+        "subfaction": "",
         "born": "Higashi",
-        "faction": [
-            "higashi"
-        ],
         "race": "Anaty",
         "icon": "char_118_yuki.webp"
     },
@@ -3965,11 +3581,9 @@
         "subclass": "guardian",
         "dp": 22,
         "rarity": 6,
+        "faction": "yan",
+        "subfaction": "sui",
         "born": "Yan",
-        "faction": [
-            "yan",
-            "sui"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2025_shu.webp"
     },
@@ -3979,10 +3593,9 @@
         "subclass": "artsfghter",
         "dp": 23,
         "rarity": 5,
+        "faction": "minos",
+        "subfaction": "",
         "born": "Minos",
-        "faction": [
-            "minos"
-        ],
         "race": "Forte",
         "icon": "char_333_sidero.webp"
     },
@@ -3992,11 +3605,9 @@
         "subclass": "pioneer",
         "dp": 14,
         "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "glasgow",
         "born": "Victoria",
-        "faction": [
-            "victoria",
-            "glasgow"
-        ],
         "race": "Aslan",
         "icon": "char_112_siege.webp"
     },
@@ -4006,11 +3617,9 @@
         "subclass": "physician",
         "dp": 19,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "rhine",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "rhine"
-        ],
         "race": "Liberi",
         "icon": "char_108_silent.webp"
     },
@@ -4020,11 +3629,9 @@
         "subclass": "blessing",
         "dp": 15,
         "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "rhine",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "rhine"
-        ],
         "race": "Liberi",
         "icon": "char_1031_slent2.webp"
     },
@@ -4034,11 +3641,9 @@
         "subclass": "lord",
         "dp": 20,
         "rarity": 6,
+        "faction": "kjerag",
+        "subfaction": "karlan",
         "born": "Kjerag",
-        "faction": [
-            "kjerag",
-            "karlan"
-        ],
         "race": "Feline",
         "icon": "char_172_svrash.webp"
     },
@@ -4048,11 +3653,9 @@
         "subclass": "fearless",
         "dp": 19,
         "rarity": 6,
+        "faction": "egir",
+        "subfaction": "abyssal",
         "born": "\u00c6gir",
-        "faction": [
-            "egir",
-            "abyssal"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_263_skadi.webp"
     },
@@ -4062,10 +3665,9 @@
         "subclass": "bard",
         "dp": 8,
         "rarity": 6,
+        "faction": "egir",
+        "subfaction": "",
         "born": "\u00c6gir",
-        "faction": [
-            "egir"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_1012_skadi2.webp"
     },
@@ -4075,10 +3677,9 @@
         "subclass": "splashcaster",
         "dp": 33,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_166_skfire.webp"
     },
@@ -4088,10 +3689,9 @@
         "subclass": "hookmaster",
         "dp": 15,
         "rarity": 5,
+        "faction": "lungmen",
+        "subfaction": "",
         "born": "Lungmen",
-        "faction": [
-            "lungmen"
-        ],
         "race": "Liberi",
         "icon": "char_383_snsant.webp"
     },
@@ -4101,11 +3701,9 @@
         "subclass": "bard",
         "dp": 7,
         "rarity": 5,
+        "faction": "lungmen",
+        "subfaction": "penguin",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "lungmen",
-            "penguin"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_101_sora.webp"
     },
@@ -4115,11 +3713,9 @@
         "subclass": "centurion",
         "dp": 23,
         "rarity": 5,
+        "faction": "egir",
+        "subfaction": "abyssal",
         "born": "\u00c6gir",
-        "faction": [
-            "egir",
-            "abyssal"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_143_ghost.webp"
     },
@@ -4129,11 +3725,9 @@
         "subclass": "dollkeeper",
         "dp": 16,
         "rarity": 6,
+        "faction": "egir",
+        "subfaction": "abyssal",
         "born": "\u00c6gir",
-        "faction": [
-            "egir",
-            "abyssal"
-        ],
         "race": "\u00c6gir",
         "icon": "char_1023_ghost2.webp"
     },
@@ -4143,11 +3737,9 @@
         "subclass": "guardian",
         "dp": 17,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve6",
         "born": "Sargon",
-        "faction": [
-            "rhodes",
-            "reserve6"
-        ],
         "race": "Reproba",
         "icon": "char_284_spot.webp"
     },
@@ -4157,10 +3749,9 @@
         "subclass": "geek",
         "dp": 12,
         "rarity": 5,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Sankta",
         "icon": "char_4015_spuria.webp"
     },
@@ -4170,10 +3761,9 @@
         "subclass": "craftsman",
         "dp": 19,
         "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_4072_ironmn.webp"
     },
@@ -4183,11 +3773,9 @@
         "subclass": "corecaster",
         "dp": 18,
         "rarity": 3,
+        "faction": "rhodes",
+        "subfaction": "reserve4",
         "born": "Kjerag",
-        "faction": [
-            "rhodes",
-            "reserve4"
-        ],
         "race": "Vulpo",
         "icon": "char_210_stward.webp"
     },
@@ -4197,11 +3785,9 @@
         "subclass": "agent",
         "dp": 10,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "blacksteel",
         "born": "Columbia",
-        "faction": [
-            "columbia",
-            "blacksteel"
-        ],
         "race": "Zalak",
         "icon": "char_4052_surfer.webp"
     },
@@ -4211,10 +3797,9 @@
         "subclass": "artsfghter",
         "dp": 21,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_350_surtr.webp"
     },
@@ -4224,10 +3809,9 @@
         "subclass": "physician",
         "dp": 18,
         "rarity": 4,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Vulpo",
         "icon": "char_298_susuro.webp"
     },
@@ -4237,10 +3821,9 @@
         "subclass": "slower",
         "dp": 16,
         "rarity": 6,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Higashi",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Vulpo",
         "icon": "char_358_lisa.webp"
     },
@@ -4250,11 +3833,9 @@
         "subclass": "instructor",
         "dp": 16,
         "rarity": 5,
+        "faction": "lungmen",
+        "subfaction": "lgd",
         "born": "Lungmen",
-        "faction": [
-            "lungmen",
-            "lgd"
-        ],
         "race": "Feline",
         "icon": "char_308_swire.webp"
     },
@@ -4264,10 +3845,9 @@
         "subclass": "merchant",
         "dp": 9,
         "rarity": 6,
+        "faction": "lungmen",
+        "subfaction": "",
         "born": "Lungmen",
-        "faction": [
-            "lungmen"
-        ],
         "race": "Feline",
         "icon": "char_1033_swire2.webp"
     },
@@ -4277,10 +3857,9 @@
         "subclass": "executor",
         "dp": 3,
         "rarity": 1,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Robot",
         "icon": "char_376_therex.webp"
     },
@@ -4290,10 +3869,9 @@
         "subclass": "sword",
         "dp": 24,
         "rarity": 5,
+        "faction": "rainbow",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rainbow"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_459_tachak.webp"
     },
@@ -4303,10 +3881,9 @@
         "subclass": "soulcaster",
         "dp": 20,
         "rarity": 5,
+        "faction": "bolivar",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "bolivar"
-        ],
         "race": "Durin",
         "icon": "char_4164_tecno.webp"
     },
@@ -4316,10 +3893,9 @@
         "subclass": "librator",
         "dp": 13,
         "rarity": 5,
+        "faction": "bolivar",
+        "subfaction": "",
         "born": "Bol\u00edvar",
-        "faction": [
-            "bolivar"
-        ],
         "race": "Perro",
         "icon": "char_486_takila.webp"
     },
@@ -4329,10 +3905,9 @@
         "subclass": "bombarder",
         "dp": 3,
         "rarity": 1,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4077_palico.webp"
     },
@@ -4342,11 +3917,9 @@
         "subclass": "pioneer",
         "dp": 13,
         "rarity": 5,
+        "faction": "lungmen",
+        "subfaction": "penguin",
         "born": "Columbia",
-        "faction": [
-            "lungmen",
-            "penguin"
-        ],
         "race": "Lupo",
         "icon": "char_102_texas.webp"
     },
@@ -4356,11 +3929,9 @@
         "subclass": "executor",
         "dp": 10,
         "rarity": 6,
+        "faction": "lungmen",
+        "subfaction": "penguin",
         "born": "Columbia",
-        "faction": [
-            "lungmen",
-            "penguin"
-        ],
         "race": "Lupo",
         "icon": "char_1028_texas2.webp"
     },
@@ -4370,10 +3941,9 @@
         "subclass": "lord",
         "dp": 20,
         "rarity": 6,
+        "faction": "iberia",
+        "subfaction": "",
         "born": "Iberia",
-        "faction": [
-            "iberia"
-        ],
         "race": "\u00c6gir",
         "icon": "char_293_thorns.webp"
     },
@@ -4383,10 +3953,9 @@
         "subclass": "alchemist",
         "dp": 18,
         "rarity": 6,
+        "faction": "iberia",
+        "subfaction": "",
         "born": "Iberia",
-        "faction": [
-            "iberia"
-        ],
         "race": "\u00c6gir",
         "icon": "char_1039_thorn2.webp"
     },
@@ -4396,10 +3965,9 @@
         "subclass": "alchemist",
         "dp": 17,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "columbia"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4151_tinman.webp"
     },
@@ -4409,10 +3977,9 @@
         "subclass": "siegesniper",
         "dp": 23,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Vouivre",
         "icon": "char_363_toddi.webp"
     },
@@ -4422,10 +3989,9 @@
         "subclass": "corecaster",
         "dp": 22,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Archosauria",
         "icon": "char_411_tomimi.webp"
     },
@@ -4435,10 +4001,9 @@
         "subclass": "siegesniper",
         "dp": 22,
         "rarity": 4,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Liberi",
         "icon": "char_4062_totter.webp"
     },
@@ -4448,10 +4013,9 @@
         "subclass": "blessing",
         "dp": 12,
         "rarity": 5,
+        "faction": "higashi",
+        "subfaction": "",
         "born": "Higashi",
-        "faction": [
-            "higashi"
-        ],
         "race": "Elafia",
         "icon": "char_343_tknogi.webp"
     },
@@ -4461,10 +4025,9 @@
         "subclass": "physician",
         "dp": 21,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Forte",
         "icon": "char_402_tuye.webp"
     },
@@ -4474,10 +4037,9 @@
         "subclass": "siegesniper",
         "dp": 24,
         "rarity": 6,
+        "faction": "sami",
+        "subfaction": "",
         "born": "Sami",
-        "faction": [
-            "sami"
-        ],
         "race": "Sarkaz",
         "icon": "char_2012_typhon.webp"
     },
@@ -4487,10 +4049,9 @@
         "subclass": "bard",
         "dp": 3,
         "rarity": 1,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Zalak",
         "icon": "char_4091_ulika.webp"
     },
@@ -4500,11 +4061,9 @@
         "subclass": "crusher",
         "dp": 24,
         "rarity": 6,
+        "faction": "egir",
+        "subfaction": "abyssal",
         "born": "\u00c6gir",
-        "faction": [
-            "egir",
-            "abyssal"
-        ],
         "race": "\u00c6gir",
         "icon": "char_4145_ulpia.webp"
     },
@@ -4514,10 +4073,9 @@
         "subclass": "shotprotector",
         "dp": 24,
         "rarity": 5,
+        "faction": "egir",
+        "subfaction": "",
         "born": "\u00c6gir",
-        "faction": [
-            "egir"
-        ],
         "race": "\u00c6gir",
         "icon": "char_4137_udflow.webp"
     },
@@ -4527,10 +4085,9 @@
         "subclass": "musha",
         "dp": 24,
         "rarity": 4,
+        "faction": "higashi",
+        "subfaction": "",
         "born": "Higashi",
-        "faction": [
-            "higashi"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_337_utage.webp"
     },
@@ -4540,10 +4097,9 @@
         "subclass": "ritualist",
         "dp": 15,
         "rarity": 5,
+        "faction": "sami",
+        "subfaction": "",
         "born": "Sami",
-        "faction": [
-            "sami"
-        ],
         "race": "Sarkaz",
         "icon": "char_4102_threye.webp"
     },
@@ -4553,11 +4109,9 @@
         "subclass": "pioneer",
         "dp": 11,
         "rarity": 3,
+        "faction": "columbia",
+        "subfaction": "blacksteel",
         "born": "Vouivre",
-        "faction": [
-            "columbia",
-            "blacksteel"
-        ],
         "race": "Vouivre",
         "icon": "char_240_wyvern.webp"
     },
@@ -4567,10 +4121,9 @@
         "subclass": "incantationmedic",
         "dp": 17,
         "rarity": 5,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Feline",
         "icon": "char_494_vendla.webp"
     },
@@ -4580,10 +4133,9 @@
         "subclass": "dollkeeper",
         "dp": 14,
         "rarity": 4,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Phidia",
         "icon": "char_4107_vrdant.webp"
     },
@@ -4593,10 +4145,9 @@
         "subclass": "fastshot",
         "dp": 12,
         "rarity": 4,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Vulpo",
         "icon": "char_190_clour.webp"
     },
@@ -4606,10 +4157,9 @@
         "subclass": "tactician",
         "dp": 17,
         "rarity": 6,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Lupo",
         "icon": "char_427_vigil.webp"
     },
@@ -4619,10 +4169,9 @@
         "subclass": "charger",
         "dp": 11,
         "rarity": 4,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "columbia"
-        ],
         "race": "Sarkaz",
         "icon": "char_290_vigna.webp"
     },
@@ -4632,10 +4181,9 @@
         "subclass": "artsfghter",
         "dp": 21,
         "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "",
         "born": "Victoria",
-        "faction": [
-            "victoria"
-        ],
         "race": "Aslan",
         "icon": "char_1019_siege2.webp"
     },
@@ -4645,10 +4193,9 @@
         "subclass": "ritualist",
         "dp": 16,
         "rarity": 6,
+        "faction": "laterano",
+        "subfaction": "",
         "born": "Laterano",
-        "faction": [
-            "laterano"
-        ],
         "race": "Sankta",
         "icon": "char_245_cello.webp"
     },
@@ -4658,10 +4205,9 @@
         "subclass": "artsfghter",
         "dp": 21,
         "rarity": 6,
+        "faction": "leithanien",
+        "subfaction": "",
         "born": "Leithanien",
-        "faction": [
-            "leithanien"
-        ],
         "race": "Elafia",
         "icon": "char_4098_vvana.webp"
     },
@@ -4671,10 +4217,9 @@
         "subclass": "unyield",
         "dp": 35,
         "rarity": 5,
+        "faction": "minos",
+        "subfaction": "",
         "born": "Minos",
-        "faction": [
-            "minos"
-        ],
         "race": "Forte",
         "icon": "char_163_hpsts.webp"
     },
@@ -4684,10 +4229,9 @@
         "subclass": "pioneer",
         "dp": 14,
         "rarity": 6,
+        "faction": "siracusa",
+        "subfaction": "",
         "born": "Siracusa",
-        "faction": [
-            "siracusa"
-        ],
         "race": "Vulpo",
         "icon": "char_4026_vulpis.webp"
     },
@@ -4697,10 +4241,9 @@
         "subclass": "aoesniper",
         "dp": 29,
         "rarity": 6,
+        "faction": "babel",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "babel"
-        ],
         "race": "Sarkaz",
         "icon": "char_113_cqbw.webp"
     },
@@ -4710,11 +4253,9 @@
         "subclass": "executor",
         "dp": 9,
         "rarity": 5,
+        "faction": "lungmen",
+        "subfaction": "lee",
         "born": "Yan",
-        "faction": [
-            "lungmen",
-            "lee"
-        ],
         "race": "Feline",
         "icon": "char_243_waaifu.webp"
     },
@@ -4724,10 +4265,9 @@
         "subclass": "bearer",
         "dp": 13,
         "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Forte",
         "icon": "char_4119_wanqin.webp"
     },
@@ -4737,10 +4277,9 @@
         "subclass": "physician",
         "dp": 19,
         "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "rhodes"
-        ],
         "race": "Sarkaz",
         "icon": "char_171_bldsk.webp"
     },
@@ -4750,10 +4289,9 @@
         "subclass": "primcaster",
         "dp": 20,
         "rarity": 5,
+        "faction": "rim",
+        "subfaction": "",
         "born": "Rim Billiton",
-        "faction": [
-            "rim"
-        ],
         "race": "Cautus",
         "icon": "char_4081_warmy.webp"
     },
@@ -4763,10 +4301,9 @@
         "subclass": "pusher",
         "dp": 21,
         "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
         "born": "Iberia",
-        "faction": [
-            "rhodes"
-        ],
         "race": "\u00c6gir",
         "icon": "char_400_weedy.webp"
     },
@@ -4776,10 +4313,9 @@
         "subclass": "instructor",
         "dp": 18,
         "rarity": 5,
+        "faction": "kazimierz",
+        "subfaction": "",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz"
-        ],
         "race": "Kuranta",
         "icon": "char_265_sophia.webp"
     },
@@ -4789,10 +4325,9 @@
         "subclass": "healer",
         "dp": 20,
         "rarity": 5,
+        "faction": "iberia",
+        "subfaction": "",
         "born": "Iberia",
-        "faction": [
-            "iberia"
-        ],
         "race": "\u00c6gir",
         "icon": "char_436_whispr.webp"
     },
@@ -4802,11 +4337,9 @@
         "subclass": "charger",
         "dp": 14,
         "rarity": 5,
+        "faction": "kazimierz",
+        "subfaction": "pinus",
         "born": "Kazimierz",
-        "faction": [
-            "kazimierz",
-            "pinus"
-        ],
         "race": "Kuranta",
         "icon": "char_496_wildmn.webp"
     },
@@ -4816,10 +4349,9 @@
         "subclass": "crusher",
         "dp": 23,
         "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Forte",
         "icon": "char_4083_chimes.webp"
     },
@@ -4829,10 +4361,9 @@
         "subclass": "craftsman",
         "dp": 18,
         "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
         "born": "Columbia",
-        "faction": [
-            "columbia"
-        ],
         "race": "Perro",
         "icon": "char_433_windft.webp"
     },
@@ -4842,10 +4373,9 @@
         "subclass": "librator",
         "dp": 10,
         "rarity": 4,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Feline",
         "icon": "char_445_wscoot.png"
     },
@@ -4855,10 +4385,9 @@
         "subclass": "bombarder",
         "dp": 25,
         "rarity": 6,
+        "faction": "babel",
+        "subfaction": "",
         "born": "Kazdel",
-        "faction": [
-            "babel"
-        ],
         "race": "Sarkaz",
         "icon": "char_1035_wisdel.webp"
     },
@@ -4868,10 +4397,9 @@
         "subclass": "traper",
         "dp": 11,
         "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
         "born": "Sargon",
-        "faction": [
-            "sargon"
-        ],
         "race": "Phidia",
         "icon": "char_4171_wulfen.webp"
     },
@@ -4881,10 +4409,9 @@
         "subclass": "blessing",
         "dp": 13,
         "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Feline",
         "icon": "char_4172_xingzh.webp"
     },
@@ -4894,11 +4421,9 @@
         "subclass": "pioneer",
         "dp": 7,
         "rarity": 2,
+        "faction": "rhodes",
+        "subfaction": "action4",
         "born": "Higashi",
-        "faction": [
-            "rhodes",
-            "action4"
-        ],
         "race": "Oni",
         "icon": "char_502_nblade.webp"
     },
@@ -4908,11 +4433,9 @@
         "subclass": "primprotector",
         "dp": 26,
         "rarity": 6,
+        "faction": "yan",
+        "subfaction": "sui",
         "born": "Yan",
-        "faction": [
-            "yan",
-            "sui"
-        ],
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_2026_yu.webp"
     },
@@ -4922,11 +4445,9 @@
         "subclass": "pioneer",
         "dp": 13,
         "rarity": 5,
+        "faction": "ursus",
+        "subfaction": "student",
         "born": "Ursus",
-        "faction": [
-            "ursus",
-            "student"
-        ],
         "race": "Ursus",
         "icon": "char_115_headbr.webp"
     },
@@ -4936,10 +4457,9 @@
         "subclass": "musha",
         "dp": 26,
         "rarity": 6,
+        "faction": "yan",
+        "subfaction": "",
         "born": "Yan",
-        "faction": [
-            "yan"
-        ],
         "race": "Phidia",
         "icon": "char_4121_zuole.webp"
     }

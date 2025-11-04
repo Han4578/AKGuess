@@ -20,7 +20,7 @@ def parseBornRace():
                 race = result.group(2)
                 o["born"] = born_map[result.group(1).strip()]
                 
-                if "Chimera" in race:
+                if "Chimera" in race: #Amiya
                     o["race"] = "Cautus"    
                 elif "Unknown" in race or "Undisclosed" in race:
                     o["race"] = "Unknown/​Undisclosed"

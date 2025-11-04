@@ -179,6 +179,10 @@
         "icon": "sub_primcaster_icon.png",
         "name": "Primal Caster"
     },
+    "primguard": {
+        "icon": "sub_primguard_icon.png",
+        "name": "Primal Guard"
+    },
     "primprotector": {
         "icon": "sub_primprotector_icon.png",
         "name": "Primal Protector"

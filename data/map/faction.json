@@ -1,31 +1,39 @@
 {
-    "none": {
-        "name": "No team",
-        "icon": "logo_none.png"
+    "abyssal": {
+        "name": "Abyssal Hunters",
+        "icon": "logo_abyssal.png"
     },
-    "rhodes": {
-        "name": "Rhodes Island",
-        "icon": "logo_rhodes.png"
+    "babel": {
+        "name": "Babel",
+        "icon": "logo_babel.png"
     },
-    "yan": {
-        "name": "Yan",
-        "icon": "logo_yan.png"
-    },
-    "lungmen": {
-        "name": "Yan-Lungmen",
-        "icon": "logo_lungmen.png"
-    },
-    "egir": {
-        "name": "\u00c6gir",
-        "icon": "logo_egir.png"
+    "blacksteel": {
+        "name": "Blacksteel Worldwide",
+        "icon": "logo_blacksteel.png"
     },
     "bolivar": {
         "name": "Bol\u00edvar",
         "icon": "logo_bolivar.png"
     },
+    "chiave": {
+        "name": "Chiave Gang",
+        "icon": "logo_chiave.png"
+    },
     "columbia": {
         "name": "Columbia",
         "icon": "logo_columbia.png"
+    },
+    "dublinn": {
+        "name": "Dublinn",
+        "icon": "logo_dublinn.png"
+    },
+    "followers": {
+        "name": "Followers",
+        "icon": "logo_followers.png"
+    },
+    "glasgow": {
+        "name": "Glasgow",
+        "icon": "logo_glasgow.png"
     },
     "higashi": {
         "name": "Higashi",
@@ -35,6 +43,10 @@
         "name": "Iberia",
         "icon": "logo_iberia.png"
     },
+    "karlan": {
+        "name": "Karlan Trade CO., LTD",
+        "icon": "logo_karlan.png"
+    },
     "kazimierz": {
         "name": "Kazimierz",
         "icon": "logo_kazimierz.png"
@@ -43,73 +55,33 @@
         "name": "Kjerag",
         "icon": "logo_kjerag.png"
     },
+    "laios": {
+        "name": "Laios's Party",
+        "icon": "logo_laios.png"
+    },
     "laterano": {
         "name": "Laterano",
         "icon": "logo_laterano.png"
+    },
+    "lee": {
+        "name": "Lee's Detective Agency",
+        "icon": "logo_lee.png"
     },
     "leithanien": {
         "name": "Leithanien",
         "icon": "logo_leithanien.png"
     },
+    "lgd": {
+        "name": "Lungmen Guard Department",
+        "icon": "logo_lgd.png"
+    },
     "minos": {
         "name": "Minos",
         "icon": "logo_minos.png"
     },
-    "rim": {
-        "name": "Rim Billiton",
-        "icon": "logo_rim.png"
-    },
-    "sami": {
-        "name": "Sami",
-        "icon": "logo_sami.png"
-    },
-    "sargon": {
-        "name": "Sargon",
-        "icon": "logo_sargon.png"
-    },
-    "siracusa": {
-        "name": "Siracusa",
-        "icon": "logo_siracusa.png"
-    },
-    "ursus": {
-        "name": "Ursus",
-        "icon": "logo_ursus.png"
-    },
-    "victoria": {
-        "name": "Victoria",
-        "icon": "logo_victoria.png"
-    },
-    "elite": {
-        "name": "Rhodes Island-Elite Operator",
-        "icon": "logo_elite.png"
-    },
-    "sweep": {
-        "name": "S.W.E.E.P.",
-        "icon": "logo_sweep.png"
-    },
-    "babel": {
-        "name": "Babel",
-        "icon": "logo_babel.png"
-    },
-    "abyssal": {
-        "name": "Abyssal Hunters",
-        "icon": "logo_abyssal.png"
-    },
-    "blacksteel": {
-        "name": "Blacksteel Worldwide",
-        "icon": "logo_blacksteel.png"
-    },
-    "glasgow": {
-        "name": "Glasgow",
-        "icon": "logo_glasgow.png"
-    },
-    "karlan": {
-        "name": "Karlan Trade CO., LTD",
-        "icon": "logo_karlan.png"
-    },
-    "lgd": {
-        "name": "Lungmen Guard Department",
-        "icon": "logo_lgd.png"
+    "action4": {
+        "name": "Op Team A4",
+        "icon": "logo_action4.png"
     },
     "penguin": {
         "name": "Penguin Logistics",
@@ -118,30 +90,6 @@
     "pinus": {
         "name": "Pinus Sylvestris",
         "icon": "logo_pinus.png"
-    },
-    "rhine": {
-        "name": "Rhine Lab",
-        "icon": "logo_rhine.png"
-    },
-    "siesta": {
-        "name": "Siesta",
-        "icon": "logo_siesta.png"
-    },
-    "sui": {
-        "name": "Yan-Sui",
-        "icon": "logo_sui.png"
-    },
-    "dublinn": {
-        "name": "Dublinn",
-        "icon": "logo_dublinn.png"
-    },
-    "tara": {
-        "name": "Tara",
-        "icon": "logo_tara.png"
-    },
-    "action4": {
-        "name": "Op Team A4",
-        "icon": "logo_action4.png"
     },
     "reserve1": {
         "name": "Reserve Op Team A1",
@@ -155,28 +103,76 @@
         "name": "Reserve Op Team A6",
         "icon": "logo_reserve6.png"
     },
-    "chiave": {
-        "name": "Chiave Gang",
-        "icon": "logo_chiave.png"
+    "rhine": {
+        "name": "Rhine Lab",
+        "icon": "logo_rhine.png"
     },
-    "followers": {
-        "name": "Followers",
-        "icon": "logo_followers.png"
+    "rhodes": {
+        "name": "Rhodes Island",
+        "icon": "logo_rhodes.png"
     },
-    "lee": {
-        "name": "Lee's Detective Agency",
-        "icon": "logo_lee.png"
+    "elite": {
+        "name": "Rhodes Island-Elite Operator",
+        "icon": "logo_elite.png"
+    },
+    "rim": {
+        "name": "Rim Billiton",
+        "icon": "logo_rim.png"
+    },
+    "sweep": {
+        "name": "S.W.E.E.P.",
+        "icon": "logo_sweep.png"
+    },
+    "sami": {
+        "name": "Sami",
+        "icon": "logo_sami.png"
+    },
+    "sargon": {
+        "name": "Sargon",
+        "icon": "logo_sargon.png"
+    },
+    "siesta": {
+        "name": "Siesta",
+        "icon": "logo_siesta.png"
+    },
+    "siracusa": {
+        "name": "Siracusa",
+        "icon": "logo_siracusa.png"
+    },
+    "tara": {
+        "name": "Tara",
+        "icon": "logo_tara.png"
     },
     "rainbow": {
         "name": "Team Rainbow",
         "icon": "logo_rainbow.png"
     },
+    "ursus": {
+        "name": "Ursus",
+        "icon": "logo_ursus.png"
+    },
     "student": {
         "name": "Ursus Student Self-Governing Group",
         "icon": "logo_student.png"
     },
-    "laios": {
-        "name": "Laios's Party",
-        "icon": "logo_laios.png"
+    "victoria": {
+        "name": "Victoria",
+        "icon": "logo_victoria.png"
+    },
+    "yan": {
+        "name": "Yan",
+        "icon": "logo_yan.png"
+    },
+    "lungmen": {
+        "name": "Yan-Lungmen",
+        "icon": "logo_lungmen.png"
+    },
+    "sui": {
+        "name": "Yan-Sui",
+        "icon": "logo_sui.png"
+    },
+    "egir": {
+        "name": "\u00c6gir",
+        "icon": "logo_egir.png"
     }
 }
