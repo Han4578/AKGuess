@@ -11,7 +11,11 @@ let suggestionIndex = -1
 loadSuggestions()
 
 for (const operator of Object.values(data.operators)) {
-    operator.search = [operator.name.replaceAll(/\W/g, "").toLowerCase(), operator.name.toLowerCase()]
+    operator.search = [
+        operator.name.replace("ł", "l").toLowerCase().replaceAll(/\W/g, ""), 
+        operator.name.replace("ł", "l").toLowerCase(),
+        operator.name.toLowerCase()
+    ]
 }
 
 document.addEventListener("click", hideSuggestions)
@@ -105,13 +109,14 @@ function createSuggestionOperator(operator) {
 
 export function updateSuggestions() {
     suggestionIndex = -1
+    const val = guessInput.value.toLowerCase()
     if (guessInput.value.length == 0 && data.excludedOperators.size == 0) {
         visibleSuggestions = data.operatorList.slice()
         suggestionElements.forEach(e => e.classList.remove("excluded"))
     }else {    
         visibleSuggestions = []
         for (const id of data.operatorList) {
-            if (data.operators[id].search.some(t => t.includes(guessInput.value)) && !data.excludedOperators.has(id)) {
+            if (data.operators[id].search.some(t => t.includes(val)) && !data.excludedOperators.has(id)) {
                 suggestionElements.get(id).classList.remove("excluded")
                 visibleSuggestions.push(id)
             } else suggestionElements.get(id).classList.add("excluded")
