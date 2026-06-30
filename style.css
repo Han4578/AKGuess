@@ -511,6 +511,7 @@ div:has(> #operator-details-faction) {
     top: 0;
     z-index: 3;
     user-select: none;
+    overflow: hidden;
 }
 
 #settings-menu-shade.show {

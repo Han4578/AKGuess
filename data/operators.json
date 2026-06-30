@@ -93,7 +93,7 @@
         "subfaction": "",
         "born": "Rim Billiton",
         "race": "Savra",
-        "icon": "char_4178_alanna.png"
+        "icon": "char_4178_alanna.webp"
     },
     "char_4105_almond": {
         "name": "Almond",
@@ -1233,7 +1233,7 @@
         "subfaction": "penguin",
         "born": "Laterano",
         "race": "Sankta",
-        "icon": "char_1041_angel2.png"
+        "icon": "char_1041_angel2.webp"
     },
     "char_180_amgoat": {
         "name": "Eyjafjalla",
@@ -1557,7 +1557,7 @@
         "subfaction": "",
         "born": "Bol\u00edvar",
         "race": "Unknown/\u200bUndisclosed",
-        "icon": "char_4187_graceb.png"
+        "icon": "char_4187_graceb.webp"
     },
     "char_4122_grabds": {
         "name": "Grain Buds",
@@ -2229,7 +2229,7 @@
         "subfaction": "",
         "born": "Laterano",
         "race": "Sankta",
-        "icon": "char_4193_lemuen.png"
+        "icon": "char_4193_lemuen.webp"
     },
     "char_373_lionhd": {
         "name": "Leonhardt",
@@ -2553,7 +2553,7 @@
         "subfaction": "",
         "born": "Unknown/\u200bUndisclosed",
         "race": "Unknown/\u200bUndisclosed",
-        "icon": "char_4198_christ.png"
+        "icon": "char_4198_christ.webp"
     },
     "char_4147_mitm": {
         "name": "Mitm",
@@ -2589,7 +2589,7 @@
         "subfaction": "",
         "born": "Rhodes Island",
         "race": "Unknown/\u200bUndisclosed",
-        "icon": "char_4179_monstr.png"
+        "icon": "char_4179_monstr.webp"
     },
     "char_154_morgan": {
         "name": "Morgan",
@@ -3417,7 +3417,7 @@
         "subfaction": "",
         "born": "Laterano",
         "race": "Sankta",
-        "icon": "char_4194_rmixer.png"
+        "icon": "char_4194_rmixer.webp"
     },
     "char_341_sntlla": {
         "name": "Santalla",
@@ -3971,6 +3971,18 @@
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4151_tinman.webp"
     },
+    "char_4191_tippi": {
+        "name": "Tippi",
+        "class": "SPECIAL",
+        "subclass": "skywalker",
+        "dp": 17,
+        "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
+        "born": "Columbia",
+        "race": "Liberi",
+        "icon": "char_4191_tippi.webp"
+    },
     "char_363_toddi": {
         "name": "Toddifons",
         "class": "SNIPER",
@@ -4006,6 +4018,18 @@
         "born": "Sargon",
         "race": "Liberi",
         "icon": "char_4062_totter.webp"
+    },
+    "char_1042_phatm2": {
+        "name": "Tragodia",
+        "class": "SUPPORT",
+        "subclass": "ritualist",
+        "dp": 16,
+        "rarity": 6,
+        "faction": "victoria",
+        "subfaction": "",
+        "born": "Victoria",
+        "race": "Feline",
+        "icon": "char_1042_phatm2.webp"
     },
     "char_343_tknogi": {
         "name": "Tsukinogi",
@@ -4377,7 +4401,7 @@
         "subfaction": "",
         "born": "Yan",
         "race": "Feline",
-        "icon": "char_445_wscoot.png"
+        "icon": "char_445_wscoot.webp"
     },
     "char_1035_wisdel": {
         "name": "Wi\u0161'adel",

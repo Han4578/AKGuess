@@ -8,6 +8,7 @@ from collections import defaultdict
 load_dotenv()
 
 def parseFactions():
+    print("Getting Factions")
     has = set(os.listdir("images/faction"))
 
     fs = fsspec.filesystem("github", org="Three6ty1", repo="ak-wordle-icons-2.1", sha="en", username=os.getenv("GITHUB_USERNAME"), token=os.getenv("GITHUB_API_KEY"))

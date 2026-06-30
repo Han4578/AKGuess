@@ -23,6 +23,7 @@ def parseIcons():
 
         if (trimmed not in images or (images[trimmed].endswith("png") and file.endswith("webp"))) and trimmed in ops:
             print(f"Downloading E2 Image of {trimmed}")
+            if images[trimmed].endswith("png"): os.remove(images[trimmed])
             images[trimmed] = download_icon(fs, file, trimmed)
 
     for k, v in ops.items():

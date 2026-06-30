@@ -8,7 +8,7 @@ from collections import defaultdict
 load_dotenv()
 
 def parseSubClasses():
-    has = set(os.listdir("images/subclass"))
+    print("Getting Subclasses")
     subclass_map = load_from("data/map/subclass.json")
 
     fs = fsspec.filesystem("github", org="Three6ty1", repo="ak-wordle-icons-2.1", sha="en", username=os.getenv("GITHUB_USERNAME"), token=os.getenv("GITHUB_API_KEY"))
@@ -16,10 +16,10 @@ def parseSubClasses():
 
     for file in fs.ls("assets/dyn/arts/ui/subprofessionicon/"):
         name = os.path.basename(file)
-        if name in has: continue
+        id = re.search(r"sub_([^_]+)_", name).group(1)
+        if id in subclass_map: continue
 
         fs.get(file, "images/subclass/")
-        id = re.search(r"sub_([^_]+)_", name).group(1)
         print(f"New Subclass {id} Added")
 
         subclass_map[id] = {
@@ -29,10 +29,11 @@ def parseSubClasses():
         added = True
 
     if added:
-        dump_to({k: v for k, v in sorted(subclass_map.items())})
+        dump_to({k: v for k, v in sorted(subclass_map.items())}, "data/map/subclass.json")
 
 
 def updateClassSubclass():
+    print("Mapping Subclasses to Classes")
     ops = load_from("data/operators.json")
     class_map = load_from("data/map/class.json")
     subclass_map = load_from("data/map/subclass.json")

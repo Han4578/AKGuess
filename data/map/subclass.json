@@ -63,6 +63,10 @@
         "icon": "sub_corecaster_icon.png",
         "name": "Core Caster"
     },
+    "counsellor": {
+        "icon": "sub_counsellor_icon.png",
+        "name": "counsellor"
+    },
     "craftsman": {
         "icon": "sub_craftsman_icon.png",
         "name": "Artificer"
@@ -151,6 +155,10 @@
         "icon": "sub_lord_icon.png",
         "name": "Lord"
     },
+    "mercenary": {
+        "icon": "sub_mercenary_icon.png",
+        "name": "mercenary"
+    },
     "merchant": {
         "icon": "sub_merchant_icon.png",
         "name": "Merchant"
@@ -218,6 +226,10 @@
     "siegesniper": {
         "icon": "sub_siegesniper_icon.png",
         "name": "Beseiger"
+    },
+    "skybreaker": {
+        "icon": "sub_skybreaker_icon.png",
+        "name": "skybreaker"
     },
     "skywalker": {
         "icon": "sub_skywalker_icon.png",

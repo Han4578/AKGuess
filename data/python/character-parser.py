@@ -31,6 +31,6 @@ dump_to({k: v for k, v in sorted(ops.items(), key=lambda o: o[1]["name"])}, "dat
 parseBornRace()
 parseIcons()
 parseSubClasses()
-updateClassSubclass
+updateClassSubclass()
 parseFactions()
 updateFactionSubfaction()
