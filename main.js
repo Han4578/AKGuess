@@ -2,7 +2,6 @@ import * as data from "./globalData.js";
 import * as guessTable from "./guessTable.js";
 import { addSuggestion, updateSuggestions } from "./suggestionList.js"
 import { addToMenu, removeFromMenu, autoExclude, loadOperators } from "./operatorMenu.js";
-import { cloneElement } from "react";
 
 const tooltipContainerTemplate = document.querySelector("#tooltip-container-template").content
 const guessInput = document.querySelector("#guess-input")

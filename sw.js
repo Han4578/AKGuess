@@ -33,10 +33,7 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) return cachedResponse
-      const c = fetch(event.request);
-      caches.open(CACHE_NAME).then(cache => cache.add(event.request))
-      return c
+      return cachedResponse || fetch(event.request)
     })
   );
 });
@@ -45,7 +42,7 @@ self.addEventListener("message", event => {
   if (event.data && event.data.type == "WIFI") {
     event.waitUntil(
       caches.open(CACHE_NAME).then((cache) => {
-        return cache.addAll(ASSETS_TO_CACHE);
+        return cache.addAll(ASSETS_TO_CACHE).catch(e => console.error("Failed to cache"));
       })
     );
   }
