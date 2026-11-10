@@ -1,5 +1,3 @@
-import { cache } from "react";
-
 const CACHE_NAME = 'static-cache-v2';
 
 // 1. List ALL the files you want to use offline
