@@ -19,11 +19,13 @@ def parseIcons():
         images[file.split(".")[0]] = file
 
     for file in fs.ls("assets/dyn/arts/charavatars/elite/"):
-        trimmed = re.search(r"char_\d+_[^_.]+", file).group()
+        r = re.search(r"char_\d+_[^_.]+", file)
+        if r == None: continue
+        trimmed = r.group()
 
         if (trimmed not in images or (images[trimmed].endswith("png") and file.endswith("webp"))) and trimmed in ops:
             print(f"Downloading E2 Image of {trimmed}")
-            if images[trimmed].endswith("png"): os.remove(images[trimmed])
+            if trimmed in images and images[trimmed].endswith("png"): os.remove(images[trimmed])
             images[trimmed] = download_icon(fs, file, trimmed)
 
     for k, v in ops.items():
@@ -34,9 +36,10 @@ def parseIcons():
                 path = f"assets/dyn/arts/charavatars/{k}.{ext}"
 
                 if fs.exists(path):
-                    print(f"Downloading E0 Image of {id} ({v["name"]})")
+                    print(f"Downloading E0 Image of ({v["name"]})")
 
                     download_icon(fs, path, k)
+                    break
             else:
                 print(f"Icon for {k} not found")
                 v["icon"] = "unknown.png"

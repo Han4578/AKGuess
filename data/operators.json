@@ -42,7 +42,7 @@
         "dp": 22,
         "rarity": 5,
         "faction": "ursus",
-        "subfaction": "",
+        "subfaction": "student",
         "born": "Ursus",
         "race": "Ursus",
         "icon": "char_405_absin.webp"
@@ -82,6 +82,18 @@
         "born": "Higashi",
         "race": "\u00c6gir",
         "icon": "char_475_akafyu.webp"
+    },
+    "char_4051_akkord": {
+        "name": "Akkord",
+        "class": "CASTER",
+        "subclass": "blastcaster",
+        "dp": 32,
+        "rarity": 4,
+        "faction": "leithanien",
+        "subfaction": "",
+        "born": "Leithanien",
+        "race": "Caprinae",
+        "icon": "char_4051_akkord.png"
     },
     "char_4178_alanna": {
         "name": "Alanna",
@@ -299,6 +311,18 @@
         "race": "Liberi",
         "icon": "char_135_halo.webp"
     },
+    "char_1047_halo2": {
+        "name": "Astgenne the Lightchaser",
+        "class": "SUPPORT",
+        "subclass": "slower",
+        "dp": 18,
+        "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "rhine",
+        "born": "Columbia",
+        "race": "Liberi",
+        "icon": "char_1047_halo2.png"
+    },
     "char_422_aurora": {
         "name": "Aurora",
         "class": "TANK",
@@ -306,7 +330,7 @@
         "dp": 32,
         "rarity": 5,
         "faction": "kjerag",
-        "subfaction": "karlan",
+        "subfaction": "",
         "born": "Kjerag",
         "race": "Ursus",
         "icon": "char_422_aurora.webp"
@@ -394,6 +418,18 @@
         "born": "Sargon",
         "race": "Caprinae",
         "icon": "char_344_beewax.webp"
+    },
+    "char_4037_demetr": {
+        "name": "Bellone",
+        "class": "WARRIOR",
+        "subclass": "fighter",
+        "dp": 11,
+        "rarity": 6,
+        "faction": "siracusa",
+        "subfaction": "",
+        "born": "Siracusa",
+        "race": "Lupo",
+        "icon": "char_4037_demetr.png"
     },
     "char_369_bena": {
         "name": "Bena",
@@ -515,6 +551,18 @@
         "race": "Perro",
         "icon": "char_487_bobb.webp"
     },
+    "char_4223_botany": {
+        "name": "Botani",
+        "class": "SUPPORT",
+        "subclass": "ritualist",
+        "dp": 17,
+        "rarity": 5,
+        "faction": "ursus",
+        "subfaction": "",
+        "born": "Ursus",
+        "race": "Elafia",
+        "icon": "char_4223_botany.png"
+    },
     "char_275_breeze": {
         "name": "Breeze",
         "class": "MEDIC",
@@ -586,6 +634,18 @@
         "born": "Laterano",
         "race": "Robot",
         "icon": "char_4188_confes.png"
+    },
+    "char_4214_cairn": {
+        "name": "Cairn",
+        "class": "TANK",
+        "subclass": "primprotector",
+        "dp": 25,
+        "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
+        "born": "Columbia",
+        "race": "Feline",
+        "icon": "char_4214_cairn.png"
     },
     "char_497_ctable": {
         "name": "Cantabile",
@@ -719,6 +779,18 @@
         "race": "Lung",
         "icon": "char_010_chen.webp"
     },
+    "char_1050_chen3": {
+        "name": "Ch'en the Dawnstreak",
+        "class": "WARRIOR",
+        "subclass": "artsfghter",
+        "dp": 21,
+        "rarity": 6,
+        "faction": "yan",
+        "subfaction": "",
+        "born": "Lungmen",
+        "race": "Lung",
+        "icon": "char_1050_chen3.png"
+    },
     "char_1013_chen2": {
         "name": "Ch'en the Holungday",
         "class": "SNIPER",
@@ -810,10 +882,22 @@
         "dp": 13,
         "rarity": 5,
         "faction": "kjerag",
-        "subfaction": "karlan",
+        "subfaction": "",
         "born": "Kjerag",
         "race": "Feline",
         "icon": "char_173_slchan.webp"
+    },
+    "char_4228_closur": {
+        "name": "Closure",
+        "class": "PIONEER",
+        "subclass": "tactician",
+        "dp": 15,
+        "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
+        "born": "Kazdel",
+        "race": "Sarkaz",
+        "icon": "char_4228_closur.png"
     },
     "char_4104_coldst": {
         "name": "Coldshot",
@@ -874,6 +958,18 @@
         "born": "Kjerag",
         "race": "Itra",
         "icon": "char_198_blackd.webp"
+    },
+    "char_4225_tanya": {
+        "name": "Crackborne",
+        "class": "TANK",
+        "subclass": "primprotector",
+        "dp": 25,
+        "rarity": 5,
+        "faction": "ursus",
+        "subfaction": "",
+        "born": "Ursus",
+        "race": "Ursus",
+        "icon": "char_4225_tanya.png"
     },
     "char_201_moeshd": {
         "name": "Croissant",
@@ -1463,6 +1559,18 @@
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4126_fuze.webp"
     },
+    "char_4227_gallus": {
+        "name": "GALLUS\u00b2",
+        "class": "CASTER",
+        "subclass": "corecaster",
+        "dp": 3,
+        "rarity": 1,
+        "faction": "rhodes",
+        "subfaction": "",
+        "born": "A shrubland somewhere in eastern Terra",
+        "race": "Robot",
+        "icon": "char_4227_gallus.png"
+    },
     "char_187_ccheal": {
         "name": "Gavial",
         "class": "MEDIC",
@@ -1643,6 +1751,18 @@
         "race": "Ursus",
         "icon": "char_196_sunbr.webp"
     },
+    "char_394_hadiya": {
+        "name": "Hadiya",
+        "class": "WARRIOR",
+        "subclass": "mercenary",
+        "dp": 10,
+        "rarity": 5,
+        "faction": "sargon",
+        "subfaction": "",
+        "born": "Columbia",
+        "race": "Caprinae",
+        "icon": "char_394_hadiya.png"
+    },
     "char_297_hamoni": {
         "name": "Harmonie",
         "class": "CASTER",
@@ -1666,6 +1786,18 @@
         "born": "Victoria",
         "race": "Feline",
         "icon": "char_4114_harold.webp"
+    },
+    "char_4202_haruka": {
+        "name": "Haruka",
+        "class": "SUPPORT",
+        "subclass": "blessing",
+        "dp": 13,
+        "rarity": 6,
+        "faction": "higashi",
+        "subfaction": "",
+        "born": "Higashi",
+        "race": "\u00c6gir",
+        "icon": "char_4202_haruka.png"
     },
     "char_141_nights": {
         "name": "Haze",
@@ -1810,6 +1942,18 @@
         "born": "Higashi",
         "race": "Oni",
         "icon": "char_136_hsguma.webp"
+    },
+    "char_1044_hsgma2": {
+        "name": "Hoshiguma the Breacher",
+        "class": "TANK",
+        "subclass": "artsprotector",
+        "dp": 26,
+        "rarity": 6,
+        "faction": "lungmen",
+        "subfaction": "lgd",
+        "born": "Higashi",
+        "race": "Oni",
+        "icon": "char_1044_hsgma2.png"
     },
     "char_491_humus": {
         "name": "Humus",
@@ -2003,6 +2147,18 @@
         "race": "Anasa",
         "icon": "char_4078_bdhkgt.webp"
     },
+    "char_4221_ju": {
+        "name": "Ju",
+        "class": "SNIPER",
+        "subclass": "siegesniper",
+        "dp": 25,
+        "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
+        "born": "Yan",
+        "race": "Unknown/\u200bUndisclosed",
+        "icon": "char_4221_ju.png"
+    },
     "char_214_kafka": {
         "name": "Kafka",
         "class": "SPECIAL",
@@ -2027,6 +2183,18 @@
         "race": "Feline",
         "icon": "char_003_kalts.webp"
     },
+    "char_1052_kalts2": {
+        "name": "Kal'tsit Esperanta",
+        "class": "MEDIC",
+        "subclass": "watchman",
+        "dp": 19,
+        "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "",
+        "born": "Rhodes Island",
+        "race": "Feline",
+        "icon": "char_1052_kalts2.png"
+    },
     "char_4016_kazema": {
         "name": "Kazemaru",
         "class": "SPECIAL",
@@ -2050,6 +2218,18 @@
         "born": "Sargon",
         "race": "Liberi",
         "icon": "char_4023_rfalcn.webp"
+    },
+    "char_4203_kichi": {
+        "name": "Kichisei",
+        "class": "SNIPER",
+        "subclass": "reaperrange",
+        "dp": 31,
+        "rarity": 5,
+        "faction": "higashi",
+        "subfaction": "",
+        "born": "Higashi",
+        "race": "Perro",
+        "icon": "char_4203_kichi.png"
     },
     "char_478_kirara": {
         "name": "Kirara",
@@ -2082,7 +2262,7 @@
         "dp": 23,
         "rarity": 5,
         "faction": "kjerag",
-        "subfaction": "karlan",
+        "subfaction": "",
         "born": "Kjerag",
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_4013_kjera.webp"
@@ -2218,6 +2398,18 @@
         "born": "Yan",
         "race": "Kylin",
         "icon": "char_306_leizi.webp"
+    },
+    "char_1043_leizi2": {
+        "name": "Leizi the Thunderbringer",
+        "class": "WARRIOR",
+        "subclass": "librator",
+        "dp": 12,
+        "rarity": 6,
+        "faction": "yan",
+        "subfaction": "",
+        "born": "Yan",
+        "race": "Kylin",
+        "icon": "char_1043_leizi2.png"
     },
     "char_4193_lemuen": {
         "name": "Lemuen",
@@ -2399,6 +2591,18 @@
         "race": "Manticore",
         "icon": "char_215_mantic.webp"
     },
+    "char_4204_mantra": {
+        "name": "Mantra",
+        "class": "CASTER",
+        "subclass": "primcaster",
+        "dp": 21,
+        "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "elite",
+        "born": "Sargon",
+        "race": "Phidia",
+        "icon": "char_4204_mantra.png"
+    },
     "char_4141_marcil": {
         "name": "Marcille",
         "class": "CASTER",
@@ -2422,6 +2626,18 @@
         "born": "Higashi",
         "race": "Oni",
         "icon": "char_289_gyuki.webp"
+    },
+    "char_4199_makiri": {
+        "name": "Matsukiri",
+        "class": "PIONEER",
+        "subclass": "counsellor",
+        "dp": 14,
+        "rarity": 5,
+        "faction": "higashi",
+        "subfaction": "",
+        "born": "Higashi",
+        "race": "Lupo",
+        "icon": "char_4199_makiri.png"
     },
     "char_199_yak": {
         "name": "Matterhorn",
@@ -2687,6 +2903,18 @@
         "race": "Liberi",
         "icon": "char_473_mberry.webp"
     },
+    "char_4183_mortis": {
+        "name": "Mutsumi Wakaba",
+        "class": "SPECIAL",
+        "subclass": "dollkeeper",
+        "dp": 15,
+        "rarity": 5,
+        "faction": "mujica",
+        "subfaction": "",
+        "born": "Unknown/\u200bUndisclosed",
+        "race": "Unknown/\u200bUndisclosed",
+        "icon": "char_4183_mortis.png"
+    },
     "char_117_myrrh": {
         "name": "Myrrh",
         "class": "MEDIC",
@@ -2734,6 +2962,18 @@
         "born": "Sargon",
         "race": "Kuranta",
         "icon": "char_4138_narant.webp"
+    },
+    "char_4212_nasti": {
+        "name": "Nasti",
+        "class": "SUPPORT",
+        "subclass": "craftsman",
+        "dp": 19,
+        "rarity": 6,
+        "faction": "columbia",
+        "subfaction": "rhine",
+        "born": "Kazdel",
+        "race": "Sarkaz",
+        "icon": "char_4212_nasti.png"
     },
     "char_148_nearl": {
         "name": "Nearl",
@@ -2842,6 +3082,18 @@
         "born": "Victoria",
         "race": "Vulpo",
         "icon": "char_4173_nowell.webp"
+    },
+    "char_4185_amoris": {
+        "name": "Nyamu Y\u016btenji",
+        "class": "WARRIOR",
+        "subclass": "hammer",
+        "dp": 21,
+        "rarity": 5,
+        "faction": "mujica",
+        "subfaction": "",
+        "born": "Unknown/\u200bUndisclosed",
+        "race": "Unknown/\u200bUndisclosed",
+        "icon": "char_4185_amoris.png"
     },
     "char_4146_nymph": {
         "name": "Nymph",
@@ -2962,6 +3214,18 @@
         "born": "Minos",
         "race": "Vulpo",
         "icon": "char_181_flower.webp"
+    },
+    "char_1022_flwr2": {
+        "name": "Perfumer the Distilled",
+        "class": "SUPPORT",
+        "subclass": "blessing",
+        "dp": 12,
+        "rarity": 5,
+        "faction": "rhodes",
+        "subfaction": "",
+        "born": "Minos",
+        "race": "Vulpo",
+        "icon": "char_1022_flwr2.png"
     },
     "char_250_phatom": {
         "name": "Phantom",
@@ -3090,10 +3354,22 @@
         "dp": 12,
         "rarity": 5,
         "faction": "kjerag",
-        "subfaction": "karlan",
+        "subfaction": "",
         "born": "Kjerag",
         "race": "Feline",
         "icon": "char_174_slbell.webp"
+    },
+    "char_1046_sbell2": {
+        "name": "Pramanix the Prerita",
+        "class": "CASTER",
+        "subclass": "phalanx",
+        "dp": 24,
+        "rarity": 6,
+        "faction": "kjerag",
+        "subfaction": "",
+        "born": "Kjerag",
+        "race": "Feline",
+        "icon": "char_1046_sbell2.png"
     },
     "char_144_red": {
         "name": "Projekt Red",
@@ -3227,6 +3503,18 @@
         "race": "Feline",
         "icon": "char_492_quercu.webp"
     },
+    "char_4195_radian": {
+        "name": "Raidian",
+        "class": "SUPPORT",
+        "subclass": "summoner",
+        "dp": 12,
+        "rarity": 6,
+        "faction": "rhodes",
+        "subfaction": "elite",
+        "born": "Ursus",
+        "race": "Liberi",
+        "icon": "char_4195_radian.png"
+    },
     "char_503_rang": {
         "name": "Rangers",
         "class": "SNIPER",
@@ -3263,6 +3551,18 @@
         "race": "Cautus",
         "icon": "char_4117_ray.webp"
     },
+    "char_4196_reckpr": {
+        "name": "Record Keeper",
+        "class": "MEDIC",
+        "subclass": "physician",
+        "dp": 19,
+        "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
+        "born": "Yan",
+        "race": "Perro",
+        "icon": "char_4196_reckpr.png"
+    },
     "char_261_sddrag": {
         "name": "Reed",
         "class": "PIONEER",
@@ -3286,6 +3586,18 @@
         "born": "Victoria",
         "race": "Draco",
         "icon": "char_1020_reed2.webp"
+    },
+    "char_4031_liesel": {
+        "name": "Ripresa",
+        "class": "CASTER",
+        "subclass": "splashcaster",
+        "dp": 33,
+        "rarity": 5,
+        "faction": "siracusa",
+        "subfaction": "",
+        "born": "Leithanien",
+        "race": "Caprinae",
+        "icon": "char_4031_liesel.png"
     },
     "char_484_robrta": {
         "name": "Roberta",
@@ -3394,6 +3706,18 @@
         "born": "Victoria",
         "race": "Vouivre",
         "icon": "char_479_sleach.webp"
+    },
+    "char_4182_oblvns": {
+        "name": "Sakiko Togawa",
+        "class": "WARRIOR",
+        "subclass": "lord",
+        "dp": 20,
+        "rarity": 6,
+        "faction": "mujica",
+        "subfaction": "",
+        "born": "Unknown/\u200bUndisclosed",
+        "race": "Unknown/\u200bUndisclosed",
+        "icon": "char_4182_oblvns.png"
     },
     "char_4140_lasher": {
         "name": "Sand Reckoner",
@@ -3647,6 +3971,18 @@
         "race": "Feline",
         "icon": "char_172_svrash.webp"
     },
+    "char_1045_svash2": {
+        "name": "SilverAsh the Reignfrost",
+        "class": "PIONEER",
+        "subclass": "counsellor",
+        "dp": 13,
+        "rarity": 6,
+        "faction": "kjerag",
+        "subfaction": "",
+        "born": "Kjerag",
+        "race": "Feline",
+        "icon": "char_1045_svash2.png"
+    },
     "char_263_skadi": {
         "name": "Skadi",
         "class": "WARRIOR",
@@ -3671,6 +4007,18 @@
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_1012_skadi2.webp"
     },
+    "char_4213_skybx": {
+        "name": "Skybox",
+        "class": "SNIPER",
+        "subclass": "skybreaker",
+        "dp": 24,
+        "rarity": 5,
+        "faction": "columbia",
+        "subfaction": "",
+        "born": "Columbia",
+        "race": "Savra",
+        "icon": "char_4213_skybx.png"
+    },
     "char_166_skfire": {
         "name": "Skyfire",
         "class": "CASTER",
@@ -3682,6 +4030,30 @@
         "born": "Victoria",
         "race": "Feline",
         "icon": "char_166_skfire.webp"
+    },
+    "char_4208_wintim": {
+        "name": "Snegurochka",
+        "class": "PIONEER",
+        "subclass": "agent",
+        "dp": 9,
+        "rarity": 4,
+        "faction": "ursus",
+        "subfaction": "",
+        "born": "Ursus",
+        "race": "Liberi",
+        "icon": "char_4208_wintim.png"
+    },
+    "char_4211_snhunt": {
+        "name": "Snow Hunter",
+        "class": "SNIPER",
+        "subclass": "hunter",
+        "dp": 19,
+        "rarity": 5,
+        "faction": "kjerag",
+        "subfaction": "",
+        "born": "Kjerag",
+        "race": "Ursus",
+        "icon": "char_4211_snhunt.png"
     },
     "char_383_snsant": {
         "name": "Snowsant",
@@ -3875,6 +4247,18 @@
         "race": "Unknown/\u200bUndisclosed",
         "icon": "char_459_tachak.webp"
     },
+    "char_4222_taraxa": {
+        "name": "Taraxacum",
+        "class": "MEDIC",
+        "subclass": "watchman",
+        "dp": 18,
+        "rarity": 5,
+        "faction": "yan",
+        "subfaction": "",
+        "born": "Sargon",
+        "race": "Kuranta",
+        "icon": "char_4222_taraxa.png"
+    },
     "char_4164_tecno": {
         "name": "Tecno",
         "class": "CASTER",
@@ -3983,6 +4367,18 @@
         "race": "Liberi",
         "icon": "char_4191_tippi.webp"
     },
+    "char_4056_titi": {
+        "name": "Titi",
+        "class": "MEDIC",
+        "subclass": "incantationmedic",
+        "dp": 17,
+        "rarity": 6,
+        "faction": "sargon",
+        "subfaction": "",
+        "born": "Sargon",
+        "race": "Feline",
+        "icon": "char_4056_titi.png"
+    },
     "char_363_toddi": {
         "name": "Toddifons",
         "class": "SNIPER",
@@ -4079,6 +4475,30 @@
         "race": "Zalak",
         "icon": "char_4091_ulika.webp"
     },
+    "char_4184_dolris": {
+        "name": "Uika Misumi",
+        "class": "SUPPORT",
+        "subclass": "bard",
+        "dp": 7,
+        "rarity": 5,
+        "faction": "mujica",
+        "subfaction": "",
+        "born": "Unknown/\u200bUndisclosed",
+        "race": "Unknown/\u200bUndisclosed",
+        "icon": "char_4184_dolris.png"
+    },
+    "char_4224_turdus": {
+        "name": "Ukusik",
+        "class": "MEDIC",
+        "subclass": "chainhealer",
+        "dp": 18,
+        "rarity": 5,
+        "faction": "ursus",
+        "subfaction": "",
+        "born": "Ursus",
+        "race": "Liberi",
+        "icon": "char_4224_turdus.png"
+    },
     "char_4145_ulpia": {
         "name": "Ulpianus",
         "class": "WARRIOR",
@@ -4090,6 +4510,18 @@
         "born": "\u00c6gir",
         "race": "\u00c6gir",
         "icon": "char_4145_ulpia.webp"
+    },
+    "char_4186_tmoris": {
+        "name": "Umiri Yahata",
+        "class": "SPECIAL",
+        "subclass": "stalker",
+        "dp": 22,
+        "rarity": 5,
+        "faction": "mujica",
+        "subfaction": "",
+        "born": "Unknown/\u200bUndisclosed",
+        "race": "Unknown/\u200bUndisclosed",
+        "icon": "char_4186_tmoris.png"
     },
     "char_4137_udflow": {
         "name": "Underflow",
@@ -4139,6 +4571,18 @@
         "race": "Vouivre",
         "icon": "char_240_wyvern.webp"
     },
+    "char_4166_varkis": {
+        "name": "Vark\u00e1ris",
+        "class": "WARRIOR",
+        "subclass": "centurion",
+        "dp": 25,
+        "rarity": 5,
+        "faction": "minos",
+        "subfaction": "",
+        "born": "Minos",
+        "race": "Forte",
+        "icon": "char_4166_varkis.png"
+    },
     "char_494_vendla": {
         "name": "Vendela",
         "class": "MEDIC",
@@ -4174,6 +4618,18 @@
         "born": "Unknown/\u200bUndisclosed",
         "race": "Vulpo",
         "icon": "char_190_clour.webp"
+    },
+    "char_4207_branch": {
+        "name": "Vetochki",
+        "class": "TANK",
+        "subclass": "unyield",
+        "dp": 35,
+        "rarity": 5,
+        "faction": "ursus",
+        "subfaction": "",
+        "born": "Ursus",
+        "race": "Ursus",
+        "icon": "char_4207_branch.png"
     },
     "char_427_vigil": {
         "name": "Vigil",
@@ -4235,6 +4691,18 @@
         "race": "Elafia",
         "icon": "char_4098_vvana.webp"
     },
+    "char_4226_veen": {
+        "name": "Viy",
+        "class": "CASTER",
+        "subclass": "mystic",
+        "dp": 27,
+        "rarity": 6,
+        "faction": "ursus",
+        "subfaction": "",
+        "born": "Ursus",
+        "race": "Kuranta",
+        "icon": "char_4226_veen.png"
+    },
     "char_163_hpsts": {
         "name": "Vulcan",
         "class": "TANK",
@@ -4282,6 +4750,18 @@
         "born": "Yan",
         "race": "Feline",
         "icon": "char_243_waaifu.webp"
+    },
+    "char_2027_wang": {
+        "name": "Wang",
+        "class": "SPECIAL",
+        "subclass": "traper",
+        "dp": 12,
+        "rarity": 6,
+        "faction": "yan",
+        "subfaction": "sui",
+        "born": "Yan",
+        "race": "Unknown/\u200bUndisclosed",
+        "icon": "char_2027_wang.png"
     },
     "char_4119_wanqin": {
         "name": "Wanqing",
@@ -4474,6 +4954,18 @@
         "born": "Ursus",
         "race": "Ursus",
         "icon": "char_115_headbr.webp"
+    },
+    "char_1051_headb2": {
+        "name": "Zima the Raging Tide",
+        "class": "WARRIOR",
+        "subclass": "hammer",
+        "dp": 20,
+        "rarity": 6,
+        "faction": "ursus",
+        "subfaction": "student",
+        "born": "Ursus",
+        "race": "Ursus",
+        "icon": "char_1051_headb2.png"
     },
     "char_4121_zuole": {
         "name": "Zuo Le",

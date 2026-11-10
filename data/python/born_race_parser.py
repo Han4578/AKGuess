@@ -1,12 +1,12 @@
 from re import search
 from tools import *
 
-#https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/excel/handbook_info_table.json
+#https://raw.githubusercontent.com/HellaOrg/HellaAssets/refs/heads/main/gamedata/excel/handbook_info_table.json
 
 def parseBornRace():
     ops = load_from("data/operators.json")
     print("Getting Profile Table")
-    profiles = get_online_json("https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData_YoStar/refs/heads/main/en_US/gamedata/excel/handbook_info_table.json")["handbookDict"]
+    profiles = get_online_json("https://raw.githubusercontent.com/HellaOrg/HellaAssets/refs/heads/main/gamedata/excel/handbook_info_table.json")["handbookDict"]
     born_map = load_from("data/map/born.json")
 
     for id, prof in profiles.items():
@@ -18,7 +18,11 @@ def parseBornRace():
 
             if result:
                 race = result.group(2)
-                o["born"] = born_map[result.group(1).strip()]
+                born = result.group(1).strip()
+                if born not in born_map:
+                    born_map[born] = born
+                    print(f"New Birthplace: {born}")
+                o["born"] = born_map[born]
                 
                 if "Chimera" in race: #Amiya
                     o["race"] = "Cautus"    
@@ -27,7 +31,15 @@ def parseBornRace():
                 else:
                     o["race"] = race.strip()
             else:
-                o["born"] = born_map[search(r"\[Place of Production\] (.*)\n", txt).group(1).strip()]
+                r = search(r"\[Place of Production\] (.*)\n", txt).group(1).strip()
+                if r not in born_map: 
+                    born_map[r] = r
+                    print(f"New Birthplace: {r}")
+                o["born"] = born_map[r]
                 o["race"] = "Robot"                                                  
 
     dump_to(ops, "data/operators.json")
+    dump_to(born_map, "data/map/born.json")
+
+if __name__ == "__main__":
+    parseBornRace() 

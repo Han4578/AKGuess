@@ -3,6 +3,10 @@
         "name": "Abyssal Hunters",
         "icon": "logo_abyssal.png"
     },
+    "mujica": {
+        "name": "Ave Mujica",
+        "icon": "logo_mujica.png"
+    },
     "babel": {
         "name": "Babel",
         "icon": "logo_babel.png"
@@ -152,7 +156,7 @@
         "icon": "logo_ursus.png"
     },
     "student": {
-        "name": "Ursus Student Self-Governing Group",
+        "name": "Ursus Student Self-government Group",
         "icon": "logo_student.png"
     },
     "victoria": {

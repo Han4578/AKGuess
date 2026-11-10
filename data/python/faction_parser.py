@@ -7,6 +7,8 @@ from collections import defaultdict
 
 load_dotenv()
 
+#https://github.com/HellaOrg/HellaAssets/raw/refs/heads/main/gamedata/excel/handbook_team_table.json
+
 def parseFactions():
     print("Getting Factions")
     has = set(os.listdir("images/faction"))
@@ -24,7 +26,7 @@ def parseFactions():
 
     icon_map = {re.search(r"logo_([^\.]+)\.", name).group(1): name for name in os.listdir("images/faction")}
 
-    factions_map = get_online_json("https://github.com/Kengxxiao/ArknightsGameData_YoStar/raw/refs/heads/main/en_US/gamedata/excel/handbook_team_table.json")
+    factions_map = get_online_json("https://github.com/HellaOrg/HellaAssets/raw/refs/heads/main/gamedata/excel/handbook_team_table.json")
     dump_to({k: {
         "name": v["powerName"],
         "icon": icon_map[k]
@@ -46,4 +48,5 @@ def updateFactionSubfaction():
 
 if __name__ == "__main__":
     parseFactions()
+    updateFactionSubfaction()
 

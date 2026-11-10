@@ -278,5 +278,9 @@
     "wandermedic": {
         "icon": "sub_wandermedic_icon.png",
         "name": "Wanderer Medic"
+    },
+    "watchman": {
+        "icon": "sub_watchman_icon.png",
+        "name": "watchman"
     }
 }

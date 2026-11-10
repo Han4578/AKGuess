@@ -33,7 +33,8 @@
         "primguard",
         "reaper",
         "musha",
-        "sword"
+        "sword",
+        "mercenary"
     ],
     "MEDIC": [
         "chainhealer",
@@ -41,7 +42,8 @@
         "physician",
         "ringhealer",
         "healer",
-        "wandermedic"
+        "wandermedic",
+        "watchman"
     ],
     "SNIPER": [
         "aoesniper",
@@ -52,7 +54,8 @@
         "hunter",
         "loopshooter",
         "fastshot",
-        "reaperrange"
+        "reaperrange",
+        "skybreaker"
     ],
     "SPECIAL": [
         "alchemist",
@@ -80,6 +83,7 @@
         "charger",
         "pioneer",
         "bearer",
-        "tactician"
+        "tactician",
+        "counsellor"
     ]
 }
