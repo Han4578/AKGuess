@@ -1,3 +1,5 @@
+import { cache } from "react";
+
 const CACHE_NAME = 'static-cache-v2';
 
 // 1. List ALL the files you want to use offline
@@ -7,7 +9,7 @@ const ASSETS_TO_CACHE = ['/', 'index.html', 'style.css', 'globalData.js', 'guess
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS_TO_CACHE);
+      return cache.addAll(ASSETS_TO_CACHE).catch(e => console.error("Failed to cache"));
     })
   );
   self.skipWaiting();
@@ -33,7 +35,20 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
-      return cachedResponse || fetch(event.request);
+      if (cachedResponse) return cachedResponse
+      const c = fetch(event.request);
+      caches.open(CACHE_NAME).then(cache => cache.add(event.request))
+      return c
     })
   );
 });
+
+self.addEventListener("message", event => {
+  if (event.data && event.data.type == "WIFI") {
+    event.waitUntil(
+      caches.open(CACHE_NAME).then((cache) => {
+        return cache.addAll(ASSETS_TO_CACHE);
+      })
+    );
+  }
+})
